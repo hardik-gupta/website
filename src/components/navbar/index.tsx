@@ -104,7 +104,7 @@ export const Navbar = () => {
             {dropdownOpen && (
               <div className="b-0 absolute  h-auto sm:-left-28 border-0 text-color-primary">
                 <ul className="text-sm top-0 sm:mt-4 mt-0 pt-2 w-56 px-2 bg-cyan-50">
-                  <li className="py-2 hover:text-red-700 block cursor-pointer">
+                  {/* <li className="py-2 hover:text-red-700 block cursor-pointer">
                     <Link
                       className="no-underline text-inherit"
                       href="/c4gt23/communityProgram"
@@ -112,7 +112,7 @@ export const Navbar = () => {
                     >
                       Community Program Project
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="py-2 hover:text-red-700 block cursor-pointer">
                     <Link
                       className="no-underline text-inherit"
@@ -151,7 +151,7 @@ export const Navbar = () => {
               Digital Public Goods
             </Link>
           </li>
-          <li
+          {/* <li
             className={`lg:px-4 sm:px-3 cursor-pointer hover:text-red-700 ${isActive(
               "/apply"
             )}`}
@@ -162,7 +162,7 @@ export const Navbar = () => {
             >
               Apply
             </Link>
-          </li>
+          </li> */}
           <li
             className={`lg:px-4 sm:px-3 cursor-pointer hover:text-red-700 ${isActive(
               "/leaderboard"
@@ -242,7 +242,7 @@ export const Navbar = () => {
                     id="dropdown"
                   >
                     <ul className="font-semibold text-color-primary text-sm w-56 bg-cyan-50 pl-4">
-                      <li className="cursor-pointer py-2  block ">
+                      {/* <li className="cursor-pointer py-2  block ">
                         <Link
                           className="no-underline text-color-primary hover:text-red-700"
                           href="/c4gt23/communityProgram"
@@ -250,7 +250,7 @@ export const Navbar = () => {
                         >
                           Community Program Project
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="cursor-pointer py-2 block  ">
                         <Link
                           className="no-underline text-color-primary hover:text-red-700"
@@ -281,14 +281,14 @@ export const Navbar = () => {
                   Digital Public Goods
                 </Link>
               </li>
-              <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">
+              {/* <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">
                 <Link
                   className="block py-2 pr-4 text-sm text-inherit font-semibold  no-underline rounded "
                   href="/apply"
                 >
                   Apply
                 </Link>
-              </li>
+              </li> */}
               <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">
                 <Link
                   className="block py-2 pr-4 text-sm text-inherit font-semibold  no-underline rounded "

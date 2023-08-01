@@ -15,7 +15,7 @@ const LeaderBoard = () => {
   }, []);
   return (
     <div className="my-5 relative overflow-x-auto">
-      <table className="lg:w-[80vw] xs:w-[90vw] text-sm text-left mx-auto">
+      <table className="lg:w-[60vw] xs:w-[90vw] text-sm text-left mx-auto">
         <thead className="text-xs text-white uppercase bg-primary-color font-bold">
           <tr>
             <th scope="col" className="px-6 py-3">
@@ -25,10 +25,10 @@ const LeaderBoard = () => {
               GitHub Usernames
             </th>
             <th scope="col" className="px-6 py-3">
-              Points
+              DPG Points
             </th>
             <th scope="col" className="px-6 py-3">
-              Badges
+              C4GT Badges
             </th>
             <th scope="col" className="px-6 py-3 text-center">
               Level
