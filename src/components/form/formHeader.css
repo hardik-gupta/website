@@ -1,0 +1,6 @@
+.bg-dot {
+    background-image: url("../../assets/images/dots.svg"); 
+    background-repeat: no-repeat;
+    background-position:right;
+    z-index:1;
+}

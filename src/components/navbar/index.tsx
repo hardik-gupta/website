@@ -18,10 +18,10 @@ export const Navbar = () => {
     menuIcon.addEventListener("click", () => {
       if (menu.classList.contains("hidden")) {
         menu.classList.remove("hidden");
-        setMenuOpen(true); // Update the menu state
+        setMenuOpen(true); 
       } else {
         menu.classList.add("hidden");
-        setMenuOpen(false); // Update the menu state
+        setMenuOpen(false);
       }
     });
     const handleClickOutside = (event) => {
@@ -29,6 +29,7 @@ export const Navbar = () => {
         setDropdownOpen(false);
       }
     };
+    
 
     document.addEventListener("click", handleClickOutside);
 
@@ -38,15 +39,29 @@ export const Navbar = () => {
   }, [dropdownOpen]);
 
   const isActive = (path: string) => {
+    if(pathName ==='/apply'){
+      if(path=='/apply'){
+        return "text-red-700";
+      }
+      return "text-white";
+    }
     if (path !== "/") {
       return pathName.startsWith(path) ? "text-red-700" : "";
     }
     return path == pathName ? "text-red-700" : "";
   };
 
+  const handleColor = ()=>{
+    if(pathName==='/apply'){
+      return 'text-white';
+    } else{
+      return "text-black";
+    }
+  }
+
   return (
-    <div className="flex text-color-primary justify-between mx-4 lg:py-4 ">
-      <div className="min-w-[96px] min-h-[80px]">
+    <div className="flex z-10 text-color-primary  bg-white lg:bg-inherit justify-between mx-4 lg:py-4 ">
+      <div className={`min-w-[96px] z-10 min-h-[80px]`}>
         <Image
           className="lg:w-40 lg:h-28 w-24 h-20 xs:ml-3 sm:ml-5 xs:mt-6 sm:mt-5 lg:mt-3"
           src={c4gtLogo}
@@ -54,8 +69,8 @@ export const Navbar = () => {
           id="logo"
         />
       </div>
-      <div className="items-center">
-        <ul className="hidden w-full md:flex md:pt-10 pl-0 font-medium text-color-primary ">
+      <div className="items-center z-10">
+        <ul className={`hidden z-10 w-full md:flex md:pt-10 pl-0 font-medium text-color-primary `}>
           <li className={`lg:px-4 sm:px-3 cursor-pointer  ${isActive("/")}`}>
             <Link
               className="block py-2 pr-4 text-inherit hover:text-red-700 no-underline rounded "
@@ -131,9 +146,21 @@ export const Navbar = () => {
           >
             <Link
               href="/digitalPublicGoods"
-              className="block py-2 pr-4   text-inherit no-underline rounded "
+              className="block py-2 pr-4   text-inherit no-underline rounded hover:text-red-700 "
             >
               Digital Public Goods
+            </Link>
+          </li>
+          <li
+            className={`lg:px-4 sm:px-3 cursor-pointer hover:text-red-700 ${isActive(
+              "/apply"
+            )}`}
+          >
+            <Link
+              href="/apply"
+              className="block py-2 pr-4   text-inherit no-underline rounded hover:text-red-700 "
+            >
+              Apply
             </Link>
           </li>
           <li
@@ -143,18 +170,18 @@ export const Navbar = () => {
           >
             <Link
               href="/leaderboard"
-              className="block py-2 pr-4   text-inherit no-underline rounded "
+              className="block py-2 pr-4   text-inherit no-underline rounded hover:text-red-700 "
             >
               Leaderboard
             </Link>
           </li>
         </ul>
       </div>
-      <div className="md:hidden absolute inset-y-0 right-0">
-        <button className="navbar-burger text-black-600 m-12 pr-4">
+      <div className="md:hidden absolute z-10 inset-y-0 right-0">
+        <button  className={`navbar-burger ${handleColor()} m-12 pr-2`}>
           {menuOpen ? (
             <svg
-              className="h-6 w-6 fill-current text-black"
+              className={`h-6 w-6 fill-current ${handleColor()}`}
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -163,7 +190,7 @@ export const Navbar = () => {
             </svg>
           ) : (
             <svg
-              className="h-5 w-5 fill-current text-black"
+              className={`h-6 w-6 fill-current ${handleColor()}`}
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -173,14 +200,14 @@ export const Navbar = () => {
           )}
         </button>
       </div>
-      <div className="navbar-menu relative z-10 hidden md:hidden ">
-        <nav className="fixed top-0 left-0 bottom-0 text-white flex flex-col w-2/5 max-w-sm py-6 px-6 border-r bg-primary-color  w-[75vw]">
+      <div  className="navbar-menu relative z-50 hidden md:hidden ">
+        <nav  className="fixed top-0 left-0 z-50 bottom-0 text-white flex flex-col w-2/5 max-w-sm py-6 px-6 border-r bg-primary-color  w-[75vw]">
           <div className="flex items-center mb-8 ml-2 ">
             <Link className="mr-auto text-3xl font-bold leading-none" href="/">
               <Image className="w-20 mt-2" src={c4gtLogo} alt="logo" />
             </Link>
           </div>
-          <div className=" ">
+          <div className="z-50 ">
             <ul className="flex flex-col ">
               <li className="cursor-pointer mb-4 border-b-2  hover:text-red-700 ">
                 <Link
@@ -252,6 +279,14 @@ export const Navbar = () => {
                   href="/digitalPublicGoods"
                 >
                   Digital Public Goods
+                </Link>
+              </li>
+              <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">
+                <Link
+                  className="block py-2 pr-4 text-sm text-inherit font-semibold  no-underline rounded "
+                  href="/apply"
+                >
+                  Apply
                 </Link>
               </li>
               <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">

@@ -63,7 +63,7 @@ export const Template: React.FC<TemplateProps> = ({
                           </svg>
                         </div>
                         <div className="ml-2">
-                          <h4 className="font-bold text-color-secondary">
+                          <h4 className="font-bold xs:text-md sm:text-xl text-color-secondary">
                             {point.title}
                           </h4>
                           <p className="text-white xs:text-sm sm:text-lg font-regular">

@@ -4,7 +4,7 @@ import { discordIcon, githubLogo, linkedinIcon, youtubeIcon } from "@/component/
 
 export const Footer = () => {
   return (
-    <div className="xs:mx-1.5 sm:mx-5 md:mx-auto sm:flex sm:flex-row-reverse justify-around  sm:pb-6 lg:mb-5 py-8 text-black" id="footer">
+    <div className="mx-auto md:mx-auto sm:flex sm:flex-row-reverse justify-around  sm:pb-6 lg:mb-5 py-8 text-black" id="footer">
       <div className="footerBox2 grid grid-row-2 sm:place-items-start place-items-center">
         <h4 className="lg:text-2xl md:text-xl text-lg">Contact Us</h4>
         <p className="lg:text-base md:text-sm text-xs">
@@ -14,8 +14,8 @@ export const Footer = () => {
           </b>
         </p>
       </div>
-      <div className=" my-auto sm:pt-0 pt-3 flex justify-center">
-        <ul className="flex sm:space-x-6 space-x-10">
+      <div className=" my-auto -ml-8 md:-ml-0 mt-3 flex justify-center">
+        <ul className="flex space-x-6 md:space-x-8">
           <li className="social-li">
             <div className="rounded-full p-2 bg-stone-200">
               <a href="https://discord.com/invite/s6sfBbqerq">

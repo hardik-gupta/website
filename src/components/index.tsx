@@ -23,3 +23,6 @@ export * from './c4gt22/mentorCard';
 
 // C4GT 2023 page components
 export * from './c4gt23/infoBar23';
+
+//Form page 
+export * from './form';
