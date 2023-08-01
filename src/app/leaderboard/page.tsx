@@ -1,6 +1,7 @@
 "use client";
 import { getLeaderboard } from "@/component/api";
 import { apprentice } from "@/component/assets/images";
+import Tooltip from "@/component/components/tooltip";
 import { useEffect, useState } from "react";
 
 const LeaderBoard = () => {
@@ -47,40 +48,52 @@ const LeaderBoard = () => {
                 <td className="px-6 py-4 text-black">{data?.points}</td>
                 <td className="flex my-2 px-2 min-w-[250px]">
                   {data?.apprentice_badge && (
-                    <img
-                      src="/assets/badges/Apprentice.png"
-                      className="w-[50px] rounded-full"
-                    />
+                    <Tooltip message={"Apprentice Badge"}>
+                      <img
+                        src="/assets/badges/Apprentice.png"
+                        className="w-[50px] rounded-full"
+                      />
+                    </Tooltip>
                   )}
                   {data?.converser_badge && (
-                    <img
-                      src="/assets/badges/Converser.png"
-                      className="w-[50px] rounded-full"
-                    />
+                    <Tooltip message={"Conversor Badge"}>
+                      <img
+                        src="/assets/badges/Converser.png"
+                        className="w-[50px] rounded-full"
+                      />
+                    </Tooltip>
                   )}
                   {data?.rockstar_badge && (
-                    <img
-                      src="/assets/badges/Rockstar.png"
-                      className="w-[50px] rounded-full"
-                    />
+                    <Tooltip message={"Rockstar Badge"}>
+                      <img
+                        src="/assets/badges/Rockstar.png"
+                        className="w-[50px] rounded-full"
+                      />
+                    </Tooltip>
                   )}
                   {data?.github_x_discord_badge && (
-                    <img
-                      src="/assets/badges/DiscordGithub.png"
-                      className="w-[50px] rounded-full"
-                    />
+                    <Tooltip message={"GitHub Discord Badge"}>
+                      <img
+                        src="/assets/badges/DiscordGithub.png"
+                        className="w-[50px] rounded-full"
+                      />
+                    </Tooltip>
                   )}
                   {data?.enthusiast_badge && (
-                    <img
-                      src="/assets/badges/Enthusiast.png"
-                      className="w-[50px] rounded-full"
-                    />
+                    <Tooltip message={"Enthusiast Badge"}>
+                      <img
+                        src="/assets/badges/Enthusiast.png"
+                        className="w-[50px] rounded-full"
+                      />
+                    </Tooltip>
                   )}
                   {data?.rising_star_badge && (
-                    <img
-                      src="/assets/badges/RisingStar.png"
-                      className="w-[50px] rounded-full"
-                    />
+                    <Tooltip message={"Rising Star Badge"}>
+                      <img
+                        src="/assets/badges/RisingStar.png"
+                        className="w-[50px] rounded-full"
+                      />
+                    </Tooltip>
                   )}
                 </td>
                 <td className="px-6 py-4 text-black text-center min-w-[150px]">
@@ -88,10 +101,14 @@ const LeaderBoard = () => {
                     <div className="rounded-full bg-gray-200 py-2">Level 3</div>
                   )}
                   {data?.points < 100 && data?.points >= 50 && (
-                    <div className="rounded-full bg-green-200 py-2">Level 2</div>
+                    <div className="rounded-full bg-green-200 py-2">
+                      Level 2
+                    </div>
                   )}
                   {data?.points < 50 && data?.points >= 10 && (
-                    <div className="rounded-full bg-yellow-200 py-2">Level 1</div>
+                    <div className="rounded-full bg-yellow-200 py-2">
+                      Level 1
+                    </div>
                   )}
                 </td>
               </tr>
