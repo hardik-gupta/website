@@ -29,7 +29,10 @@ const LeaderBoard = () => {
               DPG Points
             </th>
             <th scope="col" className="px-6 py-3">
-              C4GT Badges
+              Activity Badges
+            </th>
+            <th scope="col" className="px-6 py-3">
+              Contribution Badges
             </th>
             <th scope="col" className="px-6 py-3 text-center">
               Level
@@ -46,7 +49,7 @@ const LeaderBoard = () => {
                   <a href={data?.github_url}>{data?.github_url?.slice("19")}</a>
                 </td>
                 <td className="px-6 py-4 text-black">{data?.points}</td>
-                <td className="flex my-2 px-2 min-w-[250px]">
+                <td className="flex my-3 px-2 min-w-[250px]">
                   {data?.apprentice_badge && (
                     <Tooltip message={"Apprentice Badge"}>
                       <img
@@ -79,22 +82,26 @@ const LeaderBoard = () => {
                       />
                     </Tooltip>
                   )}
-                  {data?.enthusiast_badge && (
-                    <Tooltip message={"Enthusiast Badge"}>
-                      <img
-                        src="/assets/badges/Enthusiast.png"
-                        className="w-[50px] rounded-full"
-                      />
-                    </Tooltip>
-                  )}
-                  {data?.rising_star_badge && (
-                    <Tooltip message={"Rising Star Badge"}>
-                      <img
-                        src="/assets/badges/RisingStar.png"
-                        className="w-[50px] rounded-full"
-                      />
-                    </Tooltip>
-                  )}
+                </td>
+                <td className="my-2 px-2 min-w-[100px]">
+                  <div className="flex">
+                    {data?.enthusiast_badge && (
+                      <Tooltip message={"Enthusiast Badge"}>
+                        <img
+                          src="/assets/badges/Enthusiast.png"
+                          className="w-[60px] rounded-full"
+                        />
+                      </Tooltip>
+                    )}
+                    {data?.rising_star_badge && (
+                      <Tooltip message={"Rising Star Badge"}>
+                        <img
+                          src="/assets/badges/RisingStar.png"
+                          className="w-[60px] rounded-full"
+                        />
+                      </Tooltip>
+                    )}
+                  </div>
                 </td>
                 <td className="px-6 py-4 text-black text-center min-w-[150px]">
                   {data?.points >= 100 && (

@@ -70,7 +70,7 @@ export const Navbar = () => {
         />
       </div>
       <div className="items-center z-10">
-        <ul className={`hidden z-10 w-full md:flex md:pt-10 pl-0 font-medium text-color-primary `}>
+        <ul className={`hidden z-10 w-full lg:flex lg:pt-10 pl-0 font-medium text-color-primary `}>
           <li className={`lg:px-4 sm:px-3 cursor-pointer  ${isActive("/")}`}>
             <Link
               className="block py-2 pr-4 text-inherit hover:text-red-700 no-underline rounded "
@@ -177,7 +177,7 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="md:hidden absolute z-10 inset-y-0 right-0">
+      <div className="lg:hidden absolute z-10 inset-y-0 right-0">
         <button  className={`navbar-burger ${handleColor()} m-12 pr-2`}>
           {menuOpen ? (
             <svg
@@ -200,7 +200,7 @@ export const Navbar = () => {
           )}
         </button>
       </div>
-      <div  className="navbar-menu relative z-50 hidden md:hidden ">
+      <div  className="navbar-menu relative z-50 hidden lg:hidden ">
         <nav  className="fixed top-0 left-0 z-50 bottom-0 text-white flex flex-col w-2/5 max-w-sm py-6 px-6 border-r bg-primary-color  w-[75vw]">
           <div className="flex items-center mb-8 ml-2 ">
             <Link className="mr-auto text-3xl font-bold leading-none" href="/">
