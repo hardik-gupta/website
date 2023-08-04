@@ -15,34 +15,106 @@ const LeaderBoard = () => {
   return (
     <>
       <div className="my-5 relative overflow-x-auto">
+        <table className="lg:w-auto xs:w-[90vw] text-sm text-left mx-auto">
+          <tbody>
+            <tr className="border-b text-white bg-primary-color text-center text-xs font-bold uppercase">
+              <td className="px-6 py-2">Level 1</td>
+              <td className="px-6 py-2">Level 2</td>
+              <td className="px-6 py-2">Level 3</td>
+              <td className="px-6 py-2">Level 4</td>
+              <td className="px-6 py-2">Level 5</td>
+            </tr>
+            <tr className="bg-white border-b text-center">
+              <td className="py-2 text-black">
+                <img
+                  src="/assets/badges/Enthusiast.png"
+                  className="w-[50px] rounded-full mx-auto"
+                />
+                <div>Enthusiast</div>
+              </td>
+              <td className="px-6 py-2 text-black">
+                <img
+                  src="/assets/badges/RisingStar.png"
+                  className="w-[50px] rounded-full mx-auto"
+                />
+                <div>Rising Star</div>
+              </td>
+              <td className="px-6 py-2 text-black">
+                <img
+                  src="/assets/badges/Wizard.jpeg"
+                  className="w-[50px] rounded-full mx-auto"
+                />
+                <div>Wizard</div>
+              </td>
+              <td className="px-6 py-2 text-black">
+                <img
+                  src="/assets/badges/Ninja.jpg"
+                  className="w-[50px] rounded-full mx-auto"
+                />
+                <div>Ninja</div>
+              </td>
+              <td className="px-6 py-2 text-black">
+                <img
+                  src="/assets/badges/Warrior.jpeg"
+                  className="w-[50px] rounded-full mx-auto"
+                />
+                <div>Warrior</div>
+              </td>
+            </tr>
+            <tr className="bg-white border-b text-black text-center">
+              <td className="px-6 py-2">&gt;= 10</td>
+              <td className="px-6 py-2">&gt;= 50</td>
+              <td className="px-6 py-2">&gt;= 100</td>
+              <td className="px-6 py-2">&gt;= 175</td>
+              <td className="px-6 py-2">&gt;= 275</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div className="my-5 relative overflow-x-auto">
         <table className="lg:w-[60vw] xs:w-[90vw] text-sm text-left mx-auto">
-          <thead className="text-xs text-white uppercase bg-primary-color font-bold">
+          <thead className="text-xs text-white bg-primary-color font-bold">
             <tr>
               <th scope="col" className="px-6 py-3">
                 S.No
               </th>
               <th scope="col" className="px-6 py-3">
-                GitHub Usernames
+                GITHUB USERNAMES
               </th>
-              {/* <Tooltip message={""}> */}
+
               <th scope="col" className="px-6 py-3">
-                DPG Points
+                <Tooltip
+                  message={"Points that are earned solving & reviewing tickets"}
+                  className=""
+                >
+                  DPG POINTS
+                </Tooltip>
               </th>
-              {/* </Tooltip> */}
 
               <th scope="col" className="px-6 py-3 text-center">
-                Level
+                LEVEL
               </th>
-              {/* <Tooltip message={""}> */}
+
               <th scope="col" className="px-6 py-3">
-                Activity Badges
+                <Tooltip
+                  message={
+                    "Badges that are awarded on collecting DPG points & levelling up. "
+                  }
+                  className=""
+                >
+                  CONTRIBUTION BADGES
+                </Tooltip>
               </th>
-              {/* </Tooltip> */}
-              {/* <Tooltip message={""}> */}
               <th scope="col" className="px-6 py-3">
-                Contribution Badges
+                <Tooltip
+                  message={
+                    "Badges that are awarded on completion of an activity/milestone."
+                  }
+                  className=""
+                >
+                  ACTIVITY BADGES
+                </Tooltip>
               </th>
-              {/* </Tooltip> */}
             </tr>
           </thead>
           <tbody>
@@ -74,44 +146,10 @@ const LeaderBoard = () => {
                       </div>
                     )}
                   </td>
-                  <td className="flex my-3 px-2 min-w-[250px]">
-                    {data?.apprentice_badge && (
-                      <Tooltip message={"Apprentice Badge"}>
-                        <img
-                          src="/assets/badges/Apprentice.png"
-                          className="w-[50px] rounded-full"
-                        />
-                      </Tooltip>
-                    )}
-                    {data?.converser_badge && (
-                      <Tooltip message={"Conversor Badge"}>
-                        <img
-                          src="/assets/badges/Converser.png"
-                          className="w-[50px] rounded-full"
-                        />
-                      </Tooltip>
-                    )}
-                    {data?.rockstar_badge && (
-                      <Tooltip message={"Rockstar Badge"}>
-                        <img
-                          src="/assets/badges/Rockstar.png"
-                          className="w-[50px] rounded-full"
-                        />
-                      </Tooltip>
-                    )}
-                    {data?.github_x_discord_badge && (
-                      <Tooltip message={"GitHub Discord Badge"}>
-                        <img
-                          src="/assets/badges/DiscordGithub.png"
-                          className="w-[50px] rounded-full"
-                        />
-                      </Tooltip>
-                    )}
-                  </td>
                   <td className="my-2 px-2 min-w-[100px]">
                     <div className="flex">
                       {data?.enthusiast_badge && (
-                        <Tooltip message={"Enthusiast Badge"}>
+                        <Tooltip message={"Enthusiast Badge"} className="badge">
                           <img
                             src="/assets/badges/Enthusiast.png"
                             className="w-[60px] rounded-full"
@@ -119,7 +157,7 @@ const LeaderBoard = () => {
                         </Tooltip>
                       )}
                       {data?.rising_star_badge && (
-                        <Tooltip message={"Rising Star Badge"}>
+                        <Tooltip message={"Rising Star Badge"} className="badge">
                           <img
                             src="/assets/badges/RisingStar.png"
                             className="w-[60px] rounded-full"
@@ -128,72 +166,60 @@ const LeaderBoard = () => {
                       )}
                     </div>
                   </td>
+                  <td className="flex my-3 px-2 min-w-[250px]">
+                    {data?.apprentice_badge && (
+                      <Tooltip
+                        message={"Apprentice Badge"}
+                        className="Apprentice Badge - Introducing yourself on the introduction channel on Discord"
+                      >
+                        <img
+                          src="/assets/badges/Apprentice.png"
+                          className="w-[50px] rounded-full"
+                        />
+                      </Tooltip>
+                    )}
+                    {data?.converser_badge && (
+                      <Tooltip
+                        message={
+                          "Converser Badges - Shared at least 10 messages on Discord"
+                        }
+                        className=""
+                      >
+                        <img
+                          src="/assets/badges/Converser.png"
+                          className="w-[50px] rounded-full"
+                        />
+                      </Tooltip>
+                    )}
+                    {data?.rockstar_badge && (
+                      <Tooltip
+                        message={
+                          "Rockstar Badge - Received at least 5 reactions to a message on Discord"
+                        }
+                        className=""
+                      >
+                        <img
+                          src="/assets/badges/Rockstar.png"
+                          className="w-[50px] rounded-full"
+                        />
+                      </Tooltip>
+                    )}
+                    {data?.github_x_discord_badge && (
+                      <Tooltip
+                        message={
+                          "DiscordXGitHub Badge - Linking C4GT Discord & GitHub profiles"
+                        }
+                        className=""
+                      >
+                        <img
+                          src="/assets/badges/DiscordGithub.png"
+                          className="w-[50px] rounded-full"
+                        />
+                      </Tooltip>
+                    )}
+                  </td>
                 </tr>
               ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="my-5 relative overflow-x-auto">
-        <table className="lg:w-auto xs:w-[90vw] text-sm text-left mx-auto">
-          <thead className="text-xs text-white uppercase bg-primary-color font-bold">
-            <tr>
-              <th scope="col" className="px-6 py-3">
-                Badges
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Description
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-2 text-black">
-                <img
-                  src="/assets/badges/DiscordGithub.png"
-                  className="w-[50px] rounded-full"
-                />
-              </td>
-              <td className="px-6 py-2 text-black">
-                Rewarded on connecting GitHub with Discord to help track coding
-                activity.
-              </td>
-            </tr>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-2 text-black">
-                <img
-                  src="/assets/badges/DiscordGithub.png"
-                  className="w-[50px] rounded-full"
-                />
-              </td>
-              <td className="px-6 py-2 text-black">
-                Rewarded on connecting GitHub with Discord to help track coding
-                activity.
-              </td>
-            </tr>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-2 text-black">
-                <img
-                  src="/assets/badges/Apprentice.png"
-                  className="w-[50px] rounded-full"
-                />
-              </td>
-              <td className="px-6 py-2 text-black">
-                Contributor has introduced themselves on the introductions
-                channel.
-              </td>
-            </tr>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-2 text-black">
-                <img
-                  src="/assets/badges/Converser.png"
-                  className="w-[50px] rounded-full"
-                />
-              </td>
-              <td className="px-6 py-2 text-black">
-                Contributor has shared atleast 10 messages on the Discord
-                community.
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
