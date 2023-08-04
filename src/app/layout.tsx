@@ -17,10 +17,10 @@ const Layout = ({ children }: PropsWithChildren) => {
         <link rel='icon' href='/favicon.ico' sizes="any"/>
       </head>
       <body>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <hr></hr>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
