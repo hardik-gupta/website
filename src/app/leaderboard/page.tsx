@@ -27,7 +27,7 @@ const LeaderBoard = () => {
             />
             <div className="font-bold">Enthusiast</div>
           </div>
-          <div className="px-6 py-2">10 points</div>
+          <div className="px-6 py-2 text-black">10 points</div>
         </div>
         <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
           <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
@@ -40,7 +40,7 @@ const LeaderBoard = () => {
             />
             <div className="font-bold">Rising Star</div>
           </div>
-          <div className="px-6 py-2">50 points</div>
+          <div className="px-6 py-2 text-black">50 points</div>
         </div>
         <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
           <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
@@ -53,7 +53,7 @@ const LeaderBoard = () => {
             />
             <div className="font-bold">Wizard</div>
           </div>
-          <div className="px-6 py-2">100 points</div>
+          <div className="px-6 py-2 text-black">100 points</div>
         </div>
         <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
           <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
@@ -66,7 +66,7 @@ const LeaderBoard = () => {
             />
             <div className="font-bold">Ninja</div>
           </div>
-          <div className="px-6 py-2">175 points</div>
+          <div className="px-6 py-2 text-black">175 points</div>
         </div>
         <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
           <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
@@ -79,7 +79,7 @@ const LeaderBoard = () => {
             />
             <div className="font-bold">Warrior</div>
           </div>
-          <div className="px-6 py-2">275 points</div>
+          <div className="px-6 py-2 text-black">275 points</div>
         </div>
       </div>
       {/* <div className="my-5 relative overflow-x-auto">
@@ -141,7 +141,7 @@ const LeaderBoard = () => {
                 GITHUB USERNAMES
               </th>
 
-              <th scope="col" className="px-6 py-3 ">
+              <th scope="col" className="px-6 py-3 flex justify-center">
                 <Tooltip
                   message={"Points that are earned solving & reviewing tickets"}
                   className=""
@@ -187,7 +187,7 @@ const LeaderBoard = () => {
                       {data?.github_url?.slice("19")}
                     </a>
                   </td>
-                  <td className="px-6 py-4 text-black ">{data?.points}</td>
+                  <td className="px-6 py-4 text-black text-center">{data?.points}</td>
                   <td className="px-6 py-4 text-black text-center min-w-[150px]">
                     {data?.points >= 100 && (
                       <div className="rounded-full bg-gray-200 py-2">
