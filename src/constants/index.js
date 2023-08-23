@@ -6,6 +6,28 @@ export const productList = [
     projectCount: 5,
     techStack: ["Java", "SpringBoot", "NoSQL", "Javascript", "JSP ", "HTML"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/ABDM",
+    organization: "National Health Authority",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "AI Tools",
@@ -20,6 +42,28 @@ export const productList = [
       "Huggie Face Transformers",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/AI-tools",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "BeckN",
@@ -39,6 +83,28 @@ export const productList = [
       "gRPC",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/BeckN",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Cord Network",
@@ -47,6 +113,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["REST APIs", "Rust", "Typescript"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/cord-network",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "CQube",
@@ -63,6 +151,28 @@ export const productList = [
       "Streamlit",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/cQube",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "DevDataPlatform",
@@ -71,6 +181,28 @@ export const productList = [
     projectCount: 3,
     techStack: ["Django", "Next.js", "Airbyte", "Java", "Python"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/DevDataPlatform",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "DevOps Pipeline",
@@ -79,6 +211,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Python", "JS", "Jenkins", "Docker", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/DevOps-Pipline",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Digit",
@@ -87,6 +241,28 @@ export const productList = [
     projectCount: 4,
     techStack: ["Java", "SpringBoot", "Flutter", "ReactNative", "Redis"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Digit",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Diksha",
@@ -95,6 +271,28 @@ export const productList = [
     projectCount: 5,
     techStack: ["Java", "Node", "Javascript", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Diksha",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Doc Generator",
@@ -103,6 +301,28 @@ export const productList = [
     projectCount: 3,
     techStack: ["HTML", "Python", "Typescript", " NestJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Doc-Generator",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "FarmStack",
@@ -111,6 +331,28 @@ export const productList = [
     projectCount: 2,
     techStack: ["Python", "Django", "ReactJS", "CSS", "HTML", "Rest API"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/FarmStack",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Doc Generator",
@@ -125,6 +367,28 @@ export const productList = [
       "Typescript",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Glific",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Health Clain Exchange",
@@ -134,6 +398,28 @@ export const productList = [
     techStack: ["Javascript", "Python"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/Health-Claims-Exchange",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Karamyogi",
@@ -142,6 +428,28 @@ export const productList = [
     projectCount: 5,
     techStack: ["DSEP Protocol", "Scala", "Angular", "NodeJs"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Karmayogi",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Care",
@@ -157,6 +465,28 @@ export const productList = [
       "Typescript",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Care",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "ODK Collect Extension",
@@ -166,6 +496,28 @@ export const productList = [
     techStack: ["Java", "React"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/ODK-Extension-and-Collection",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Quiz Creator",
@@ -174,6 +526,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["VueJS", "ReactJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Quiz-Creator",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "QuML",
@@ -182,6 +556,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["HTML", "CSS", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/QuML",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Solve Ninja Chatbot",
@@ -190,6 +586,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Elixir", "Python", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Solve-Ninja-Chatbot",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird DevOps",
@@ -198,6 +616,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["PostGres SQL", "Elastic Search", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-DevOps",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird Ed",
@@ -214,6 +654,28 @@ export const productList = [
       "Kafka",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Ed",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird InQuiry",
@@ -228,6 +690,28 @@ export const productList = [
       "ReactNative",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Inquiry",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird Knowlg",
@@ -246,6 +730,28 @@ export const productList = [
       "AngularJS",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Knowlg",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird Lern",
@@ -254,6 +760,28 @@ export const productList = [
     projectCount: 3,
     techStack: ["Scala", "Java"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Lern",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird Obsrv",
@@ -271,6 +799,28 @@ export const productList = [
       "Apache Druid",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Obsrv",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird RC",
@@ -279,6 +829,28 @@ export const productList = [
     projectCount: 3,
     techStack: ["Angular", "Typescript", "Postman", "API", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird Saral",
@@ -287,6 +859,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-Saral",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Sunbird UCI",
@@ -295,6 +889,28 @@ export const productList = [
     projectCount: 4,
     techStack: ["Java", "React", "Javascript", "Typescript", "Minio"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Template creation portal",
@@ -304,6 +920,28 @@ export const productList = [
     techStack: ["Angular", "Ionic", "MongoDB", "NodeJs", "HTML", "CSS"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/Template-Creation-Portal",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Text2SQL",
@@ -312,6 +950,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Text2SQL",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "TrustBot & POSHPal",
@@ -321,6 +981,28 @@ export const productList = [
     techStack: ["Angular8"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/TrustBot-and-POSHpal",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "TrustIn",
@@ -329,6 +1011,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "SpringBoot", "Angular8"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/TrustIn",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Unnati",
@@ -337,6 +1041,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Angular", "Ionic", "MongoDB", "NodeJs", "HTML", "CSS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Unnati",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "WarpSQL",
@@ -345,6 +1071,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Dockerfile", "Shell Scripting", "Linux", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/WarpSQL",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Workflow",
@@ -353,6 +1101,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["React", "Redux", "XState", "Local Forge"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Workflow",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "YAUS",
@@ -361,6 +1131,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Typescrcipt", "Nx", "ReactJS", "NestJS", "Hasura"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Yaus",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Avni",
@@ -369,6 +1161,28 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Avni",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
   {
     title: "Bahmini",
@@ -385,6 +1199,28 @@ export const productList = [
       "ReactJS",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Bahmni",
+    organization: "",
+    domain: "Healthcare",
+    projects: [{
+      id: 1,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    },
+    {
+      id: 2,
+      name: "",
+      description: "",
+      links: {
+        github: "",
+        documentation: "",
+        contributorExperience: "",
+      }
+    }]
   },
 ];
 
@@ -407,7 +1243,7 @@ export const techStack = [
   "Flutter",
   "ReactNative",
 ];
-export const communityDescription ="The Community Program is focused on building a long-term open-source community by enabling DPG organizations to list their DPG-related problem statements and access a wide community of contributors who can solve these problem statements. The goal is to build a community of 25000+ contributors in the next 3 years."
+export const communityDescription = "The Community Program is focused on building a long-term open-source community by enabling DPG organizations to list their DPG-related problem statements and access a wide community of contributors who can solve these problem statements. The goal is to build a community of 25000+ contributors in the next 3 years."
 export const communityContent = [
   {
     description: "Why should you participate as an organization ?",
@@ -429,20 +1265,20 @@ export const communityContent = [
         text: "Connect with potential adopters who are a part of the community.",
       },
     ],
-  },{
-    description:"Why should you participate as a contributor?",
-    points:[
+  }, {
+    description: "Why should you participate as a contributor?",
+    points: [
       {
-        title:"Access to Opportunities",
-        text:"Get access to exclusive events, opportunities, and learning sessions with ecosystem leaders"
+        title: "Access to Opportunities",
+        text: "Get access to exclusive events, opportunities, and learning sessions with ecosystem leaders"
       },
       {
-        title:"Develop & Showcase Skills",
-        text:"Build technical skills by contributing to complex projects & build a portfolio"
+        title: "Develop & Showcase Skills",
+        text: "Build technical skills by contributing to complex projects & build a portfolio"
       },
       {
-        title:"Accumulate Points",
-        text:"Get certificates, Badges, C4GT goodies, bragging rights & community privileges. Opportunity to earn money for certain contributions as well!"
+        title: "Accumulate Points",
+        text: "Get certificates, Badges, C4GT goodies, bragging rights & community privileges. Opportunity to earn money for certain contributions as well!"
       }
     ]
   }
@@ -465,20 +1301,20 @@ export const mentoringContent = [
         text: "Learn about how DPGs are breaking barriers, solve good first issues & network with talented coders & industry veterans.",
       },
     ],
-  },{
-    description:"",
-    points:[
+  }, {
+    description: "",
+    points: [
       {
-        title:"Career Advancment",
-        text:"Contributors will be considered for PPIs with participating entities & receive Rs 1,00,00 as stipend."
+        title: "Career Advancment",
+        text: "Contributors will be considered for PPIs with participating entities & receive Rs 1,00,00 as stipend."
       },
       {
-        title:"Exposure to experts",
-        text:"Interact & engage with experts from the ecosystem such as Pramod Varma (CTO Aadhar), Ravi Prakash (Beckn) & more!"
+        title: "Exposure to experts",
+        text: "Interact & engage with experts from the ecosystem such as Pramod Varma (CTO Aadhar), Ravi Prakash (Beckn) & more!"
       },
       {
-        title:"Hands-on learning",
-        text:"Access to immersive boot camps, peer-to-peer sessions & product deep-dives. Implement learnings on your projects!"
+        title: "Hands-on learning",
+        text: "Access to immersive boot camps, peer-to-peer sessions & product deep-dives. Implement learnings on your projects!"
       }
     ]
   }
