@@ -1,6 +1,7 @@
 import githubIcon from "./githubIcon.webp";
 import c4gtImage from "./c4gtImage.webp";
 import codeImage from "./codeImage.webp";
+import codeLaptop from "./codeLaptop.webp"
 import c4gtLogo from "./c4gtLogo.webp";
 import digiLockerLogo from "./digiLockerLogo.webp";
 import digitLogo from "./digitLogo.webp";
@@ -59,6 +60,7 @@ export {
     githubIcon,
     c4gtImage,
     codeImage,
+    codeLaptop,
     youtubeIcon,
     sunbirdLogo,
     linkedinIcon,

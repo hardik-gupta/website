@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { techStack } from '@/component/constants';
+import { techStack, organization, category } from '@/component/constants';
+
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/component/components/ui/dropdown-menu"
 
 interface SearchBarProps {
   productList: {
@@ -8,6 +17,8 @@ interface SearchBarProps {
     projectCount: number;
     techStack: string[];
     githubLink: string;
+    organization: string;
+    domain: string;
   }[];
   onSearch: (
     result: {
@@ -16,6 +27,8 @@ interface SearchBarProps {
       projectCount: number;
       techStack: string[];
       githubLink: string;
+      organization: string;
+      domain: string;
     }[]
   ) => void;
 }
@@ -23,17 +36,21 @@ interface SearchBarProps {
 export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
   const [searchText, setSearchText] = useState("");
   const [selectedTechStack, setSelectedTechStack] = useState<string[]>([]);
+  const [selectedOrg, setSelectedOrg] = useState<string[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<string[]>([]);
 
   const handleSearch = () => {
     const filteredProducts = productList.filter((product) => {
-      const { title, techStack, projectCount } = product;
+      const { title, techStack, projectCount, domain, organization } = product;
       return (
         title.toLowerCase().includes(searchText.toLowerCase()) ||
         techStack.some((tech) =>
           tech.toLowerCase().includes(searchText.toLowerCase())
         ) ||
         projectCount.toString().includes(searchText) ||
-        projectCount >= parseInt(searchText)
+        projectCount >= parseInt(searchText)||
+        domain.toLowerCase().includes(searchText.toLowerCase())||
+        organization.toLowerCase().includes(searchText.toLowerCase())
       );
     });
 
@@ -56,6 +73,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) =
     filterProducts(updatedTechStack);
   };
 
+
   const filterProducts = (techStack: string[]) => {
     const filteredProducts = productList.filter((product) => {
       return techStack.every((tech) => {
@@ -70,8 +88,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) =
 
   return (
     <div className=" font-regular flex flex-col space-y-6 md:space-y-0 md:flex-row  md:justify-between mb-10">
-      <div className="font-demi flex flex-wrap  w-full md:w-7/12">
-        <button
+      <div className="font-demi flex flex-wrap w-full md:w-7/12">
+        {/* <button
           className={`w-auto px-3 py-1 mr-2 mt-2 text-sm rounded-lg ${
             selectedTechStack.length === 0
               ? "bg-blue-500 text-white"
@@ -83,8 +101,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) =
           }}
         >
           All
-        </button>
-        {techStack.map((tech) => (
+        </button> */}
+        {/* {techStack.map((tech) => (
           <button
             key={tech}
             className={`w-auto px-3 py-1 mt-2 mr-2.5 text-sm rounded-lg ${
@@ -96,8 +114,63 @@ export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) =
           >
             {tech}
           </button>
-        ))}
+        ))} */}
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+              <button className="w-auto px-3 py-1 mt-2 mr-2.5 text-sm rounded-lg bg-gray-200 text-gray-800">
+                Tech Stack
+              </button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
+            {
+              techStack.map((tech, index)=>(
+                  <DropdownMenuItem key={index} onClick={()=>handleTechStackFilter(tech)} className={`mb-1 rounded-md ${selectedTechStack.includes(tech)
+                    ? "bg-blue-500 text-white" : "bg-white text-gray-800"}`}
+                    >
+                    {tech}
+                  </DropdownMenuItem>
+              ))
+            }
+          </DropdownMenuContent>
+        </DropdownMenu>
+
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+              <button className="w-auto px-3 py-1 mt-2 mr-2.5 text-sm rounded-lg bg-gray-200 text-gray-800">
+                Organisation
+              </button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
+            {
+              organization.map((org)=>(
+                  <DropdownMenuItem key={org} className={`mb-1 rounded-md ${selectedOrg.includes(org)? "bg-blue-500 text-white" : "bg-white text-gray-800"}`}>
+                    <span>{org}</span>
+                  </DropdownMenuItem>
+              ))
+            }
+          </DropdownMenuContent>
+        </DropdownMenu>
+        
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+              <button className="w-auto px-3 py-1 mt-2 mr-2.5 text-sm rounded-lg bg-gray-200 text-gray-800">
+                Category
+              </button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
+            {
+              category.map((cat)=>(
+                  <DropdownMenuItem key={cat} className={`mb-1 rounded-md ${selectedCategory.includes(cat)
+                    ? "bg-blue-500 text-white" : "bg-white text-gray-800"}`}
+                    >
+                    <span>{cat}</span>
+                  </DropdownMenuItem>
+              ))
+            }
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
+
       <div className="search-section flex flex-col space-y-2  md:space-y-0 md:flex-row md:space-x-1  md:items-center  w-full md:w-5/12">
         <input
           type="text"

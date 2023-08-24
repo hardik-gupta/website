@@ -25,8 +25,8 @@ export const getProgress = async (token: any) => {
 export const getCert = async (token: any) => {
     try {
         const response = await axios.post(`${baseUrl}/inauguration/cert`, {
-            "name": "Sh. Abhishek Singh, Dr. Pramod Varma, Mr. Venkatesh Hariharan",
-            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlNoLiBBYmhpc2hlayBTaW5naCIsIm5hbWUiOiJTaC4gQWJoaXNoZWsgU2luZ2giLCJlbWFpbCI6ImNlb0BkaWdpdGFsaW5kaWEuZ292LmluIiwidHMiOjE2ODgwNDgzMjc4ODcsImlhdCI6MTY4ODA0ODMyNywiZXhwIjoxNjg4MTM0NzI3fQ.ONqR_smG5zYDGYG0w3fUoqV4AOYP2LK43t1KADrnzXU"
+            "name": "",
+            "token": token
         });
         return response;
     } catch (error) {

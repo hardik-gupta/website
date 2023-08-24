@@ -104,7 +104,7 @@ export const Navbar = () => {
             {dropdownOpen && (
               <div className="b-0 absolute  h-auto sm:-left-28 border-0 text-color-primary">
                 <ul className="text-sm top-0 sm:mt-4 mt-0 pt-2 w-56 px-2 bg-cyan-50">
-                  {/* <li className="py-2 hover:text-red-700 block cursor-pointer">
+                  <li className="py-2 hover:text-red-700 block cursor-pointer">
                     <Link
                       className="no-underline text-inherit"
                       href="/c4gt23/communityProgram"
@@ -112,7 +112,7 @@ export const Navbar = () => {
                     >
                       Community Program Project
                     </Link>
-                  </li> */}
+                  </li>
                   <li className="py-2 hover:text-red-700 block cursor-pointer">
                     <Link
                       className="no-underline text-inherit"
@@ -242,7 +242,7 @@ export const Navbar = () => {
                     id="dropdown"
                   >
                     <ul className="font-semibold text-color-primary text-sm w-56 bg-cyan-50 pl-4">
-                      {/* <li className="cursor-pointer py-2  block ">
+                      <li className="cursor-pointer py-2  block ">
                         <Link
                           className="no-underline text-color-primary hover:text-red-700"
                           href="/c4gt23/communityProgram"
@@ -250,7 +250,7 @@ export const Navbar = () => {
                         >
                           Community Program Project
                         </Link>
-                      </li> */}
+                      </li>
                       <li className="cursor-pointer py-2 block  ">
                         <Link
                           className="no-underline text-color-primary hover:text-red-700"

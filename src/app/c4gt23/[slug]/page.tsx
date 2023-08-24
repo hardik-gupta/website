@@ -17,6 +17,7 @@ const C4gt23 = () => {
       const res = await getCert(params?.slug);
       // @ts-ignore
       setUrl(res?.data);
+      console.log(res?.data);
     };
     getCertificate();
   }, []);
@@ -30,7 +31,7 @@ const C4gt23 = () => {
     setDimensions({
       width,
       height,
-    });
+    });    
     setClient(true);
   }, []);
   return url ? (
