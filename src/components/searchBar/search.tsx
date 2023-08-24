@@ -42,8 +42,10 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 }) => {
   const [searchText, setSearchText] = useState("");
   const [selectedTechStack, setSelectedTechStack] = useState<string[]>([]);
-  const [selectedOrg, setSelectedOrg] = useState<string[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string[]>([]);
+  const [selectedOrgList, setSelectedOrgList] = useState<string[]>([]);
+  const [selectedCategoryList, setSelectedCategoryList] = useState<string[]>([]);
+
+  const [appliedFilters, setAppliedFilters] = useState<string[]>([])
 
   const handleSearch = () => {
     const filteredProducts = productList.filter((product) => {
@@ -74,7 +76,6 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     } else {
       updatedTechStack = [...selectedTechStack, tech];
     }
-    console.log(updatedTechStack);
     setSelectedTechStack(updatedTechStack);
     filterProducts(updatedTechStack);
   };
@@ -89,6 +90,68 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     });
 
     onSearch(filteredProducts);
+  };
+
+  const handleOrgFilter = (org: string) => {
+    const isSelected = selectedOrgList.includes(org);
+    let updatedOrgList: string[];
+
+    if (isSelected) {
+      updatedOrgList = selectedOrgList.filter(
+        (selectedOrgItems) => selectedOrgItems !== org
+      );
+    } else {
+      updatedOrgList = [...selectedOrgList, org];
+    }
+    console.log(updatedOrgList)
+    setSelectedOrgList(updatedOrgList);
+    filterProductsByOrganizations(updatedOrgList);
+  };
+
+  const filterProductsByOrganizations = (targetOrganizations: string[]) => {
+    if (targetOrganizations.length === 0) {
+      onSearch(productList);
+      return;
+    }
+
+    const filteredOrganizations = productList.filter((product) => {
+      return targetOrganizations.some((org) =>
+        product.organization.toLowerCase() === org.toLowerCase()
+      );
+    });
+  
+    onSearch(filteredOrganizations);
+  };
+
+  const handleCatFilter = (org: string) => {
+    const isSelected = selectedCategoryList.includes(org);
+    let updatedCategoryList: string[];
+
+    if (isSelected) {
+      updatedCategoryList = selectedCategoryList.filter(
+        (selectedOrgItems) => selectedOrgItems !== org
+      );
+    } else {
+      updatedCategoryList = [...selectedCategoryList, org];
+    }
+    console.log(updatedCategoryList)
+    setSelectedCategoryList(updatedCategoryList);
+    filterProductsByCategory(updatedCategoryList);
+  };
+
+  const filterProductsByCategory = (targetCategory: string[]) => {
+    if (targetCategory.length === 0) {
+      onSearch(productList);
+      return;
+    }
+
+    const filteredCategory = productList.filter((product) => {
+      return targetCategory.some((org) =>
+        product.domain.toLowerCase() === org.toLowerCase()
+      );
+    });
+  
+    onSearch(filteredCategory);
   };
 
   return (
@@ -149,6 +212,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
+
             {organization.map((org) => (
               <DropdownMenuItem
                 key={org}
@@ -171,6 +235,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
+
             {techStack.map((tech, index) => (
               <DropdownMenuItem
                 key={index}
@@ -185,6 +250,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                 &nbsp;&nbsp;{tech}
               </DropdownMenuItem>
             ))}
+
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
@@ -196,6 +262,12 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           placeholder="Search by title, tech stack, or project count"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              handleSearch();
+            }
+          }}
+
         />
         <button
           id="search"
