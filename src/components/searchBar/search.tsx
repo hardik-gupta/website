@@ -189,7 +189,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px] flex items-center">
-              Category  &nbsp; <BsChevronDown size="1em" />
+              Category &nbsp; <BsChevronDown size="1em" />
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
@@ -217,7 +217,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <button className="w-auto px-3 py-2 mt-2 mr-4 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
-              Organisation  &nbsp;<BsChevronDown size="1em" />
+              Organisation &nbsp;
+              <BsChevronDown size="1em" />
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
@@ -225,18 +226,19 @@ export const SearchBar: React.FC<SearchBarProps> = ({
               <DropdownMenuItem
                 key={org}
                 onClick={() => handleOrgFilter(org)}
-                className={`mb-1 rounded-md ${
+                className={`mb-1 rounded-md flex items-center justify-center${
                   selectedOrgList.includes(org)
                     ? "bg-blue-500 text-white"
                     : "bg-white text-gray-800"
                 }`}
               >
                 {selectedOrgList.includes(org) ? (
-                  <AiFillCheckSquare size="1.5em" />
+                  <AiFillCheckSquare size="24px" />
                 ) : (
-                  <BsSquare size="1.5em" />
+                  <BsSquare size="24px" />
                 )}
-                &nbsp;&nbsp;{org}
+                &nbsp;&nbsp;
+                <p className="w-[200px] m-0">{org}</p>
               </DropdownMenuItem>
             ))}
           </DropdownMenuContent>
