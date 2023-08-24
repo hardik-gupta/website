@@ -1,29 +1,20 @@
 import React, { useState } from "react";
-import { ProductCard } from '@/component/components';
-import { SearchBar } from '@/component/components';
+import { ProductCard } from "@/component/components";
+import { SearchBar } from "@/component/components";
 
-interface Project{
-    id: number;
-    name: string;
-    description:string;
-    links:{
-      github: string;
-      documentation: string,
-      contributorExperience: string,
-    }
+interface Project {
+  id: number;
+  name: string;
+  description: string;
+  links: {
+    github: string;
+    documentation: string;
+    contributorExperience: string;
+  };
 }
 
 interface ProductListProps {
-  productList: {
-    title: string;
-    description: string;
-    projectCount: number;
-    techStack: string[];
-    githubLink: string;
-    organization: string;
-    domain: string;
-    projects: Project[];
-  }[];
+  productList: any;
 }
 
 export const ProductList: React.FC<ProductListProps> = ({ productList }) => {
