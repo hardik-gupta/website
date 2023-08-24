@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { techStack, organization, category } from "@/component/constants";
 
-import {AiFillCheckSquare} from 'react-icons/ai'
+import { AiFillCheckSquare } from "react-icons/ai";
+import { BiSolidArrowFromBottom } from "react-icons/bi";
+import { BsSquare, BsChevronDown } from "react-icons/bs";
 
 import {
   DropdownMenu,
@@ -11,7 +13,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/component/components/ui/dropdown-menu";
-import { BsSquare } from "react-icons/bs";
 
 interface SearchBarProps {
   productList: {
@@ -43,9 +44,11 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   const [searchText, setSearchText] = useState("");
   const [selectedTechStack, setSelectedTechStack] = useState<string[]>([]);
   const [selectedOrgList, setSelectedOrgList] = useState<string[]>([]);
-  const [selectedCategoryList, setSelectedCategoryList] = useState<string[]>([]);
+  const [selectedCategoryList, setSelectedCategoryList] = useState<string[]>(
+    []
+  );
 
-  const [appliedFilters, setAppliedFilters] = useState<string[]>([])
+  const [appliedFilters, setAppliedFilters] = useState<string[]>([]);
 
   const handleSearch = () => {
     const filteredProducts = productList.filter((product) => {
@@ -103,7 +106,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     } else {
       updatedOrgList = [...selectedOrgList, org];
     }
-    console.log(updatedOrgList)
+    console.log({ updatedOrgList, org });
     setSelectedOrgList(updatedOrgList);
     filterProductsByOrganizations(updatedOrgList);
   };
@@ -115,11 +118,11 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     }
 
     const filteredOrganizations = productList.filter((product) => {
-      return targetOrganizations.some((org) =>
-        product.organization.toLowerCase() === org.toLowerCase()
+      return targetOrganizations.some(
+        (org) => product.organization.toLowerCase() === org.toLowerCase()
       );
     });
-  
+
     onSearch(filteredOrganizations);
   };
 
@@ -134,7 +137,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     } else {
       updatedCategoryList = [...selectedCategoryList, org];
     }
-    console.log(updatedCategoryList)
+    console.log(updatedCategoryList);
     setSelectedCategoryList(updatedCategoryList);
     filterProductsByCategory(updatedCategoryList);
   };
@@ -146,11 +149,11 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     }
 
     const filteredCategory = productList.filter((product) => {
-      return targetCategory.some((org) =>
-        product.domain.toLowerCase() === org.toLowerCase()
+      return targetCategory.some(
+        (org) => product.domain.toLowerCase() === org.toLowerCase()
       );
     });
-  
+
     onSearch(filteredCategory);
   };
 
@@ -185,21 +188,27 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         ))} */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px]">
-              Category
+            <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px] flex items-center">
+              Category  &nbsp; <BsChevronDown size="1em" />
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
             {category.map((cat) => (
               <DropdownMenuItem
                 key={cat}
+                onClick={() => handleCatFilter(cat)}
                 className={`mb-1 rounded-md ${
-                  selectedCategory.includes(cat)
+                  selectedCategoryList.includes(cat)
                     ? "bg-blue-500 text-white"
                     : "bg-white text-gray-800"
                 }`}
               >
-                <span>{cat}</span>
+                {selectedCategoryList.includes(cat) ? (
+                  <AiFillCheckSquare size="1.5em" />
+                ) : (
+                  <BsSquare size="1.5em" />
+                )}
+                &nbsp;&nbsp;{cat}
               </DropdownMenuItem>
             ))}
           </DropdownMenuContent>
@@ -207,22 +216,27 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <button className="w-auto px-3 py-2 mt-2 mr-4 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
-              Organisation
+            <button className="w-auto px-3 py-2 mt-2 mr-4 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
+              Organisation  &nbsp;<BsChevronDown size="1em" />
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
-
             {organization.map((org) => (
               <DropdownMenuItem
                 key={org}
+                onClick={() => handleOrgFilter(org)}
                 className={`mb-1 rounded-md ${
-                  selectedOrg.includes(org)
+                  selectedOrgList.includes(org)
                     ? "bg-blue-500 text-white"
                     : "bg-white text-gray-800"
                 }`}
               >
-                <span>{org}</span>
+                {selectedOrgList.includes(org) ? (
+                  <AiFillCheckSquare size="1.5em" />
+                ) : (
+                  <BsSquare size="1.5em" />
+                )}
+                &nbsp;&nbsp;{org}
               </DropdownMenuItem>
             ))}
           </DropdownMenuContent>
@@ -230,12 +244,11 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <button className="w-auto px-3 py-2 mt-2 mr-4 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
-              Tech Stack
+            <button className="w-auto px-3 py-2 mt-2 mr-4 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
+              Tech Stack &nbsp; <BsChevronDown size="1em" />
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
-
             {techStack.map((tech, index) => (
               <DropdownMenuItem
                 key={index}
@@ -246,11 +259,14 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                     : "bg-white text-gray-800"
                 }`}
               >
-                 {selectedTechStack.includes(tech) ? <AiFillCheckSquare size="1.5em"/> : <BsSquare size="1.5em" />}
+                {selectedTechStack.includes(tech) ? (
+                  <AiFillCheckSquare size="1.5em" />
+                ) : (
+                  <BsSquare size="1.5em" />
+                )}
                 &nbsp;&nbsp;{tech}
               </DropdownMenuItem>
             ))}
-
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
@@ -263,11 +279,10 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
           onKeyDown={(e) => {
-            if (e.key === 'Enter') {
+            if (e.key === "Enter") {
               handleSearch();
             }
           }}
-
         />
         <button
           id="search"
