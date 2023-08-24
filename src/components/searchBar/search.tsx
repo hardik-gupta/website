@@ -117,7 +117,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) =
         ))} */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-              <button className="w-auto px-3 py-1 mt-2 mr-2.5 text-sm rounded-lg bg-gray-200 text-gray-800">
+              <button className="w-auto px-3 py-1 mt-2 mr-4 text-sm rounded-lg bg-gray-200 text-gray-800">
                 Tech Stack
               </button>
           </DropdownMenuTrigger>
@@ -136,7 +136,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) =
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-              <button className="w-auto px-3 py-1 mt-2 mr-2.5 text-sm rounded-lg bg-gray-200 text-gray-800">
+              <button className="w-auto px-3 py-1 mt-2 mr-4 text-sm rounded-lg bg-gray-200 text-gray-800">
                 Organisation
               </button>
           </DropdownMenuTrigger>

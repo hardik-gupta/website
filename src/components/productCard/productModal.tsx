@@ -20,9 +20,9 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
     <div>
       {projects.map((project, index) => {
         return (
-          <div className="border-b" key={project.id}>
-            <h1 className="text-xl mb-2">{project.name}</h1>
-            <h6 className="text-gray-500 mb-4">{project.description}</h6>
+          <div className="border-b mb-8" key={project.id}>
+            <h1 className="text-xl mb-2 font-medium">{project.name}</h1>
+            <h6 className="text-gray-500">{project.description}</h6>
             <div className="flex flex-col sm:flex-row gap-2">
               <a
                 href={project.links.github}

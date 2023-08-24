@@ -6,30 +6,60 @@ export const productList = [
     projectCount: 5,
     techStack: ["Java", "SpringBoot", "NoSQL", "Javascript", "JSP ", "HTML"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/ABDM",
-    organization: "National Health Authority",
+    organization: "National Health Authority ",
     domain: "Healthcare",
     projects: [
       {
         id: 1,
-        name: "lorem ipsum",
-        description: "lorem ipsum",
+        name: "Help Map India Lab test names to the LOINC standard",
+        description: "",
         links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+          github: "https://github.com/kiranma72/loinc-india/issues/1",
+          documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Loinc-India/",
+          contributorExperience: ""
+        }
       },
       {
         id: 2,
-        name: "lorem ipsum",
-        description: "lorem ipsum",
+        name: "Discovery and Linking Workflows",
+        description: "",
         links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+          github: "https://github.com/atulai-sg/abdm-sdk/issues/1",
+          documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Discovery%20and%20Linking%20Workflows",
+          contributorExperience: ""
+        }
       },
-    ],
+      {
+        id: 3,
+        name: "Consent Management",
+        description: "",
+        links: {
+          github: "https://github.com/atulai-sg/abdm-sdk/issues/2",
+          documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/CONSENT_MANAGEMENT",
+          contributorExperience: ""
+        }
+      },
+      {
+        id: 4,
+        name: "Simplify Data Transfer Workflow",
+        description: "",
+        links: {
+          github: "https://github.com/atulai-sg/abdm-sdk/issues/3",
+          documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Data%20Transfer%20Workflow",
+          contributorExperience: ""
+        }
+      },
+      {
+        id: 5,
+        name: "Subscription Management",
+        description: "",
+        links: {
+          github: "https://github.com/atulai-sg/abdm-sdk/issues/4",
+          documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Subscription-management/",
+          contributorExperience: ""
+        }
+      }
+    ]
   },
   {
     title: "AI Tools",
@@ -44,30 +74,123 @@ export const productList = [
       "Huggie Face Transformers",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/AI-tools",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Independent",
+    "domain": "Developer Tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Deployment Optimizations",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/ai-tools/issues/80",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Deployment%20Optimization",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Neural Coref",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/ai-tools/issues/42",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Neural%20Coref",
+          "contributorExperience": ""
+        }
       },
+      {
+        "name": "Dictionary Augmented Transformers",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/ai-tools/issues/81",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Dictionary%20Augmented%20Transformers",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Document Uploader",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/ai-tools/issues/78",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Document%20Uploader",
+          "contributorExperience": ""
+        }
+      }
+    ]
+  },
+  {
+    title: "Avni",
+    description:
+      "Avni is an open-source platform for community service provisioning. Using Avni, organisations can easily create applications for their fieldwork programs for managing their interactions with community members, recording and reviewing community members data. ",
+    projectCount: 1,
+    techStack: ["Java", "React"],
+    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Avni",
+    organization: "Samanvay Research & Development Foundation",
+    "domain": "Data Collection and Mgmt",
+    "projects": [
+      {
+        "name": "Canned Analytics",
+        "description": "",
+        "links": {
+          "github": "https://github.com/avniproject/avni-product/issues/1334",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Avni/Canned%20Analytics",
+          "contributorExperience": ""
+        }
+      }
+    ]
+  },
+  {
+    title: "Bahmini",
+    description:
+      "Bahmni is an easy-to-use, complete, open-source Hospital Information System (HIS) and Electronic Medical Record (EMR) that aims to meet the needs of low-resource environments by leveraging a tapestry of existing open-source products. ",
+    projectCount: 4,
+    techStack: [
+      "Flutter",
+      "Dart",
+      "Material UI",
+      "Java",
+      "MySQL",
+      "Docker",
+      "ReactJS",
     ],
+    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Bahmni",
+    organization: "Thoughtworks",
+    "domain": "Healthcare",
+    "projects": [
+      {
+        "name": "Book appointments via WhatzApp",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Bahmni/openmrs-module-bahmniapps/issues/572",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Ability%20to%20book%20an%20appointment%20via%20WhatsApp",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Order Features",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Bahmni/connect2Bahmni/issues/3",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Order%20Features/",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Standalone Document Upload Module",
+        "description": "",
+        "links": {
+          "github": "https://bahmni.atlassian.net/browse/BAH-3006",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Standalone%20Document%20Upload%20Module",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Patient portal to access patient records",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Bahmni/openmrs-module-bahmniapps/issues/573",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Patient%20Portal",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "BeckN",
@@ -87,30 +210,182 @@ export const productList = [
       "gRPC",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/BeckN",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "FIDE",
+    "domain": "E-commerce",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Beckn Mobility Interface",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/mobility/issues/55",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Beckn%20Mobility%20Interface",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Beckn Energy Interface",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/energy/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Beckn/Beckn%20Energy%20Interface",
+          "contributorExperience": ""
+        }
       },
+      {
+        "name": "Beckn BPP Boilerplate",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/BPP-Boilerplate-SDK/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/BPP%20Backend%20SDK%20&%20Boilerplate%20UI",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Decentralized Health Protocol",
+        "description": "",
+        "links": {
+          "github": "https://github.com/dhp-project/DHP-Specs/issues/99",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Beckn/Decentralized%20Health%20Protocol",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Synapse",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/synapse/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Synapse",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Smart Policy Infrastructure",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/policy-admin-api/issues/19",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/BeckN%20Policy%20Admin%20Api",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Reputation Infrastructure",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/reputation-infra/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Beckn/Beckn-enabled-Reputation-Infrasructure",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Beckn QR",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/beckn-qr-code-generator/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/QR%20Code%20Generation%20and%20Interpretation",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Beckn-in-a-box",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/beckn-in-a-box/issues/9",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Beckn%20in%20a%20box/",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Beckn Certification Suite",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/certification-suite/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Beckn%20Certification%20Suite/",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "BAP Boilerplate",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/BAP-Boilerplate-SDK/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/BAP%20Backend%20SDK%20&%20Boilerplate%20UI",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Beckn ODR Interface",
+        "description": "",
+        "links": {
+          "github": "https://github.com/beckn/online-dispute-resolution/issues/1",
+          "documentation": "",
+          "contributorExperience": ""
+        }
+      }
+    ]
+  },
+  {
+    title: "Care",
+    description:
+      "CARE is a health resource management tool that links multiple players under one network and allows for more efficient resource management while also providing innovative digital solutions such as TeleICU to improve patient outcomes.",
+    projectCount: 5,
+    techStack: [
+      "ReactJS",
+      "NodeJS",
+      "Django",
+      "Python",
+      "Cypress",
+      "Typescript",
     ],
+    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Care",
+    organization: "EGoverments Foundation",
+    "domain": "Healthcare",
+    "projects": [
+      {
+        "name": "Cypress Tests for CARE",
+        "description": "",
+        "links": {
+          "github": "https://github.com/coronasafe/care_fe/issues/5491",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/Cypress%20Test%20for%20All%20Major%20Functionalities%20of%20CARE",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Serializers for list and detail views",
+        "description": "",
+        "links": {
+          "github": "https://github.com/coronasafe/care_fe/issues/5492",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/List%20and%20Detail%20Serializer",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Redesign Doctor Notes",
+        "description": "",
+        "links": {
+          "github": "https://github.com/coronasafe/care_fe/issues/5493",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/RedesignDoctorNotes",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Live Camera Feed Enhancement",
+        "description": "",
+        "links": {
+          "github": "https://github.com/coronasafe/care_fe/issues/5494",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/Live%20Camera%20Feed%20Enhancement",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Type safety to Teleicu Middleware",
+        "description": "",
+        "links": {
+          "github": "https://github.com/coronasafe/care_fe/issues/5495",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/Adding%20typesafety%20to%20teleicu%20middleware",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Cord Network",
@@ -119,30 +394,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["REST APIs", "Rust", "Typescript"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/cord-network",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Dhiway",
+    "domain": "Others",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Integration with Sunbird RC",
+        "description": "",
+        "links": {
+          "github": "https://github.com/dhiway/cord/issues/163",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CORD%20Network/IntegrationWithSunbirdRC",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "CQube",
@@ -159,30 +423,37 @@ export const productList = [
       "Streamlit",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/cQube",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Independent",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "cQube Chat",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-cQube/cQubeChat/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/cQube/cQubeChat",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Ingestion speedup and refactoring",
+        "description": "",
+        "links": {
+          "github": "https://github.com/ChakshuGautam/cQube-POCs/issues/90",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/cQube/Ingestion%20Speedup%20and%20Refactoring/",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "File Validation Issues",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-cQube/InputFileValidator/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/cQube/Input%20File%20Validator",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "DevDataPlatform",
@@ -191,30 +462,28 @@ export const productList = [
     projectCount: 3,
     techStack: ["Django", "Next.js", "Airbyte", "Java", "Python"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/DevDataPlatform",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Tech4Dev",
+    "domain": "Data Collection and Mgmt",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Set up a monitoring system",
+        "description": "",
+        "links": {
+          "github": "https://github.com/DevDataPlatform/platform_infra/issues/10",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DDP/Set%20up%20a%20monitoring%20system",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Airbyte connector for Avni",
+        "description": "",
+        "links": {
+          "github": "https://github.com/DevDataPlatform/airbyte/issues/36",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DDP/Airbyte%20connector%20for%20Avni",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "DevOps Pipeline",
@@ -223,30 +492,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Python", "JS", "Jenkins", "Docker", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/DevOps-Pipline",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "SamagraX",
+    "domain": "Developer tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Build the v2 of Samagra Devops pipeline which powers the deployment of all projects",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/samagra-devops/issues/6",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DevOps%20Pipeline/Build%20v2%20of%20devops%20pipeline/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Digit",
@@ -255,62 +513,103 @@ export const productList = [
     projectCount: 4,
     techStack: ["Java", "SpringBoot", "Flutter", "ReactNative", "Redis"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Digit",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "EGoverments Foundation",
+    "domain": "Service Delivery",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "JWT based authentication and authorization",
+        "description": "",
+        "links": {
+          "github": "https://github.com/egovernments/Digit-Core/issues/77",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIGIT/JWT%20based%20Authentication%20and%20Authorization",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Vehicle Tracking",
+        "description": "",
+        "links": {
+          "github": "https://github.com/egovernments/Digit-Core/issues/79",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Digit/Vehicle%20Tracker",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Jurisdiction based workflow",
+        "description": "",
+        "links": {
+          "github": "https://github.com/egovernments/Digit-Core/issues/71",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIGIT/Jurisdiction%20Based%20Workflow",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Redesign and rewrite of MDMS",
+        "description": "",
+        "links": {
+          "github": "https://github.com/egovernments/Digit-Core/issues/76",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIGIT/Redesign%20and%20rewrite%20of%20MDMS",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
-    title: "Diksha",
+    title: "DIKSHA",
     description:
       "DIKSHA is a national platform for school education, which enables several use cases and solutions for teaching and learning. As of date 35 States/UTs as well as autonomous bodies leverage DIKSHA for rolling out teacher professional development courses. ",
     projectCount: 5,
     techStack: ["Java", "Node", "Javascript", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Diksha",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Ministry of Electronics and Information Technology\n",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Digital Learner's Passbook",
+        "description": "",
+        "links": {
+          "github": "https://github.com/orgs/Sunbird-Ed/discussions/487",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSHA/Digital%20Learners%20Passbook",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Learner Passbook integration with Sunbird ED Apps",
+        "description": "",
+        "links": {
+          "github": "https://github.com/orgs/Sunbird-Ed/discussions/488",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSH/Learner%20Passbook%20integration%20with%20Sunbird%20ED%20Apps",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "New Feature Request : Story",
+        "description": "",
+        "links": {
+          "github": "https://github.com/project-anuvaad/anuvaad/issues/547",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSHA/Story/",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Auto generate content in local language",
+        "description": "",
+        "links": {
+          "github": "https://github.com/orgs/Sunbird-Ed/discussions/489",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSHA/Autogenerate%20content%20in%20local%20language/",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Discovering Tutors and Mentor using DSEP protocol",
+        "description": "",
+        "links": {
+          "github": "https://github.com/orgs/Sunbird-Ed/discussions/490",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSH/Discovering%20Tutors%20and%20Mentor%20using%20DSEP%20protocol",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Doc Generator",
@@ -319,30 +618,37 @@ export const productList = [
     projectCount: 3,
     techStack: ["HTML", "Python", "Typescript", " NestJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Doc-Generator",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Independent",
+    "domain": "Developer Tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Upgrade of Doc Gen backend to use Templater",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/Doc-Generator/issues/121",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Doc-Generator/Upgrade%20Doc-Gen%20to%20use%20Templater",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Plugins",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/Doc-Generator/issues/122",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Doc%20Generator/Plugins",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "User Interface for Doc Generator",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/Doc-Generator/issues/123",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Doc%20Generator/Creating%20an%20UI",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "FarmStack",
@@ -351,33 +657,31 @@ export const productList = [
     projectCount: 2,
     techStack: ["Python", "Django", "ReactJS", "CSS", "HTML", "Rest API"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/FarmStack",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Digital Green",
+    "domain": "Agriculture",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Dashboard Builder",
+        "description": "",
+        "links": {
+          "github": "https://github.com/digitalgreenorg/farmstack-c4gt/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Farmstack/Dashboard%20Builder",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "API Builder",
+        "description": "",
+        "links": {
+          "github": "https://github.com/digitalgreenorg/farmstack-c4gt/issues/2",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Farmstack/API%20Builder",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
-    title: "Doc Generator",
+    title: "Glific",
     description:
       "Glific is a WhatsApp-based open source two-way communication platform that enables  NGOs to have conversations with their beneficiaries, distribute content, provide useful information & get timely  feedback.",
     projectCount: 3,
@@ -389,30 +693,37 @@ export const productList = [
       "Typescript",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Glific",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Tech4Dev",
+    "domain": "Communication",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Implement authentication and chat interface for the mobile app according to the designs",
+        "description": "",
+        "links": {
+          "github": "https://github.com/glific/mobile/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Glific/Glific%20Mobile/",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Internal dashboard enhancements",
+        "description": "",
+        "links": {
+          "github": "https://github.com/glific/glific/issues/2790",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Glific/Internal%20Dashboard%20Enhancements",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Integrate with a subscription based billing system",
+        "description": "",
+        "links": {
+          "github": "https://github.com/glific/glific/issues/2794",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Glific/Integrate%20with%20a%20subscription%20based%20billing%20system/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Health Clain Exchange",
@@ -422,102 +733,87 @@ export const productList = [
     techStack: ["Javascript", "Python"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/Health-Claims-Exchange",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Swasth Alliance",
+    "domain": "Healthcare",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Build HCX Participant System Python SDK",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Swasth-Digital-Health-Foundation/integration-sdks/issues/51",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Health%20Claims%20Exchange/Python%20SDK/",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Build HCX Participant System JavaScript SDK",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Swasth-Digital-Health-Foundation/integration-sdks/issues/52",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Health%20Claims%20Exchange/Build%20Javascript%20SDK%20for%20HCX%20Participant%20System%20to%20help%20in%20integrating%20with%20HCX",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Karamyogi",
     description:
-      "iGOT Karmayogi is a platform to guide individual civil service officials in their capacity-building journey. It aims to provide anytime-anywhere-any-device learning to train users across the country through competency-linked courses & more",
+      "iGOT Karmayogi is a platform to guide individual civil service officials in their capacity-building journey. It aims to provide anytime-anywhere-any-device learning to train users across the country through competency-linked courses & more.",
     projectCount: 5,
     techStack: ["DSEP Protocol", "Scala", "Angular", "NodeJs"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Karmayogi",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "MeitY",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Competency Passbook for Officials",
+        "description": "",
+        "links": {
+          "github": "https://openforge.gov.in/plugins/tracker/?aid=77952",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Karmayogi/Competency%20Passbook%20for%20Officials",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Integrate the Content translation UI into iGOT Karamayogi",
+        "description": "",
+        "links": {
+          "github": "https://openforge.gov.in/plugins/tracker/?aid=77968",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Karmayogi/Integrate%20the%20Content%20translation%20UI%20into%20iGOT%20Karamayogi",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "LLM for question answering",
+        "description": "",
+        "links": {
+          "github": "https://openforge.gov.in/plugins/tracker/?aid=77956",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Karmayogi/LLMs%20for%20Question%20Answering%201",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "LLM for question answering part 2",
+        "description": "",
+        "links": {
+          "github": "https://openforge.gov.in/plugins/tracker/?aid=77965",
+          "documentation": "",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Discovering Mentors / Training Institutes",
+        "description": "",
+        "links": {
+          "github": "https://openforge.gov.in/plugins/tracker/?aid=77997",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/KarmaYogi/DiscoveringMentorsandTrainingInstitutes",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
-  {
-    title: "Care",
-    description:
-      "CARE is a health resource management tool that links multiple players under one network and allows for more efficient resource management while also providing innovative digital solutions such as TeleICU to improve patient outcomes.",
-    projectCount: 5,
-    techStack: [
-      "ReactJS",
-      "NodeJS",
-      "Django",
-      "Python",
-      "Cypress",
-      "Typescript",
-    ],
-    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Care",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
-      {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
-  },
+
   {
     title: "ODK Collect Extension",
     description:
@@ -526,30 +822,28 @@ export const productList = [
     techStack: ["Java", "React"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/ODK-Extension-and-Collection",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "SamagraX",
+    "domain": "Data Collection and Mgmt",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Upload ODK Collect Extension to maven as a repo & Create Github Actions for automatic release",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/odk-collect-extension/issues/39",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/ODK%20Extension%20Collection/Publish%20extensions%20as%20a%20library%20on%20maven%20central",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Get form response as JSON & Send submissions to custom server",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/odk-collect-extension/issues/5",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/ODK%20Extension%20Collection/Get%20form%20response%20as%20JSON%20and%20Send%20response%20to%20Custom%20Server/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Quiz Creator",
@@ -558,30 +852,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["VueJS", "ReactJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Quiz-Creator",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Avanti Fellows",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Interface for Quiz Session",
+        "description": "",
+        "links": {
+          "github": "https://github.com/avantifellows/quiz-creator/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Quiz%20Creator/Quiz%20Creator",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "QuML",
@@ -590,30 +873,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["HTML", "CSS", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/QuML",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Shikshalokam",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Enhance QuML player for new question types",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-inQuiry/player/issues/36",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/QuML/Enhanced%20Quml%20Player%20for%20Enhanced%20Question%20types",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Solve Ninja Chatbot",
@@ -622,30 +894,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Elixir", "Python", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Solve-Ninja-Chatbot",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    organization: "Reap Benefit",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Voice to Text integration with Glific Chatbot",
+        "description": "",
+        "links": {
+          "github": "https://github.com/reapbenefit/voice_to_text/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Solve%20Ninja%20Chatbot/Voice-to-text%20Integration",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird DevOps",
@@ -654,30 +915,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["PostGres SQL", "Elastic Search", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-DevOps",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Tarento Technologies",
+    "domain": "Developer tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Code Security and container image vulnerability scanning",
+        "description": "",
+        "links": {
+          "github": "https://github.com/project-sunbird/sunbird-devops/issues/3813",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20DevOps/Code%20and%20Container%20Security",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird Ed",
@@ -694,30 +944,64 @@ export const productList = [
       "Kafka",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Ed",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Tarento Technologies",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Implement independent SSO flow NPM package",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8666",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/Implement%20Independent%20SSO%20Flow%20on%20NPM%20Package/",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Implementing content detail page as widget",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8656",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/content%20detail%20page%20as%20widget",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Support for Optional Material in Course",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8664",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Ed/Support%20for%20Optional%20Material%20in%20Course",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Search / Discovery widget for sunbird ED",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8690",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/Search%20Widget%20or%20Discovery",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Review enhancements",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8691",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Review%20Enhancement",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Bulk Content creation",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8692",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/Bulk%20content%20creation",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird InQuiry",
@@ -732,30 +1016,46 @@ export const productList = [
       "ReactNative",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Inquiry",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "EkStep",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Embedding QuML player",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-inQuiry/player/issues/34",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/Embedding%20QuML%20player",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Implementation of audio upload in QuML",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-inQuiry/editor/issues/40",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/audio-upload-feature",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Auto generation of questions in QuML",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-inQuiry/editor/issues/41",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/Auto%20generates%20questions%20in%20QuML",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Addition of new type of questions in Editor",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-inQuiry/editor/issues/42",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/Editor%20to%20support%20new%20type%20of%20questions",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird Knowlg",
@@ -774,30 +1074,28 @@ export const productList = [
       "AngularJS",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Knowlg",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Sanketika",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "One-click installation of Knowlg",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Knowlg/knowledge-platform/issues/938",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Knowlg/One%20click%20installation%20in%20aws",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "UI tool for Create / Manage Framework or Metadata",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Knowlg/knowledge-platform/issues/940",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Knowlg/sunbird-framework-management-ui-tool",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird Lern",
@@ -806,30 +1104,37 @@ export const productList = [
     projectCount: 3,
     techStack: ["Scala", "Java"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Lern",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Tarento Technologies",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Mock integration points and generalize code for service independence",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Lern/sunbird-course-service/issues/564",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Lern/Mocking%20Integration%20Points",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Upgradation of Keycloak",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Lern/sunbird-lms-service/issues/1178",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Lern/Keycloak%20Upgradation",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Integrate with non-Keycloak authentication system",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Lern/sunbird-lms-service/issues/1177",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Lern/Integrate%20with%20non-Keycloak%20authentication%20system",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird Obsrv",
@@ -847,30 +1152,37 @@ export const productList = [
       "Apache Druid",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Obsrv",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Sanketika",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Setup of one-click installation of Obsrv",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Obsrv/obsrv-core/issues/4",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Obsrv/Setup%20of%20one-click%20installation%20of%20Obsrv",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Revamp Obsrv Sink to Index All Data in Elastic search",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Obsrv/obsrv-core/issues/5",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Obsrv/revampTheObsrvSink/",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Enhancement of Data Pipeline",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Obsrv/obsrv-core/issues/6",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Obsrv/Enhance%20Sunbird%20Ed's%20Data%20Pipeline%20to%20Operate%20on%20Sunbird%20Obsrv",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird RC",
@@ -879,30 +1191,37 @@ export const productList = [
     projectCount: 3,
     techStack: ["Angular", "Typescript", "Postman", "API", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Sahaj",
+    "domain": "Others",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Admin Portal to Build Registry and Credentialing Platform",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-RC/community/issues/666",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20RC/Admin%20Portal%20to%20Build%20Registry%20and%20Credentialing%20Platform",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Starter Pack for Location Master",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-RC/community/issues/679",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20RC/Starter%20Pack%20Location%20Master",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Consent template manager",
+        "description": "",
+        "links": {
+          "github": "https://github.com/orgs/Sunbird-RC/discussions/680",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20RC/Credential%20Sharing%20Consent%20and%20Share%20Credentials",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird Saral",
@@ -911,30 +1230,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-Saral",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Tarento Technologies",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Saral- Layout and ROI generation",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Sunbird-Saral/Project-Saral/issues/377",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Saral/Saral-Layout%20and%20ROI%20generation",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Sunbird UCI",
@@ -943,30 +1251,46 @@ export const productList = [
     projectCount: 4,
     techStack: ["Java", "React", "Javascript", "Typescript", "Minio"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "SamagraX",
+    "domain": "Communication",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "Create dashboard for bot telemetry",
+        "description": "",
+        "links": {
+          "github": "https://github.com/samagra-comms/inbound/issues/42",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20UCI/Telemetry%20Dashboard",
+          "contributorExperience": ""
+        }
       },
       {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
+        "name": "POC GraalVM for UCI BE services",
+        "description": "",
+        "links": {
+          "github": "https://github.com/samagra-comms/uci-apis/issues/65",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20UCI/POC%20GraalVM%20for%20UCI%20BE%20services",
+          "contributorExperience": ""
+        }
       },
-    ],
+      {
+        "name": "Theming & Configuration",
+        "description": "",
+        "links": {
+          "github": "https://github.com/samagra-comms/uci-web-channel/issues/107",
+          "documentation": "",
+          "contributorExperience": ""
+        }
+      },
+      {
+        "name": "Refactoring Components",
+        "description": "",
+        "links": {
+          "github": "https://github.com/samagra-comms/uci-web-channel/issues/104",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20UCI/Refactoring%20Components",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Template creation portal",
@@ -976,30 +1300,19 @@ export const productList = [
     techStack: ["Angular", "Ionic", "MongoDB", "NodeJs", "HTML", "CSS"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/Template-Creation-Portal",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Shikshalokam",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "UI for generating Excel templates",
+        "description": "",
+        "links": {
+          "github": "https://github.com/ELEVATE-Project/template-validation-portal/issues/30",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Template%20creation%20portal/Template%20creation%20portal/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Text2SQL",
@@ -1008,30 +1321,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Text2SQL",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "SamagraX",
+    "domain": "Others",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Performance, Cost Optimization, Benchmarking",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/Text2SQL/issues/28",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Text2SQL/Performance,%20Cost%20Optimization,%20Benchmarking",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "TrustBot & POSHPal",
@@ -1041,30 +1343,19 @@ export const productList = [
     techStack: ["Angular8"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/TrustBot-and-POSHpal",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Trustin",
+    "domain": "Communication",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "TrustBot and POSHpal",
+        "description": "",
+        "links": {
+          "github": "https://github.com/nachiketa07/C4GT2023-project-setup/issues/2",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/TrustBot%20and%20POSHpal/TrustBot%20and%20POSHpal",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "TrustIn",
@@ -1073,30 +1364,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "SpringBoot", "Angular8"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/TrustIn",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Trustin",
+    "domain": "Service Delivery",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "TrustIn",
+        "description": "",
+        "links": {
+          "github": "https://github.com/nachiketa07/C4GT2023-project-setup/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/TrustIn/Multilingual%20TrustIn/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Unnati",
@@ -1105,30 +1385,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Angular", "Ionic", "MongoDB", "NodeJs", "HTML", "CSS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Unnati",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Shikshalokam",
+    "domain": "Education & Skilling",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Implement Unnati standalone micro PWA",
+        "description": "",
+        "links": {
+          "github": "https://github.com/ELEVATE-Project/project-frontend/issues/1",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Unnati/Unnati%20PWA",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "WarpSQL",
@@ -1137,30 +1406,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["Dockerfile", "Shell Scripting", "Linux", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/WarpSQL",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "Independent",
+    "domain": "Developer tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Plugins, Disaster Recovery, Benchmarking",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/WarpSQL/issues/23",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/WarpSQL/Plugins-Disaster-Recovery-Benchmarking",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "Workflow",
@@ -1169,30 +1427,19 @@ export const productList = [
     projectCount: 1,
     techStack: ["React", "Redux", "XState", "Local Forge"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Workflow",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "SamagraX",
+    "domain": "Developer tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Using XState as a orchestrator for UI",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/workflow/issues/48",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Workflow/Workflow/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
   {
     title: "YAUS",
@@ -1201,103 +1448,21 @@ export const productList = [
     projectCount: 1,
     techStack: ["Typescrcipt", "Nx", "ReactJS", "NestJS", "Hasura"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Yaus",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
+    "organization": "SamagraX",
+    "domain": "Developer tools",
+    "projects": [
       {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
+        "name": "Frontend and Deep Linking",
+        "description": "",
+        "links": {
+          "github": "https://github.com/Samagra-Development/yaus/issues/52",
+          "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Yaus/Frontend%20And%20Deep%20Linking/",
+          "contributorExperience": ""
+        }
+      }
+    ]
   },
-  {
-    title: "Avni",
-    description:
-      "Avni is an open-source platform for community service provisioning. Using Avni, organisations can easily create applications for their fieldwork programs for managing their interactions with community members, recording and reviewing community members data. ",
-    projectCount: 1,
-    techStack: ["Java", "React"],
-    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Avni",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
-      {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
-  },
-  {
-    title: "Bahmini",
-    description:
-      "Bahmni is an easy-to-use, complete, open-source Hospital Information System (HIS) and Electronic Medical Record (EMR) that aims to meet the needs of low-resource environments by leveraging a tapestry of existing open-source products. ",
-    projectCount: 4,
-    techStack: [
-      "Flutter",
-      "Dart",
-      "Material UI",
-      "Java",
-      "MySQL",
-      "Docker",
-      "ReactJS",
-    ],
-    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Bahmni",
-    organization: "",
-    domain: "Healthcare",
-    projects: [
-      {
-        id: 1,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-      {
-        id: 2,
-        name: "",
-        description: "",
-        links: {
-          github: "",
-          documentation: "",
-          contributorExperience: "",
-        },
-      },
-    ],
-  },
+
 ];
 
 export const techStack = [
@@ -1320,9 +1485,43 @@ export const techStack = [
   "ReactNative",
 ];
 
-export const organization = [];
+export const organization = [
+  "National Health Authority",
+  "Independent",
+  "SamagraX",
+  "Samanvay Research & Development Foundation",
+  "Thoughtworks",
+  "FIDE",
+  "Shikshalokam",
+  "EGoverments Foundation",
+  "Dhiway",
+  "Tibil Solutions",
+  "Tech4Dev",
+  "Ministry of Electronics and Information Technology",
+  "Digital Green",
+  "Swasth Alliance",
+  "MeitY",
+  "Avanti Fellows",
+  "Reap Benefit",
+  "Tarento Technologies",
+  "Tekdi Technologies",
+  "EkStep",
+  "Sanketika",
+  "Sahaj",
+  "Trustin"
+];
 
-export const category = [];
+export const category = [
+  "Healthcare",
+  "Developer Tools",
+  "Data Collection and Mgmt",
+  "E-commerce",
+  "Education & Skilling",
+  "Service Delivery",
+  "Agriculture",
+  "Communication",
+  "Others"
+];
 export const communityDescription =
   "The Community Program is focused on building a long-term open-source community by enabling DPG organizations to list their DPG-related problem statements and access a wide community of contributors who can solve these problem statements. The goal is to build a community of 25000+ contributors in the next 3 years.";
 export const communityContent = [
