@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { githubIcon } from "@/component/assets/images";
-import { AiOutlineFileText, AiOutlineYoutube } from "react-icons/ai";
+import { AiFillFileText, AiFillYoutube } from "react-icons/ai";
 
 interface ProjectProps {
   projects: {
@@ -17,16 +17,16 @@ interface ProjectProps {
 
 export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
   return (
-    <div>
+    <div className='overflow-y-scroll max-h-[80vh] max-w-fit'>
       {projects.map((project, index) => {
         return (
           <div className="border-b mb-8" key={project.id}>
-            <h1 className="text-xl mb-2 font-medium">{project.name}</h1>
+            <h1 className="text-xl mb-2 font-medium"><span className="font-bold">Project Name:</span> {project.name}</h1>
             <h6 className="text-gray-500">{project.description}</h6>
-            <div className="flex flex-col sm:flex-row gap-2">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href={project.links.github}
-                className="w-full sm:w-1/2 md:w-3/4 text-slate-100 font-regular hover:text-gray-200 flex items-center justify-center mb-2 bg-gray-800 hover:bg-gray-700 py-2 px-3 rounded-lg shadow transition duration-300"
+                className="w-auto sm:w-1/2 md:w-3/4 text-slate-100 font-demi hover:text-gray-200 flex items-center justify-center mb-2 bg-blue-900 hover:bg-blue-700 py-2 px-3 rounded-lg shadow transition duration-300 "
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
@@ -42,22 +42,22 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
               </a>
               <a
                 href={project.links.documentation}
-                className="w-full sm:w-1/2 md:w-3/4 text-slate-100 font-regular hover:text-gray-200 flex items-center justify-center mb-2 bg-gray-800 hover:bg-gray-700 py-2 px-3 rounded-lg shadow transition duration-300"
+                className="w-auto sm:w-1/2 md:w-3/4 text-slate-100 font-demi hover:text-gray-200 flex items-center justify-center mb-2 bg-blue-900 hover:bg-blue-700 py-2 px-3 rounded-lg shadow transition duration-300 "
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
-                <AiOutlineFileText size="1.5em" className="mr-2" />
+                <AiFillFileText size="1.5em" className="mr-2" />
                 Documentation
               </a>
               <a
                 href={project.links.contributorExperience}
-                className="w-full sm:w-1/2 md:w-3/4 text-slate-100 font-regular hover:text-gray-200 flex items-center justify-center mb-2 bg-gray-800 hover:bg-gray-700 py-2 px-3 rounded-lg shadow transition duration-300"
+                className="w-auto sm:w-1/2 md:w-3/4 text-slate-100 font-demi hover:text-gray-200 flex items-center justify-center mb-2 bg-blue-900 hover:bg-blue-700 py-2 px-3 rounded-lg shadow transition duration-300 "
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
-                <AiOutlineYoutube size="1.5em" className="mr-2" />
+                <AiFillYoutube size="1.5em" className="mr-2" />
                 Contributor Experience
               </a>
             </div>

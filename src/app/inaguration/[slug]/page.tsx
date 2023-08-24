@@ -5,6 +5,7 @@ import jwt_decode from "jwt-decode";
 import { useEffect, useState } from "react";
 import { verifyToken } from "@/component/api";
 import useTimer from "@/component/hooks/useTimer";
+import swal from "sweetalert";
 
 const Innaguration = () => {
   const [name, setName] = useState();
@@ -19,7 +20,11 @@ const Innaguration = () => {
   const router = useRouter();
   const handleClick = async () => {
     const token = await verifyToken(params?.slug);
-    console.log(token);
+    navigator.clipboard.writeText(JSON.stringify(token?.data?.cred));
+    swal({
+      icon: "success",
+      text: "Your credentials have been copied to clipboard",
+    });
     router.push(`/inaguration/${params?.slug}/processing`);
   };
   return (
@@ -33,7 +38,8 @@ const Innaguration = () => {
           Rahul Kulkarni claims Code for GovTech 2023 to be launched.
         </h2>
         <div className="timer text-center mt-3 text-[35px] text-[#294294] font-bold">
-          {hours > 0 ? hours : "00"} hr : {minutes > 0 ? minutes : "00"} min : {seconds > 0 ? seconds : "00"} sec
+          {hours > 0 ? hours : "00"} hr : {minutes > 0 ? minutes : "00"} min :{" "}
+          {seconds > 0 ? seconds : "00"} sec
         </div>
         <button
           className="mt-4 px-5 py-2 bg-[#f46827] text-white font-bold rounded disabled:opacity-50"

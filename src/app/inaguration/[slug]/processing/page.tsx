@@ -11,7 +11,7 @@ const Processing = () => {
   useEffect(() => {
     const getProg = async () => {
       const res = await getProgress(params?.slug);
-      console.log(res);
+      console.log("---", res);
       // @ts-ignore
       setData(() => res?.data?.done);
       // @ts-ignore
