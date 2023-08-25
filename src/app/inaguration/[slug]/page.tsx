@@ -35,7 +35,7 @@ const Innaguration = () => {
           Welcome {name}
         </h1>
         <h2 className="text-center mt-2 text-[25px] text-[#294294]">
-          Rahul Kulkarni claims Code for GovTech 2023 to be launched.
+          {/* Rahul Kulkarni claims Code for GovTech 2023 to be launched. */}
         </h2>
         <div className="timer text-center mt-3 text-[35px] text-[#294294] font-bold">
           {hours > 0 ? hours : "00"} hr : {minutes > 0 ? minutes : "00"} min :{" "}
