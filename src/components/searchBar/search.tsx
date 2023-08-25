@@ -186,6 +186,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             {tech}
           </button>
         ))} */}
+        
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px] flex items-center">
