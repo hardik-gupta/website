@@ -85,4 +85,3 @@ If you encounter any issues while setting up or using the Code4GovTech website, 
 For more information about the Code4GovTech organization and the website project, you can visit the following resources:
 
 - [Code4GovTech GitHub Repository](https://github.com/Code4GovTech)
-  
