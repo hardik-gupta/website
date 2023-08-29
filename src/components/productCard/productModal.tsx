@@ -22,7 +22,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
         return (
           <div className="border-b mb-4 pb-3" key={project.id}>
             <h1 className="text-xl mb-2 font-medium">
-              <span className="font-bold">Project Name:</span> {project.name}
+              <span className="font-bold text-black">Project Name:</span> {project.name}
             </h1>
             <h6 className="text-gray-500">{project.description}</h6>
             <div className="flex flex-col sm:flex-row gap-4">

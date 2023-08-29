@@ -419,7 +419,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         <div className="search-section flex flex-col space-y-2  md:space-y-0 md:flex-row md:space-x-1  md:items-center  w-full md:w-5/12">
           <input
             type="text"
-            className="w-full  shadow-lg py-2.5 px-3  border border-gray-700 rounded-lg focus:outline-0 focus:ring-2 focus:ring-blue-500"
+            className="w-full shadow-lg py-2.5 px-3  border border-gray-700 rounded-lg focus:outline-0 focus:ring-2 focus:ring-blue-500 text-black"
             placeholder="Search by title, tech stack, or project count"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
