@@ -561,7 +561,7 @@ export const productList = [
     projectCount: 5,
     techStack: ["Java", "Node", "Javascript", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Diksha",
-    organization: "Ministry of Electronics and Information Technology\n",
+    organization: "Ministry of Electronics and Information Technology",
     "domain": "Education & Skilling",
     "projects": [
       {
