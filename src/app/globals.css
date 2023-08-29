@@ -102,4 +102,7 @@ body {
   .logo-container {
     display: none;
   }
+  /* .width-modal {
+    width: 90vw !important;
+  } */
 }

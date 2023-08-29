@@ -17,7 +17,7 @@ interface ProjectProps {
 
 export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
   return (
-    <div className="overflow-y-scroll max-h-[80vh] max-w-fit">
+    <div className="overflow-y-scroll max-h-[80vh] w-full">
       {projects.map((project, index) => {
         return (
           <div className="border-b mb-4 pb-3" key={project.id}>
@@ -31,7 +31,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   <img
                     src="/githubLogo.png"
                     alt="GitHub Logo"
-                    className="max-w-[100px]"
+                    className="max-w-[180px]"
                   />
                 </div>
                 <a
@@ -42,7 +42,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   style={{ textDecoration: "none" }}
                 >
                   <Image
-                    className="mr-2"
+                    className="mr-2 block sm:hidden"
                     width={20}
                     height={20}
                     src={githubIcon}
@@ -67,7 +67,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  <AiFillFileText size="1.5em" className="mr-2" />
+                  <AiFillFileText size="1.5em" className="mr-2 block sm:hidden" />
                   <span className="whitespace-nowrap">Documentation</span>
                 </a>
               </div>
@@ -89,7 +89,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  <AiFillYoutube size="1.5em" className="mr-2" />
+                  <AiFillYoutube size="1.5em" className="mr-2 block sm:hidden" />
                   <span className="whitespace-nowrap">
                     Contributor Experience
                   </span>

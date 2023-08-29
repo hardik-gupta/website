@@ -227,16 +227,16 @@ export const SearchBar: React.FC<SearchBarProps> = ({
               <DropdownMenuItem
                 key={org}
                 onClick={() => handleOrgFilter(org)}
-                className={`mb-1 rounded-md flex items-center justify-center${
+                className={`mb-1 rounded-md flex items-center justify-center ${
                   selectedOrgList.includes(org)
                     ? "bg-blue-500 text-white"
                     : "bg-white text-gray-800"
                 }`}
               >
                 {selectedOrgList.includes(org) ? (
-                  <AiFillCheckSquare size="24px" />
+                  <AiFillCheckSquare size="1.5em" />
                 ) : (
-                  <BsSquare size="24px" />
+                  <BsSquare size="1.5em" />
                 )}
                 &nbsp;&nbsp;
                 <p className="w-[200px] m-0">{org}</p>
