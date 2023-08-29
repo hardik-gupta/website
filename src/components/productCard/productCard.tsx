@@ -86,7 +86,7 @@ export const ProductCard: React.FC<ProductProps> = ({ product }) => {
           </button>
         </DialogTrigger>
 
-        <DialogContent className="w-[90vw] lg:max-w-fit bg-white">
+        <DialogContent className="w-[90vw] xl:max-w-fit bg-white">
           <ProductModal projects={product.projects} />
         </DialogContent>
       </Dialog>

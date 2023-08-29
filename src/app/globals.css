@@ -90,3 +90,16 @@ h2 {
 body {
   font-family: Mulish-regular !important;
 }
+
+.logo-container{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {  
+  .logo-container {
+    display: none;
+  }
+}
