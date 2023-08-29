@@ -31,7 +31,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   <img
                     src="/githubLogo.png"
                     alt="GitHub Logo"
-                    className="max-w-[180px]"
+                    className="max-w-[130px]"
                   />
                 </div>
                 <a
@@ -80,6 +80,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     height={130}
+                    width={200}
                   ></iframe>
                 </div>
                 <a

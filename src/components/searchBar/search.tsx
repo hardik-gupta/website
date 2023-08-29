@@ -9,7 +9,7 @@ import {
 } from "@/component/components/ui/dropdown-menu";
 
 import { AiFillCheckSquare } from "react-icons/ai";
-import { BsSquare } from "react-icons/bs";
+import { BsSquare, BsChevronDown } from "react-icons/bs";
 
 interface SearchBarProps {
   productList: {
@@ -41,7 +41,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   const [searchText, setSearchText] = useState("");
 
   const [selectedTechStack, setSelectedTechStack] = useState<string[]>([]);
-  const [selectedOrganizations, setSelectedOrganizations] = useState<string[]>([]);
+  const [selectedOrganizations, setSelectedOrganizations] = useState<string[]>(
+    []
+  );
   const [selectedCategory, setSelectedCategory] = useState<string[]>([]);
 
   const [appliedFilters, setAppliedFilters] = useState<string[]>([]);
@@ -161,8 +163,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   };
 
   useEffect(() => {
-    filterProducts()
-  }, [selectedTechStack,selectedOrganizations, selectedCategory]);
+    filterProducts();
+  }, [selectedTechStack, selectedOrganizations, selectedCategory]);
 
   const filterProducts = () => {
     let filteredProducts = productList.filter((product) => {
@@ -172,22 +174,24 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         );
       });
     });
-      
-      if(selectedOrganizations.length !== 0){
-        filteredProducts = filteredProducts.filter((product)=>{
-        return selectedOrganizations.some((item)=>{
-          return product.organization.toLowerCase() === item.toLowerCase()
-        })
-      })}
 
-      if(selectedCategory.length !== 0){
-        filteredProducts = filteredProducts.filter((product)=>{
-        return selectedCategory.some((item)=>{
-          return product.domain.toLowerCase() === item.toLowerCase()
-        })
-      })}
+    if (selectedOrganizations.length !== 0) {
+      filteredProducts = filteredProducts.filter((product) => {
+        return selectedOrganizations.some((item) => {
+          return product.organization.toLowerCase() === item.toLowerCase();
+        });
+      });
+    }
 
-    onSearch(filteredProducts)
+    if (selectedCategory.length !== 0) {
+      filteredProducts = filteredProducts.filter((product) => {
+        return selectedCategory.some((item) => {
+          return product.domain.toLowerCase() === item.toLowerCase();
+        });
+      });
+    }
+
+    onSearch(filteredProducts);
   };
 
   const filterByTechStack = (techStack: string[]) => {
@@ -298,19 +302,16 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px]">
-                Category
+              <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px] flex items-center">
+                Category &nbsp;
+                <BsChevronDown size="1em" />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-auto h-52 overflow-y-scroll bg-white text-gray-800">
               {category.map((cat) => (
                 <DropdownMenuItem
                   onClick={() =>
-                    handleFilter(
-                      cat,
-                      selectedCategory,
-                      setSelectedCategory
-                    )
+                    handleFilter(cat, selectedCategory, setSelectedCategory)
                   }
                   key={cat}
                   className={`mb-1 rounded-md ${
@@ -332,8 +333,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
-                Organisation
+              <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
+                Organisation &nbsp;
+                <BsChevronDown size="1em" />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-auto h-52 overflow-y-scroll bg-white text-gray-800 p-1">
@@ -366,8 +368,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
-                Tech Stack
+              <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
+                Tech Stack &nbsp;
+                <BsChevronDown size="1em" />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="h-52 overflow-y-scroll bg-white text-gray-800">
@@ -375,11 +378,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                 <DropdownMenuItem
                   key={index}
                   onClick={() =>
-                    handleFilter(
-                      tech, 
-                      selectedTechStack, 
-                      setSelectedTechStack
-                    )
+                    handleFilter(tech, selectedTechStack, setSelectedTechStack)
                   }
                   className={`mb-1 rounded-md ${
                     selectedTechStack.includes(tech)
@@ -446,11 +445,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             className="w-auto px-2 py-1 text-sm rounded-lg bg-blue-500 text-white"
             onClick={() => {
               if (techStack.includes(filter)) {
-                handleFilter(
-                  filter,
-                  selectedTechStack,
-                  setSelectedTechStack
-                );
+                handleFilter(filter, selectedTechStack, setSelectedTechStack);
               } else if (organization.includes(filter)) {
                 handleFilter(
                   filter,
@@ -458,11 +453,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                   setSelectedOrganizations
                 );
               } else {
-                handleFilter(
-                  filter,
-                  selectedCategory,
-                  setSelectedCategory
-                );
+                handleFilter(filter, selectedCategory, setSelectedCategory);
               }
             }}
           >

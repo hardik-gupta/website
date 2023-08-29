@@ -59,7 +59,7 @@ export const ProductCard: React.FC<ProductProps> = ({ product }) => {
       <Dialog>
         <DialogTrigger asChild>
           <button
-            className="w-5/6 sm:w-1/2 md:w-3/4 text-slate-100 font-regular lg:hover:text-gray-200 flex items-center mt-4 bg-gray-800 lg:hover:bg-gray-700 py-2 px-3 rounded-lg shadow transition duration-300 text-black"
+            className="w-5/6 sm:w-1/2 md:w-3/4 text-slate-100 font-regular lg:hover:text-gray-200 flex items-center mt-4 bg-gray-800 lg:hover:bg-gray-700 py-2 px-3 rounded-lg shadow transition duration-300"
             style={{ textDecoration: "none" }}
           >
             Explore Projects
