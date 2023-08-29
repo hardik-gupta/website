@@ -399,7 +399,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
 
           {appliedFilters.length !== 0 ? (
             <button
-              className="w-auto px-3 py-1 mt-2 text-sm rounded-full bg-red-500 text-white"
+              className="w-auto px-3 py-1 mt-2 text-sm rounded-full bg-rose-900 text-white"
               onClick={() => {
                 setAppliedFilters([]),
                   setSelectedCategory([]),

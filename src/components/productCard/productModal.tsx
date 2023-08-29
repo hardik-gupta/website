@@ -21,7 +21,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
       {projects.map((project, index) => {
         return (
           <div className="border-b mb-4 pb-3" key={project.id}>
-            <h1 className="text-xl mb-2 font-medium">
+            <h1 className="text-xl mb-2 font-medium text-black">
               <span className="font-bold text-black">Project Name:</span> {project.name}
             </h1>
             <h6 className="text-gray-500">{project.description}</h6>
@@ -48,7 +48,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                     src={githubIcon}
                     alt="github-icon"
                   />
-                  <span className="whitespace-nowrap">Github Ticket</span>
+                  <span className="whitespace-nowrap">Issue Ticket</span>
                 </a>
               </div>
               <div className="flex items-center flex-col">

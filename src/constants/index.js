@@ -122,7 +122,7 @@ export const productList = [
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Avni",
-    organization: "Samanvay Research & Development Foundation",
+    organization: "Samanvay Foundation",
     "domain": "Data Collection and Mgmt",
     "projects": [
       {
@@ -392,7 +392,7 @@ export const productList = [
     description:
       "CORD is a global public utility and trust framework that addresses trust gaps, manages transactions and exchanges value at scale. It simplifies the management of information, making it easier for owners to control; agencies and businesses to discover, access & use data.",
     projectCount: 1,
-    techStack: ["REST APIs", "Rust", "Typescript"],
+    techStack: ["REST API", "Rust", "Typescript"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/cord-network",
     organization: "Dhiway",
     "domain": "Others",
@@ -460,7 +460,7 @@ export const productList = [
     description:
       "The DDP is a data platform that enables an NGO to set up one-time as well as scheduled imports of their data from multiple sources into a central warehouse, where it can be cleaned, validated and transformed into formats ready for reporting",
     projectCount: 3,
-    techStack: ["Django", "Next.js", "Airbyte", "Java", "Python"],
+    techStack: ["Django", "NextJs", "Airbyte", "Java", "Python"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/DevDataPlatform",
     organization: "Tech4Dev",
     "domain": "Data Collection and Mgmt",
@@ -490,7 +490,7 @@ export const productList = [
     description:
       "Samagra DevOps standardizes and eases the process of deploying projects on servers. It is a modular and lightly coupled architecture that can be used both on public cloud providers and restricted environments of governmentservices without the internet.",
     projectCount: 1,
-    techStack: ["Python", "JS", "Jenkins", "Docker", "Ansible"],
+    techStack: ["Python", "Javascript", "Jenkins", "Docker", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/DevOps-Pipline",
     organization: "SamagraX",
     "domain": "Developer tools",
@@ -1070,8 +1070,7 @@ export const productList = [
       "GraphDB",
       "Neo 4J",
       "Cypher",
-      "Janus",
-      "AngularJS",
+      "Angular",
     ],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Knowlg",
     "organization": "Sanketika",
@@ -1340,7 +1339,7 @@ export const productList = [
     description:
       "TrustBot and POSHpal are WhatsApp (public) and product (private) based chatbots that enable survivors to access information about domestic violence and workplace sexual harassment, so they can make informed decisions and access legal support.",
     projectCount: 1,
-    techStack: ["Angular8"],
+    techStack: ["Angular"],
     githubLink:
       "https://github.com/Code4GovTech/C4GT23/wiki/TrustBot-and-POSHpal",
     "organization": "Trustin",
@@ -1362,7 +1361,7 @@ export const productList = [
     description:
       "Trustin is a platform that enables companies to create a safe workplace by implementing fair and effective redressal of workplace misconduct. It encompasses all labour, civil, and service laws and integrates unbiased support structures for employees to educate, escalate, and advocate for themselves. ",
     projectCount: 1,
-    techStack: ["Java", "SpringBoot", "Angular8"],
+    techStack: ["Java", "SpringBoot", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/TrustIn",
     "organization": "Trustin",
     "domain": "Service Delivery",
@@ -1466,22 +1465,36 @@ export const productList = [
 ];
 
 export const techStack = [
+  "Airbyte",
+  "Angular",
+  "CSS",
+  "Cypress",
+  "Dart",
+  "Data Validation",
   "Django",
   "Docker",
   "Flutter",
+  "Hasura",
+  "HTML",
   "Java",
   "Javascript",
   "Kotlin",
+  "Material UI",
   "MongoDB",
   "MySQL",
   "NLP",
-  "NodeJS",
   "NestJS",
+  "NextJS",
+  "NodeJS",
+  "NoSQL",
   "Python",
   "ReactJS",
   "ReactNative",
+  "Rest API",
   "Rust",
+  "Scala",
   "SpringBoot",
+  "Streamlit",
   "TypeScript",
 ];
 
@@ -1498,7 +1511,7 @@ export const organization = [
   "National Health Authority",
   "Reap Benefit",
   "SamagraX",
-  "Samanvay Research & Development Foundation",
+  "Samanvay Foundation",
   "Sahaj",
   "Sanketika",
   "Shikshalokam",
