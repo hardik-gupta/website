@@ -55,8 +55,8 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                 <div className="logo-container">
                   <img
                     src="/certification.png"
-                    alt="GitHub Logo"
-                    className="max-w-[100px]"
+                    alt="Certificate Logo"
+                    className="max-w-[80px]"
                   />
                 </div>
 

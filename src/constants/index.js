@@ -6,7 +6,7 @@ export const productList = [
     projectCount: 5,
     techStack: ["Java", "SpringBoot", "NoSQL", "Javascript", "JSP ", "HTML"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/ABDM",
-    organization: "National Health Authority ",
+    organization: "National Health Authority",
     domain: "Healthcare",
     projects: [
       {

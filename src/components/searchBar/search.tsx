@@ -176,11 +176,14 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     });
 
     if (selectedOrganizations.length !== 0) {
+      console.log(selectedOrganizations);
+      console.log(filteredProducts);
       filteredProducts = filteredProducts.filter((product) => {
         return selectedOrganizations.some((item) => {
-          return product.organization.toLowerCase() === item.toLowerCase();
+          return product?.organization?.toLowerCase() == item?.toLowerCase();
         });
       });
+      console.log(filteredProducts);
     }
 
     if (selectedCategory.length !== 0) {
