@@ -34,7 +34,7 @@ export const ProductList: React.FC<ProductListProps> = ({ productList }) => {
       </div>
 
       {searchResult.length === 0 ? (
-        <p className="text-center text-gray-600 mt-8">No Projects found</p>
+        <p className="text-center my-8 bg-red-200 text-red-900 font-demi text-[20px] py-3 rounded-lg">No Projects found</p>
       ) : (
         <div className="grid grid-cols-1 auto-rows-auto md:grid-cols-2 lg:grid-cols-3 gap-5">
           {searchResult.map((product, index) => (
