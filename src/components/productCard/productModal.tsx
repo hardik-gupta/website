@@ -21,7 +21,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
       {projects.map((project, index) => {
         return (
           <div className="border-b mb-4 pb-3" key={project.id}>
-            <h1 className="text-xl mb-2 font-medium text-black">
+            <h1 className="text-xl mb-2 font-medium text-slate-600">
               <span className="font-bold text-black">Project Name:</span> {project.name}
             </h1>
             <h6 className="text-gray-500">{project.description}</h6>

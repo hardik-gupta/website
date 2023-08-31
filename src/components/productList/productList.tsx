@@ -26,8 +26,8 @@ export const ProductList: React.FC<ProductListProps> = ({ productList }) => {
 
   return (
     <div className="mt-14 mx-auto w-5/6">
-      <h1 className="font-bold text-3xl text-center text-slate-800 mb-8 font-display">
-        C4GT 2023 Projects
+      <h1 className="font-bold text-3xl text-slate-800 mb-8 font-display">
+      Product & Projects
       </h1>
       <div className="">
         <SearchBar productList={productList} onSearch={handleSearch} />
