@@ -19,7 +19,7 @@ const headerProps = {
 const C4GT23 = () => {
   return (
     <div className={`c4gt23-container  bg-white`}>
-      <Header content={headerProps}/>
+      {/* <Header content={headerProps}/> */}
       <ProductList productList={productList} />
     </div>
   );
