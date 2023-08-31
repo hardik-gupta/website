@@ -7,8 +7,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xss:"300px",
-      xs:"320px",
+      xss: "300px",
+      xs: "320px",
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -21,6 +21,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+
+
   },
-  
+  plugins: [require("daisyui")],
 }
