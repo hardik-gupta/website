@@ -303,24 +303,141 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             </button>
           ))} */}
 
-          <div className="dropdown">
-            <label tabIndex={0} className="btn m-1">
-              Click
+          <div className="dropdown capitalize w-auto px-3 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
+            <label
+              tabIndex={0}
+              className="m-1 capitalize w-auto px-1 pt-1 pb-2 mt-2 mr-2.5 rounded-full font-demi text-[18px] flex items-center"
+            >
+              <div>Category</div> &nbsp;&nbsp;&nbsp;
+              <div>
+                <BsChevronDown size="1em" />
+              </div>
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+              className="dropdown-content z-[1] py-2 shadow bg-base-100 rounded-box pl-3"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
+              <div className="max-h-[200px] overflow-y-scroll w-[250px] font-regular text-[15px]">
+                {category.map((cat) => (
+                  <li
+                    onClick={() =>
+                      handleFilter(cat, selectedCategory, setSelectedCategory)
+                    }
+                    key={cat}
+                    className={`mb-1 py-2 px-2 rounded-md flex items-center cursor-pointer ${
+                      selectedCategory.includes(cat)
+                        ? "bg-blue-500 text-white"
+                        : "bg-white text-gray-800"
+                    }`}
+                  >
+                    <div>
+                      {selectedCategory.includes(cat) ? (
+                        <AiFillCheckSquare size="1.5em" />
+                      ) : (
+                        <BsSquare size="1.5em" />
+                      )}
+                    </div>
+                    &nbsp;&nbsp;
+                    <div>{cat}</div>
+                  </li>
+                ))}
+              </div>
             </ul>
           </div>
 
-          <DropdownMenu>
+          <div className="dropdown capitalize w-auto px-3 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
+            <label
+              tabIndex={0}
+              className="m-1 capitalize w-auto px-1 pt-1 pb-2 mt-2 mr-2.5 rounded-full font-demi text-[18px] flex items-center"
+            >
+              <div>Organisation</div> &nbsp;&nbsp;&nbsp;
+              <div>
+                <BsChevronDown size="1em" />
+              </div>
+            </label>
+            <ul
+              tabIndex={0}
+              className="dropdown-content z-[1] py-2 shadow bg-base-100 rounded-box pl-3"
+            >
+              <div className="max-h-[200px] overflow-y-scroll w-[250px] font-regular text-[15px]">
+                {organization.map((org) => (
+                  <li
+                    onClick={() =>
+                      handleFilter(
+                        org,
+                        selectedOrganizations,
+                        setSelectedOrganizations
+                      )
+                    }
+                    key={org}
+                    className={`mb-1 py-2 px-2 rounded-md flex items-center cursor-pointer ${
+                      selectedOrganizations.includes(org)
+                        ? "bg-blue-500 text-white"
+                        : "bg-white text-gray-800"
+                    }`}
+                  >
+                    <div>
+                      {selectedOrganizations.includes(org) ? (
+                        <AiFillCheckSquare size="1.5em" />
+                      ) : (
+                        <BsSquare size="1.5em" />
+                      )}
+                    </div>
+                    &nbsp;&nbsp;
+                    <div>{org}</div>
+                  </li>
+                ))}
+              </div>
+            </ul>
+          </div>
+
+          <div className="dropdown capitalize w-auto px-3 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px]">
+            <label
+              tabIndex={0}
+              className="m-1 capitalize w-auto px-1 pt-1 pb-2 mt-2 mr-2.5 rounded-full font-demi text-[18px] flex items-center"
+            >
+              <div>Tech Stack</div> &nbsp;&nbsp;&nbsp;
+              <div>
+                <BsChevronDown size="1em" />
+              </div>
+            </label>
+            <ul
+              tabIndex={0}
+              className="dropdown-content z-[1] py-2 shadow bg-base-100 rounded-box pl-3"
+            >
+              <div className="max-h-[200px] overflow-y-scroll w-[250px] font-regular text-[15px]">
+                {techStack.map((tech, index) => (
+                  <li
+                    onClick={() =>
+                      handleFilter(
+                        tech,
+                        selectedTechStack,
+                        setSelectedTechStack
+                      )
+                    }
+                    key={tech}
+                    className={`mb-1 py-2 px-2 rounded-md flex items-center cursor-pointer ${
+                      selectedTechStack.includes(tech)
+                        ? "bg-blue-500 text-white"
+                        : "bg-white text-gray-800"
+                    }`}
+                  >
+                    <div>
+                      {selectedTechStack.includes(tech) ? (
+                        <AiFillCheckSquare size="1.5em" />
+                      ) : (
+                        <BsSquare size="1.5em" />
+                      )}
+                    </div>
+                    &nbsp;&nbsp;
+                    <div>{tech}</div>
+                  </li>
+                ))}
+              </div>
+            </ul>
+          </div>
+
+          {/* <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 text-[18px] flex items-center">
                 Category &nbsp;
@@ -349,9 +466,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
 
-          <DropdownMenu>
+          {/* <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
                 Organisation &nbsp;
@@ -384,9 +501,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
 
-          <DropdownMenu>
+          {/* <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="w-auto px-3 py-2 mt-2 mr-2.5 rounded-full bg-gray-200 text-gray-800 font-demi text-[18px] flex items-center">
                 Tech Stack &nbsp;
@@ -415,7 +532,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
 
           {appliedFilters.length !== 0 ? (
             <button
