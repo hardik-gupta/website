@@ -1,6 +1,10 @@
 import Image from "next/image";
 import { githubIcon } from "@/component/assets/images";
-import { AiFillFileText, AiFillYoutube } from "react-icons/ai";
+import {
+  AiFillFileText,
+  AiFillYoutube,
+  AiOutlineInfoCircle,
+} from "react-icons/ai";
 
 interface ProjectProps {
   projects: {
@@ -22,7 +26,8 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
         return (
           <div className="border-b mb-4 pb-3" key={project.id}>
             <h1 className="text-xl mb-2 font-medium text-slate-600">
-              <span className="font-bold text-black">Project Name:</span> {project.name}
+              <span className="font-bold text-black">Project Name:</span>{" "}
+              {project.name}
             </h1>
             <h6 className="text-gray-500">{project.description}</h6>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -67,21 +72,29 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  <AiFillFileText size="1.5em" className="mr-2 block sm:hidden" />
+                  <AiFillFileText
+                    size="1.5em"
+                    className="mr-2 block sm:hidden"
+                  />
                   <span className="whitespace-nowrap">Documentation</span>
                 </a>
               </div>
               <div className="flex items-center flex-col">
                 <div className="logo-container">
-                  <iframe
+                  {/* <iframe
                     className={"sushasan-channel-trailer"}
-                    src="https://www.youtube.com/embed/evr-R7iC1VM/"
+                    // src="https://www.youtube.com/embed/evr-R7iC1VM/"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     height={130}
                     width={200}
-                  ></iframe>
+                  ></iframe> */}
+
+                  <div className="w-[200px] h-[130px] bg-gray-100 flex-col text-center font-medium flex justify-center items-center text-black">
+                    <AiOutlineInfoCircle size={"3rem"}/>
+                    <div>Video not available</div>
+                  </div>
                 </div>
                 <a
                   href={project.links.contributorExperience}
@@ -90,7 +103,10 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
-                  <AiFillYoutube size="1.5em" className="mr-2 block sm:hidden" />
+                  <AiFillYoutube
+                    size="1.5em"
+                    className="mr-2 block sm:hidden"
+                  />
                   <span className="whitespace-nowrap">
                     Contributor Experience
                   </span>
