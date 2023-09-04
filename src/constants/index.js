@@ -2,7 +2,7 @@ export const productList = [
   {
     title: "ABDM",
     description:
-      "The Ayushman Bharat Digital Mission (ABDM) aims to develop the backbone necessary to support the integrated digital health infrastructure of India. It will bridge the gap among different stakeholders of the Healthcare ecosystem through digital highways.",
+      "The Ayushman Bharat Digital Mission (ABDM) aims to create an open interoperable digital health ecosystem for the country. More than 430 Million citizens have ABHA numbers and 200K health facilities & healthcare professionals are registered under ABDM.",
     projectCount: 5,
     techStack: ["Java", "SpringBoot", "NoSQL", "Javascript", "JSP ", "HTML"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/ABDM",
@@ -64,7 +64,7 @@ export const productList = [
   {
     title: "AI Tools",
     description:
-      "AI Toolchain is a collection of tools for quickly building and deploying machine learning models for various use cases. It abstracts the dirty details of how a model works similar to Huggingface and gives a clean API that you can orchestrate at a BFF level.",
+      "AI Toolchain is a collection of tools for quickly building and deploying machine learning models which can enable powerful insights from data & content. One of the primary use-cases has been to build a chatbot providing personalised advisory to farmers in Odisha. ",
     projectCount: 4,
     techStack: [
       "Python",
@@ -118,7 +118,7 @@ export const productList = [
   {
     title: "Avni",
     description:
-      "Avni is an open-source platform for community service provisioning. Using Avni, organisations can easily create applications for their fieldwork programs for managing their interactions with community members, recording and reviewing community members data. ",
+      "Avni is an open-source community health worker platform that supports use cases such as service delivery, service facilitation and data collection. It is being leveraged by 40 organisations including NGOs, governement organisations and more.",
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Avni",
@@ -139,7 +139,7 @@ export const productList = [
   {
     title: "Bahmini",
     description:
-      "Bahmni is an easy-to-use, complete, open-source Hospital Information System (HIS) and Electronic Medical Record (EMR) that aims to meet the needs of low-resource environments by leveraging a tapestry of existing open-source products. ",
+      "Bahmni is an open-source Hospital Information System and Electronic Medical Record that aims to meet the needs of low resource environments.  There are currently 500+ known sites (healthcare providers) that have implemented Bahmni across 50+ countries.",
     projectCount: 4,
     techStack: [
       "Flutter",
@@ -195,7 +195,7 @@ export const productList = [
   {
     title: "BeckN",
     description:
-      "Beckn protocol is a set of open specifications aimed to create a common language, that is machine-readable and enables interoperability for economic transactions between disparate platforms of any size and form - be it a cab reservation, booking a stay, and many more.",
+      "Beckn protocol is a set of open specifications aimed to create a common language that is machine-readable and enables interoperability for economic transactions between disparate platforms.",
     projectCount: 13,
     techStack: [
       "Open API",
@@ -326,7 +326,7 @@ export const productList = [
   {
     title: "Care",
     description:
-      "CARE is a health resource management tool that links multiple players under one network and allows for more efficient resource management while also providing innovative digital solutions such as TeleICU to improve patient outcomes.",
+      "CARE is a capacity management and patient management system. It helps digitize patient records, streamline workflows for pandemic management, enabling TeleICU services in remote areas. It has been deployed across 200 hopsitals in India impacting lives of 6000+ patients.",
     projectCount: 5,
     techStack: [
       "ReactJS",
@@ -390,7 +390,7 @@ export const productList = [
   {
     title: "Cord Network",
     description:
-      "CORD is a global public utility and trust framework that addresses trust gaps, manages transactions and exchanges value at scale. It simplifies the management of information, making it easier for owners to control; agencies and businesses to discover, access & use data.",
+      "CORD is a global public utility and trust framework that simplifies the management of information, making it easier for owners to control; agencies and businesses to discover, access & use data. It is currently enabling 50K transactions per second. ",
     projectCount: 1,
     techStack: ["REST API", "Rust", "Typescript"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/cord-network",
@@ -411,7 +411,7 @@ export const productList = [
   {
     title: "CQube",
     description:
-      "cQube is a pre-packaged, configurable, and extendable DPG solution to enable observability and action towards an effective policy implementation in education and other sectors, involving stakeholders govt, society, and private sectors.",
+      "cQube is a configurable, and extendable DPG solution that streamlines data, enables data visualisation & nudges for stakeholders across govt, society, and private sectors. It has been adopted by 15 state's education department to enable data-based decision making.",
     projectCount: 3,
     techStack: [
       "Python",
@@ -458,7 +458,7 @@ export const productList = [
   {
     title: "DevDataPlatform",
     description:
-      "The DDP is a data platform that enables an NGO to set up one-time as well as scheduled imports of their data from multiple sources into a central warehouse, where it can be cleaned, validated and transformed into formats ready for reporting",
+      "The DDP is a data platform for the social sector. It currently enables 4 NGOs to import 25000+ records from various data sources into their warehouses on a daily basis. It consists of open source building blocks to tackle data ingestion, storage, and visualisation.",
     projectCount: 3,
     techStack: ["Django", "NextJs", "Airbyte", "Java", "Python"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/DevDataPlatform",
@@ -488,7 +488,7 @@ export const productList = [
   {
     title: "DevOps Pipeline",
     description:
-      "Samagra DevOps standardizes and eases the process of deploying projects on servers. It is a modular and lightly coupled architecture that can be used both on public cloud providers and restricted environments of governmentservices without the internet.",
+      "Samagra DevOps  standardizes and eases the process of deploying projects. Its design focuses on being a modular and lightly coupled architecture that can be used both on public cloud providers and restricted environments of government services without not internet.",
     projectCount: 1,
     techStack: ["Python", "Javascript", "Jenkins", "Docker", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/DevOps-Pipline",
@@ -509,7 +509,7 @@ export const productList = [
   {
     title: "Digit",
     description:
-      "A service delivery & governance platform that enables ease of access to services for citizens, ease of coordination for employees &, ease of administration for administrators & ease of policy-making for policymakers & researchers.",
+      "DIGIT is a service delivery platform that enables government employees to effectively deliver services to citizens. It has positively impacted the lives of 2 Billion citizens by leveraging 100 partners to implement 40 solutions at scale.",
     projectCount: 4,
     techStack: ["Java", "SpringBoot", "Flutter", "ReactNative", "Redis"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Digit",
@@ -557,7 +557,7 @@ export const productList = [
   {
     title: "DIKSHA",
     description:
-      "DIKSHA is a national platform for school education, which enables several use cases and solutions for teaching and learning. As of date 35 States/UTs as well as autonomous bodies leverage DIKSHA for rolling out teacher professional development courses. ",
+      "DIKSHA is a national platform for school education, which is leveraged by teachers and students across 35 States & UTs as well as other autonomous bodies. The platform has witnessed over 6 billion learning minutes across 5 billion+ sessions since its launch in 2017. ",
     projectCount: 5,
     techStack: ["Java", "Node", "Javascript", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Diksha",
@@ -614,7 +614,7 @@ export const productList = [
   {
     title: "Doc Generator",
     description:
-      "Doc generator is a plugin-based service that will help in generating reports, docs, pdfs, from various data sources and in any required format and layout. ",
+      "Doc generator is a plugin-based service that will help in generating reports, docs, pdfs, from various data sources and in any required format and layout. It is used for use-cases where data needs to be visualized and downloaded. For eg: sharing student's performance reports with teachers.",
     projectCount: 3,
     techStack: ["HTML", "Python", "Typescript", " NestJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Doc-Generator",
@@ -653,7 +653,7 @@ export const productList = [
   {
     title: "FarmStack",
     description:
-      "FarmStack is an open-source no-code data exchange platform to streamline collaboration in the agriculture sector. It supports government actors to run a data exchange as well as the participants who can publish, discover and consume data to build solutions that unlock the potential of data for farmers.",
+      "FarmStack is an open source no code data exchange platform to streamline collaboration between key players in the agriculture sector. The platform has reached 2.3 million farmers (73% of whom are women) in collaboration with 46K government extension workers.",
     projectCount: 2,
     techStack: ["Python", "Django", "ReactJS", "CSS", "HTML", "Rest API"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/FarmStack",
@@ -683,7 +683,7 @@ export const productList = [
   {
     title: "Glific",
     description:
-      "Glific is a WhatsApp-based open source two-way communication platform that enables  NGOs to have conversations with their beneficiaries, distribute content, provide useful information & get timely  feedback.",
+      "Glific is a WhatsApp-based open-source two-way communication platform for NGOs to communicate effectively with their community. Glific is currently empowering 60+ non profit organizations to reach 700K+ beneficiaries.",
     projectCount: 3,
     techStack: [
       "Elixir",
@@ -728,7 +728,7 @@ export const productList = [
   {
     title: "Health Clain Exchange",
     description:
-      "The Health Claim Exchange is a communication protocol that facilitates the exchange of health claim information between payers, providers, beneficiaries, and other relevant entities. ",
+      "Health Claim Exchange is a communication protocol that facilitates the exchange of health claim information between payers, providers & beneficiaries. It is designed to be an interoperable, machine-readable and verifiable, to ensures accurate exchange. ",
     projectCount: 2,
     techStack: ["Javascript", "Python"],
     githubLink:
@@ -759,7 +759,7 @@ export const productList = [
   {
     title: "Karamyogi",
     description:
-      "iGOT Karmayogi is a platform to guide individual civil service officials in their capacity-building journey. It aims to provide anytime-anywhere-any-device learning to train users across the country through competency-linked courses & more.",
+      "iGOT Karmayogi platform is a comprehensive online platform to guide civil service officials in their capacity building journey. The platform is currently used by over 2 Million Karmayogis, offering 1311 hours of content across 683 courses.",
     projectCount: 5,
     techStack: ["DSEP Protocol", "Scala", "Angular", "NodeJs"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Karmayogi",
@@ -848,7 +848,7 @@ export const productList = [
   {
     title: "Quiz Creator",
     description:
-      "The Avanti Fellows Quiz Engine is an open-source assessment platform built primarily to serve the learning needs of government school students across India. It supports assessment & question types and integrates with the reporting engine to make reports available.",
+      "The Avanti Fellows Quiz Engine is an open source assessment platform built primarily to serve the after-school learning needs of government school students across India. It is currently being used by over 35000 students.",
     projectCount: 1,
     techStack: ["VueJS", "ReactJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Quiz-Creator",
@@ -869,7 +869,7 @@ export const productList = [
   {
     title: "QuML",
     description:
-      "QuML defines a standard format for the representation of questions, tests, and their results, supporting the exchange of this material between authoring and delivery systems, repositories, and other e-learning systems.",
+      "QuML defines a standard format for the representation of questions, tests, and their results, supporting the exchange of this material between authoring and delivery systems, repositories, and other e-learning systems. It is leveraged by 500K + teachers. ",
     projectCount: 1,
     techStack: ["HTML", "CSS", "Angular"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/QuML",
@@ -890,7 +890,7 @@ export const productList = [
   {
     title: "Solve Ninja Chatbot",
     description:
-      "Solve Ninja Mentor bot powered by Whatsapp and Glific enables citizens to start building 21st-century skills by taking action to solve local public problems. The bot also acts as civic tech tool to mobilise problem-solving by citizens through nudge-based campaigns.",
+      "Solve Ninja Mentor Bot is powered by Whatsapp and Glific that enables citizens to build 21st century skills by taking action to solve local public issues. It acts as a civic tech tool to mobilise problem solving by citizens through nudge based campaigns.",
     projectCount: 1,
     techStack: ["Elixir", "Python", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Solve-Ninja-Chatbot",
@@ -911,7 +911,7 @@ export const productList = [
   {
     title: "Sunbird DevOps",
     description:
-      "Sunbird Knowlg consists of a set of tools and services that enable you to organise, curate, create, and discover millions of assets. It can be leveraged to organise content and knowledge assets as per domain and create targeted collections, courses, projects, video repositories, etc.",
+      "Sunbird Devops is a repository that contains the information and references that a developer needs to run Sunbird in a Production environment.",
     projectCount: 1,
     techStack: ["PostGres SQL", "Elastic Search", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-DevOps",
@@ -932,7 +932,7 @@ export const productList = [
   {
     title: "Sunbird Ed",
     description:
-      "Sunbird is a scalable open-source learning solution for teachers and tutors. It runs natively in cloud/mobile environments. The open-source governance of Sunbird allows a massive community of nation-builders to co-create and extend the solution in novel ways. ",
+      "Sunbird ED is a software leveraged to enable learning, capacity building, professional development, and content distribution solutions. These are applicable in multiple domains such as Education, Agriculture and Healthcare where learning is a primary need. ",
     projectCount: 6,
     techStack: [
       "Angular",
@@ -1006,7 +1006,7 @@ export const productList = [
   {
     title: "Sunbird InQuiry",
     description:
-      "Sunbird inQuiry is a software building block that enables setting up of question banks for various use cases such as assessments, quizzes, practice worksheets, surveys, and more applicable across domains",
+      "Sunbird inQuiry is a software building block that enables setting up of question banks for various use cases in domains related to education and human development.",
     projectCount: 4,
     techStack: [
       "Angular",
@@ -1060,7 +1060,7 @@ export const productList = [
   {
     title: "Sunbird Knowlg",
     description:
-      "Sunbird Knowlg consists of a set of tools and services that enable you to organise, curate, create, and discover millions of assets. It can be leveraged to organise content and knowledge assets as per domain and create targeted collections, courses, projects, video repositories, etc. ",
+      "Sunbird Knowlg is a set of tools and services that enable organizations across domains such as e-Commerce, OTT etc to curate, create, and discover millions of assets.It can be leveraged to create targeted collections, courses, video repositories, etc.",
     projectCount: 3,
     techStack: [
       "Terraform",
@@ -1099,7 +1099,7 @@ export const productList = [
   {
     title: "Sunbird Lern",
     description:
-      "Sunbird Lern is a set of microservices along with some reference UX widgets that offer capabilities to enable tracking of a user’s learning journey as well as enable interactions and collaboration among users.",
+      "Sunbird Lern is a set of microservices and widgets that helps treack a user’s learning journey while enabling interactions and collaboration among them. It can be leveraged to measure learning progress, create and manage cohorts, enable discussion forums & more. ",
     projectCount: 3,
     techStack: ["Scala", "Java"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Sunbird-Lern",
@@ -1138,7 +1138,7 @@ export const productList = [
   {
     title: "Sunbird Obsrv",
     description:
-      "Sunbird Obsrv comprises several pluggable tools & microservices that enable observability features on any platform including capturing granular events via telemetry, creating measures, and observing various events carried out by the system/users/devices ",
+      "Sunbird Obsrv is a combination of various tools which provide the capabilities such as streaming, processing and storage of telemetry data and deriving reporting insights from the data.",
     projectCount: 3,
     techStack: [
       "Terraform",
@@ -1186,7 +1186,7 @@ export const productList = [
   {
     title: "Sunbird RC",
     description:
-      "Sunbird RC is an open-source framework for creating electronic registries with attestation capabilities. These registries allow authorized data repositories to publish signed data and metadata about a user/entity with a link to the repository.",
+      "Sunbird-RC contains a set of frameworks to enable you to rapidly build next generation electronic registries and verifiable credentials including attestation and verification flows. This is an independently usable open source framework.",
     projectCount: 3,
     techStack: ["Angular", "Typescript", "Postman", "API", "NodeJS"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC",
@@ -1225,7 +1225,7 @@ export const productList = [
   {
     title: "Sunbird Saral",
     description:
-      "Sunbird Saral attempts to create a connection between the information that exists in the physical world and ties it to digitally structured information. It should be viewed as an OCR-plus application that can also understand the structure of the physical input.",
+      "Sunbird Saral allows OCR-based scanning which enables data capture from physical documents (OMRs, forms etc) in low network areas. It should be viewed as an OCR-plus application and has been utilised to conduct assessments for 18 Million students of UP.",
     projectCount: 1,
     techStack: ["Java", "React"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-Saral",
@@ -1246,10 +1246,10 @@ export const productList = [
   {
     title: "Sunbird UCI",
     description:
-      "UCI aims to democratize the use of different communication channels such as WhatsApp, SMS, email and more to make conversation flow creation configurable and reduce the coding required for enabling the similar use-cases",
+      "Sunbird UCI powers two-way communication between the state and its actors by disseminating information quickly to the actors and allowing them to communicate back. In UP, it is powering a chatbot that enables communication with 500K+ Teachers",
     projectCount: 4,
     techStack: ["Java", "React", "Javascript", "Typescript", "Minio"],
-    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC",
+    githubLink: "https://github.com/Code4GovTech/C4GT/wiki/UCI-(Unified-Communication-Interface)",
     "organization": "SamagraX",
     "domain": "Communication",
     "projects": [
@@ -1294,7 +1294,7 @@ export const productList = [
   {
     title: "Template creation portal",
     description:
-      "This portal enables creators, create templates of micro-improvement (a digital project plan with tasks) that can be picked up and worked upon by users to achieve certain goals as outlined in the project plan.",
+      "Template creation portal enables creators, create templates of micro-improvement (a digital project plan with tasks) that can be leveraged by users to achieve goals outlined in the project plan. It aims to reduce the time taken to upload a project on Diksha by 50%.",
     projectCount: 1,
     techStack: ["Angular", "Ionic", "MongoDB", "NodeJs", "HTML", "CSS"],
     githubLink:
@@ -1401,7 +1401,7 @@ export const productList = [
   {
     title: "WarpSQL",
     description:
-      "Opinionated extensions to Postgres packaged as a single docker deployment. It allows for a quick stable installation of all plugins to speed up installation and management of your Postgres instance.",
+      "WarpSQL is a developer tool that eliminates the need to install multiple separate databases by offering a comprehensive set of features in one place.",
     projectCount: 1,
     techStack: ["Dockerfile", "Shell Scripting", "Linux", "Ansible"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/WarpSQL",
@@ -1422,7 +1422,7 @@ export const productList = [
   {
     title: "Workflow",
     description:
-      "Workflow is a complete package that allows you to deploy an application with authentication, database, backend, storage service, frontend and enketo forms with just a single command. Enketo has been used globally for clinical research, election monitoring & more",
+      "Workflow allows developers to deploy an application with authentication, backend, storage service, frontend & enketo forms with a single command.  It has been used globally for clinical research, election monitoring & more.",
     projectCount: 1,
     techStack: ["React", "Redux", "XState", "Local Forge"],
     githubLink: "https://github.com/Code4GovTech/C4GT23/wiki/Workflow",
@@ -1443,7 +1443,7 @@ export const productList = [
   {
     title: "YAUS",
     description:
-      "Yaus is a batteries included URL Shortener that is designed for speed and scalability. It powers  shorturls across multiple projects and is helpful to get important information out to billions of users through SMSs, ensuring we dont exceed the SMS character limits",
+      "Yaus is an open-sourceURL Shortener that is designed for speed and scalability. It powers  shorturls across multiple projects and is helpful to get important information out to billions of users through SMSs, ensuring we don't exceed the SMS character limits",
     projectCount: 1,
     techStack: ["Typescrcipt", "Nx", "ReactJS", "NestJS", "Hasura"],
     githubLink: "https://github.com/Code4GovTech/C4GT/wiki/Yaus",
