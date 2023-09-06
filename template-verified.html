@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;0,1000;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        -webkit-appearance: none;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Ysabeau Office", sans-serif;
+      }
+
+      .certificate-container {
+        position: relative;
+        color: rgb(4, 19, 54);
+        height: 100vh;
+        background-image: url("https://cdn.codeforgovtech.in/c4gt/verifiedBg.png");
+        background-repeat: no-repeat;
+        background-size: 850px 550px;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .certificate-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        height: 510px;
+        width: 820px;
+        /* height: 500px;
+        width: 795px; */
+        font-family: "Ysabeau Office", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .heading {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -27px;
+      }
+
+      .main-text {
+        margin-left: 25px;
+      }
+
+      .main-heading,
+      .main-para {
+        width: 350px;
+        margin: 0;
+        text-align: center;
+      }
+
+      .main-heading {
+        /* border-bottom: 1px solid black; */
+      }
+
+      .main-para {
+        margin-top: 5px;
+      }
+
+      .certificate-logo {
+        width: 170px;
+        height: 180px;
+      }
+
+      .certificate-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .certificate-content p {
+        font-size: 18px;
+      }
+
+      .certificate-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .certificate-images img {
+        margin: 0 20px;
+      }
+
+      /* .qr-img {
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 120px;
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+      } */
+
+      .qr-box {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        background: url("https://cdn.codeforgovtech.in/c4gt/graduationHat.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 32px;
+        margin-top: -20px;
+        position: relative;
+      }
+      .qr-img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 19px;
+        right: 0;
+        top: 50px;
+        text-align: center;
+        width: 85px;
+        height: 85px;
+        border-radius: 5px;
+      }
+      .githubLogo {
+        width: 70px;
+        height: 70px;
+        margin-right: 5px;
+      }
+
+      .footer-images {
+        height: 80px;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        -webkit-appearance: none;
+        border-radius: 15px;
+        -webkit-box-shadow: -2px -4px 3px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: -2px -4px 3px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: -2px -4px 3px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: -8px;
+      }
+
+      .footer-images p {
+        font-size: 12px;
+      }
+
+      .bottom-text {
+        position: relative;
+        background-color: rgb(4, 19, 54);
+        color: white;
+        font-family: "Ysabeau Office", sans-serif;
+        text-align: center;
+        padding: 10px 0px;
+        width: 803px;
+        margin: auto;
+        font-size: 13px;
+        /* margin-left: 27px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="certificate-container">
+      <div class="certificate-content">
+        <div>
+          <div class="heading">
+            <div class="qr-box">
+              <img class="qr-img" src="{{qr}}" />
+            </div>
+
+            <div class="main-text" style="margin-top: 40px;">
+              <h1
+                class="main-heading"
+                style="font-size: 18px;"
+              >
+                This is to certify that
+              </h1>
+              <h1
+                style="
+                  color: rgb(231, 55, 84);
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+                  margin-top: 10px;
+                "
+              >
+                <span style="text-transform: capitalize">
+                  Code for GovTech 2023
+                </span>
+              </h1>
+            </div>
+            <div class="certificate-logo">
+              <img
+                src="https://cdn.codeforgovtech.in/c4gt/C4GT.png"
+                alt="C4GT Logo"
+              />
+            </div>
+          </div>
+
+          <div>
+            <p style="margin: 0; text-align: center">
+              has been successfully closed on 7th September 2023 by
+            </p>
+            <p style="font-weight: 800; font-size: 18px">
+              Rahul Kulkarni <br />Nitin Kashyap<br />
+              Sukhpreet Sekhon
+            </p>
+          </div>
+        </div>
+        <section class="certificate-images">
+          <div class="footer-images" style="background-color: white">
+            <div>
+              <p style="margin-bottom: 0px">Knowledge Partners</p>
+              <div>
+                <img
+                  src="https://cdn.codeforgovtech.in/c4gt/DPGA.svg"
+                  alt="DPGA"
+                  style="margin-bottom: 40px"
+                />
+                <img
+                  src="https://cdn.codeforgovtech.in/c4gt/omn.png"
+                  alt="OMI"
+                  style="margin-left: -10px; height: 50px; margin-bottom: 40px"
+                />
+              </div>
+            </div>
+            <div>
+              <p style="margin-bottom: 0px">Community Partner</p>
+              <img
+                src="https://cdn.codeforgovtech.in/c4gt/GitHub.png"
+                alt="Github"
+                style="height: 40px; margin-top: 5px"
+              />
+            </div>
+            <div>
+              <p style="margin-bottom: 0px">Organizer</p>
+              <img
+                src="https://cdn.codeforgovtech.in/c4gt/SamagraX.png"
+                alt="SamagraX"
+                style="height: 40px"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="bottom-text">Issued by the C4GT Organising Team</div>
+    </div>
+  </body>
+</html>

@@ -30,13 +30,10 @@ const Processing = () => {
       </div>
       <h1 className="text-[30px] mt-4 font-bold text-[#294294]">
         Code for GovTech (C4GT)
-      </h1>
-      <h2 className="mt-5 text-[20px] text-[#636467] text-center">
-        Watch the portal to GovTech universe unlock!
-      </h2>
+      </h1>      
       <h2 className="mt-3 text-[20px] text-[#636467] text-center">
-        The event will launch only when all three powers of <b>wit</b>,{" "}
-        <b>innovation</b>, and<b> curiosity</b> combine!
+        The closure of the C4GT mentoring program 2023 is just a few credentials
+        away!
       </h2>
 
       <div className="mt-4">
