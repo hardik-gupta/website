@@ -3,6 +3,7 @@ import { getCert } from "@/component/api";
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";
+import GraduationHat from "@/component/components/GraduationHat";
 
 const Confetti = dynamic(() => import("react-confetti"), {
   ssr: false,
@@ -11,6 +12,42 @@ const Confetti = dynamic(() => import("react-confetti"), {
 const C4gt23 = () => {
   const [url, setUrl] = useState();
   const params = useParams();
+  const [hats, setHats] = useState([]);
+  const [showConfetti, setShowConfetti] = useState(true);
+
+  const generateRandomHat = () => {
+    return {
+      left: Math.random() * window.innerWidth,
+      top: -50,
+      animationDuration: `${3 + Math.random()}s`, // Vary animation speed
+      rotation: Math.random() * 80,
+    };
+  };
+
+  useEffect(() => {
+    // Create a fixed number of hats initially
+    const initialHats = [];
+    for (let i = 0; i < 5; i++) {
+      // Change the number to your desired initial count
+      initialHats.push(generateRandomHat());
+    }
+    setHats(initialHats);
+
+    // Create a new hat every few seconds
+    const hatInterval = setInterval(() => {
+      const newHat = generateRandomHat();
+      setHats((prevHats) => [...prevHats, newHat]);
+    }, 2000); // Change the interval (in milliseconds) to your desired time
+
+    const confettiTimeout = setTimeout(() => {
+      setShowConfetti(false);
+    }, 15000); // 10 seconds
+
+    return () => {
+      clearInterval(hatInterval);
+      clearTimeout(confettiTimeout); // Clear the timeout when the component unmounts
+    };
+  }, []);
 
   useEffect(() => {
     const getCertificate = async () => {
@@ -31,18 +68,35 @@ const C4gt23 = () => {
     setDimensions({
       width,
       height,
-    });    
+    });
     setClient(true);
   }, []);
   return url ? (
-    <div className="h-screen">
-      {isClient && (
-        <Confetti
-          width={dimensions.width}
-          height={dimensions.height}
-          numberOfPieces={1000}
-        />
+    <div className="h-screen bg-cap">
+      {showConfetti && (
+        <>
+          {hats.map((hat, index) => (
+            <GraduationHat
+              key={index}
+              style={{
+                left: `${hat.left}px`,
+                top: `${hat.top}px`,
+                animationDuration: hat.animationDuration,
+              }}
+              rotation={hat.rotation}
+            />
+          ))}
+          {isClient && (
+            <Confetti
+              width={dimensions.width}
+              height={dimensions.height}
+              numberOfPieces={600}
+              colors={["#d4af37"]}
+            />
+          )}
+        </>
       )}
+
       <iframe
         src={
           url
