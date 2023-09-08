@@ -94,7 +94,7 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                   <img
                     src="/video.png"
                     alt="GitHub Logo"
-                    className="max-w-[130px]"
+                    className="max-w-[100px]"
                   />
                 </div>
                 <a
