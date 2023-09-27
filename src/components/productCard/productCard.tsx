@@ -19,6 +19,7 @@ interface Project {
   };
 }
 
+
 interface ProductProps {
   product: any;
 }

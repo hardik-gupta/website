@@ -13,6 +13,17 @@ interface Project {
   };
 }
 
+interface Project{
+    id: number;
+    name: string;
+    description:string;
+    links:{
+      github: string;
+      documentation: string,
+      contributorExperience: string,
+    }
+}
+
 interface ProductListProps {
   productList: any;
 }
