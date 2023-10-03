@@ -91,13 +91,14 @@ export const ProductModal: React.FC<ProjectProps> = ({ projects }) => {
                     width={200}
                   ></iframe> */}
 
-                  <div className="w-[200px] h-[130px] bg-gray-100 flex-col text-center font-medium flex justify-center items-center text-black">
-                    <AiOutlineInfoCircle size={"3rem"}/>
-                    <div>Video not available</div>
-                  </div>
+                  <img
+                    src="/video.png"
+                    alt="GitHub Logo"
+                    className="max-w-[80px]"
+                  />
                 </div>
                 <a
-                  href={project.links.contributorExperience}
+                  href={project?.links?.contributorExperience}
                   className="flex items-center text-slate-100 font-demi hover:text-gray-200 bg-blue-900 hover:bg-blue-700 py-2 px-3 rounded-lg shadow transition duration-300"
                   target="_blank"
                   rel="noopener noreferrer"

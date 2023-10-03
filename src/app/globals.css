@@ -91,14 +91,14 @@ body {
   font-family: Mulish-regular !important;
 }
 
-.logo-container{
+.logo-container {
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media (max-width: 1200px) {  
+@media (max-width: 1200px) {
   .logo-container {
     display: none;
   }
@@ -114,12 +114,47 @@ body {
 body::-webkit-scrollbar {
   width: 5px !important;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 1px rgb(0, 0, 0);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);  
+  background-color: rgb(0, 0, 0);
 }
 
+@keyframes hat-fall {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.graduation-hat {
+  width: 50px;
+  height: 50px;
+  background-image: url("../assets/images/graduationCap.svg");
+  background-size: cover;
+  position: absolute;
+  animation: fall linear infinite;
+}
+
+/* .bg-cap {
+  background-image: url("/bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+} */
