@@ -21,12 +21,12 @@ import {
   TableBody,
   TableRow,
   TableCell,
-} from "@/component/components/ui/table";
+} from "@/component/components/ui/table"
 
-import { DataTablePagination } from "@/component/components/projectTable/pagination";
-import { DataTableViewOptions } from "@/component/components/projectTable/columnVisibility";
-import { ColumnFilter } from "@/component/components/projectTable/columnFilter";
-import { AppliedFilters } from "@/component/components/projectTable/appliedFilters";
+import { DataTablePagination } from "@/component/components/communityProgram/projectTable/pagination";
+import { DataTableViewOptions } from "@/component/components/communityProgram/projectTable/columnVisibility";
+import { ColumnFilter } from "@/component/components/communityProgram/projectTable/columnFilter";
+import { AppliedFilters } from "@/component/components/communityProgram/projectTable/appliedFilters";
 
 interface ProjectTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];

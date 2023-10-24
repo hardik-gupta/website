@@ -1,10 +1,10 @@
 import React from "react";
-import { Header } from "@/component/components";
+import { Header } from "@/component/components/";
 import { codeLaptop } from "@/component/assets/images";
 import { Metadata } from "next";
 
-import {ProjectDetails, columns} from "@/component/components/projectTable/columns"
-import { ProjectTable } from "@/component/components/projectTable/projectTable";
+import {ProjectDetails, columns} from "@/component/components/communityProgram/projectTable/columns"
+import { ProjectTable } from "@/component/components/communityProgram/projectTable/projectTable";
 
 export const metadata: Metadata = {
   title: "Community Program Projects | Code for GovTech",
@@ -93,14 +93,14 @@ const C4GT23 = () => {
     <div className={`c4gt23-container  bg-white`}>
       <Header content={headerProps} />
 
-      <div className="bg-primary-color w-full flex flex-col items-center mt-5">
-        <div className="flex flex-col items-center text-white w-full pt-12">
+      <div className="table-container bg-primary-color w-full flex flex-col items-center mt-5">
+        <div className="table-heading flex flex-col items-center text-white w-full pt-12">
           <h1 className="font-bold text-3xl text-center leading-tight lg:text-4xl">
             Code For GovTech Community Projects
           </h1>
         </div>
-        <div className="w-full flex flex-col items-center py-6 md:px-14">
-          <div className="bg-white w-full rounded-md h-full">
+        <div className="table-wrapper w-full flex flex-col items-center py-6 md:px-14">
+          <div className="bg-white w-full rounded-md">
               <ProjectTable columns={columns} data={tableData}/>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { ProductList, Header } from "@/component/components";
-import { productList } from "@/component/constants";
+import { productList } from "@/component/components/c4gt23/mentoringProgram/projects23";
 import { Metadata } from "next";
 import { codeImage } from "@/component/assets/images";
 

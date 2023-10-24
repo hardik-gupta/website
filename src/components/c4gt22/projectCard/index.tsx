@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectList } from "./projectList";
-import { projectListData } from "@/component/constants/projects2022";
+import { projectListData } from "@/component/components/c4gt22/projects22"
 
 export const ProjectCard = () => {
     return (

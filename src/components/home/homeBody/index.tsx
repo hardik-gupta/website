@@ -5,7 +5,7 @@ import {
   communityDescription,
   mentoringContent,
   mentoringDescription,
-} from "@/component/constants";
+} from "@/component/components/c4gt23/mentoringProgram/projects23"
 import { IconComponent } from "./icons";
 
 export const HomeBody = () => {

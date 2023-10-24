@@ -4,7 +4,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/component/components/ui/popover";
+} from "@/component/components/ui/popover"
 
 import { AiFillCheckSquare } from "react-icons/ai";
 import { BsChevronDown, BsSquare } from "react-icons/bs";

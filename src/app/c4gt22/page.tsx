@@ -1,7 +1,7 @@
 import React from "react";
 import { HeaderCard, InfoBar, InfoCard, ProjectCard, ContributorCard, MentorCard } from "@/component/components";
 import { highlights22 } from "@/component/assets/images";
-import { contributorsData } from "@/component/constants/contributors2022";
+import { contributorsData } from "@/component/components/c4gt22/contributors2022"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

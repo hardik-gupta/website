@@ -5,7 +5,7 @@ import {
   Dialog,
   DialogContent,
   DialogTrigger,
-} from "@/component/components/ui/dialog";
+} from "@/component/components/ui/dialog"
 import { ProductModal } from "./productModal";
 
 interface Project {
@@ -44,7 +44,7 @@ export const ProductCard: React.FC<ProductProps> = ({ product }) => {
 
         <div className="font-demi flex flex-wrap my-2">
           {product.techStack ? (
-            product.techStack.map((tech, index) => (
+            product.techStack.map((tech:string, index:number) => (
               <span
                 key={index}
                 className="tech-stack inline-block px-2 py-1 mr-2 mb-2 rounded-lg text-sm font-medium bg-blue-200 text-blue-800"

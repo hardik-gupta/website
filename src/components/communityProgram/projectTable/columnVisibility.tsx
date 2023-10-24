@@ -8,7 +8,7 @@ import {
   DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-} from "@/component/components/ui/dropdown-menu";
+} from "@/component/components/ui/dropdown-menu"
 
 import { HiOutlineViewColumns, HiChevronDown } from "react-icons/hi2";
 

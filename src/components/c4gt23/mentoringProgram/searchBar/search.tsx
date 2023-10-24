@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { techStack, organization, category } from "@/component/constants";
+import { techStack, organization, category } from "@/component/components/c4gt23/mentoringProgram/projects23";
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/component/components/ui/dropdown-menu";
+// import {
+//   DropdownMenu,
+//   DropdownMenuContent,
+//   DropdownMenuItem,
+//   DropdownMenuTrigger,
+// } from "@/component/components/ui/dropdown-menu";
 
 import { AiFillCheckSquare } from "react-icons/ai";
 import { BsSquare, BsChevronDown } from "react-icons/bs";

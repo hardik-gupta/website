@@ -1,15 +1,15 @@
 "use client"
-export * from './productList/productList';
+export * from './c4gt23/mentoringProgram/productList/productList'
 export * from './header/header';
 export * from './sidebar';
 export * from './achievement-card';
 export * from './badge-modal';
-export * from './productCard/productCard';
-export * from './searchBar/search';
+export * from './c4gt23/mentoringProgram/productCard/productCard';
+export * from './c4gt23/mentoringProgram/searchBar/search';
 export * from './footer';
 export * from './navbar';
-export * from './homeHeader';
-export * from './homeBody';
+export * from './home/homeHeader';
+export * from './home/homeBody';
 
 // C4GT 2022 page components
 export * from './c4gt22/headerCard';

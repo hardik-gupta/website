@@ -25,6 +25,6 @@
       "@/cypress/*": ["./cypress/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/constants/index.js", ".next/types/app/c4gt23/mentoringProgram/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/c4gt23/mentoringProgram/projects23.js", ".next/types/app/c4gt23/mentoringProgram/page.tsx", "src/components/c4gt22/contributors2022.js", "src/components/c4gt22/contributors2022.js"],
   "exclude": ["node_modules"]
 }

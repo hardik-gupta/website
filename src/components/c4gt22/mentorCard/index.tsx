@@ -1,5 +1,5 @@
 import React from "react";
-import { mentorsData } from "@/component/constants/mentors2022";
+import { mentorsData } from "@/component/components/c4gt22/mentors22"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

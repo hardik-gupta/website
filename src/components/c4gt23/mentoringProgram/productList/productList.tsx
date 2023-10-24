@@ -1,17 +1,6 @@
 import React, { useState } from "react";
-import { ProductCard } from "@/component/components";
-import { SearchBar } from "@/component/components";
-
-interface Project {
-  id: number;
-  name: string;
-  description: string;
-  links: {
-    github: string;
-    documentation: string;
-    contributorExperience: string;
-  };
-}
+import { ProductCard } from "@/component/components/c4gt23/mentoringProgram/productCard/productCard";
+import { SearchBar } from "@/component/components/c4gt23/mentoringProgram/searchBar/search";
 
 interface Project{
     id: number;
