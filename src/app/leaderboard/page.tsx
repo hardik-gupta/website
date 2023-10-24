@@ -1,6 +1,6 @@
 "use client";
 import { getLeaderboard } from "@/component/api";
-import Tooltip from "@/component/components/tooltip";
+import Tooltip from "@/component/constants/tooltip";
 import { useEffect, useState } from "react";
 
 const LeaderBoard = () => {

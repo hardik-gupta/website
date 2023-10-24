@@ -2,8 +2,8 @@ import Image from "next/image";
 import React, { FC, useCallback, useState } from "react";
 import { Button, Card, Col, Dropdown, Modal, Row } from "react-bootstrap";
 import {createPortal} from 'react-dom'
-import badge from "../../assets/images/badge.png";
-import share from "../../assets/images/share.svg";
+import badge from "../../../../assets/images/badge.png";
+import share from "../../../../assets/images/share.svg"
 import style from "./badge.module.css"
 type BadgeModalProps = {
   show: boolean;

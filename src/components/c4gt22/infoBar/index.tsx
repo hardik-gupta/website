@@ -1,5 +1,5 @@
 import React from "react";
-import { InfoIcon } from "./infoIcon";
+import { InfoIcon } from "@/component/constants/infoIcon";
 
 // importing required icons
 import { GrDocument } from "react-icons/gr";

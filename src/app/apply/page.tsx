@@ -1,5 +1,5 @@
 import React from "react";
-import {Form} from "@/component/components";
+import {Form} from "@/component/components/applyPage/form";
 
 
 export default function FormPage(){
