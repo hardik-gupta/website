@@ -2,7 +2,7 @@ import axios from "axios";
 import { createClient } from '@supabase/supabase-js'
 
 const baseUrl = "https://verify.codeforgovtech.in";
-const supabase = createClient("https://kcavhjwafgtoqkqbbqrd.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtjYXZoandhZmd0b3FrcWJicXJkIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODQ5NTQxMzIsImV4cCI6MjAwMDUzMDEzMn0.8PKGvntMY7kw5-wmvG2FBOCxf-OrA2yV5fnudeA6SVQ")
+const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.NEXT_PUBLIC_SUPABASE_KEY)
 
 export const verifyToken = async (token: any) => {
     try {
