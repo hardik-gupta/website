@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image'
-import info_img from "../DPGimages/DPG_info_right_side.webp";
+import info_img from "@/component/assets/images/DPGimages/DPG_info_right_side.webp"
 
 function Info() {
   return (

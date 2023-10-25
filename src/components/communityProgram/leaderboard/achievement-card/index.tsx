@@ -1,7 +1,7 @@
 import React, { FC, useCallback, useMemo, useState } from "react";
 import { Button, Card, Col, Modal } from "react-bootstrap";
 import styles from "./card.module.css";
-import badge from "../../../../assets/images/badge.png";
+import badge from "@/component/assets/images/badge.png"
 import Image from "next/image";
 import { BadgeModal } from "../badge-modal";
 

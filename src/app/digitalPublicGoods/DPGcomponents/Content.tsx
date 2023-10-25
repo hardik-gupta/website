@@ -1,9 +1,9 @@
 import React from "react";
 import Image from 'next/image'
-import img1 from "../DPGimages/Sunbird_logo.webp";
-import img2 from "../DPGimages/DIVOC_logo.webp";
-import img3 from "../DPGimages/DIGIT_logo.webp";
-import img4 from "../DPGimages/DigiLocker_logo.webp";
+import img1 from "@/component/assets/images/DPGimages/Sunbird_logo.webp"
+import img2 from "@/component/assets/images/DPGimages/DIVOC_logo.webp"
+import img3 from "@/component/assets/images/DPGimages/DIGIT_logo.webp"
+import img4 from "@/component/assets/images/DPGimages/DigiLocker_logo.webp"
 
 function Content() {
   return (
