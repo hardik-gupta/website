@@ -100,7 +100,7 @@ const C4GT23 = () => {
           </h1>
         </div>
         <div className="w-full flex flex-col items-center py-6 md:px-14">
-          <div className="bg-white w-full rounded-md h-full">
+          <div className="bg-white w-full rounded-md h-full py-6">
               <ProjectTable columns={columns} data={tableData}/>
           </div>
         </div>
