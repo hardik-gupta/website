@@ -61,7 +61,7 @@ export const ProjectTable = <TData, TValue>({
     },
   });
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col text-black">
       <div className="table-filters w-full p-2 flex flex-col-reverse lg:flex-row">
         <div className="applied-filters w-full lg:w-1/3 flex flex-wrap items-center justify-start">
           <AppliedFilters table={table} columnFilters={columnFilters} setColumnFilters={setColumnFilters}/>
