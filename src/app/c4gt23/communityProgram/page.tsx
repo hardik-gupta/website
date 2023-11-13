@@ -99,8 +99,8 @@ const C4GT23 = () => {
             Code For GovTech Community Projects
           </h1>
         </div>
-        <div className="table-wrapper w-full flex flex-col items-center py-6 md:px-14">
-          <div className="bg-white w-full rounded-md">
+        <div className="w-full flex flex-col items-center py-6 md:px-14">
+          <div className="bg-white w-full rounded-md h-full py-6">
               <ProjectTable columns={columns} data={tableData}/>
           </div>
         </div>
