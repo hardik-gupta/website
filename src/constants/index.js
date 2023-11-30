@@ -228,7 +228,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/energy/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Beckn/Beckn%20Energy%20Interface",
-          "contributorExperience": "https://drive.google.com/open?id=1wx5Wk4oetWkqpYYoouniov-TFMyxGoin"
+          "contributorExperience": "https://www.youtube.com/watch?v=FChfagsEOSI&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=85"
         }
       },
       {
@@ -291,7 +291,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/beckn-in-a-box/issues/9",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Beckn%20in%20a%20box/",
-          "contributorExperience": "https://drive.google.com/open?id=1CugInFvrEpNG4yLue3uxU2i_sNzQtvRW"
+          "contributorExperience": "https://www.youtube.com/watch?v=ilr1tzB_omI&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=82"
         }
       },
       {
@@ -365,7 +365,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/coronasafe/care_fe/issues/5492",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/List%20and%20Detail%20Serializer",
-          "contributorExperience": "https://drive.google.com/open?id=1Jly9BPHrCSvkmCWp8Zi_RWgYYJKNFQfd"
+          "contributorExperience": "https://www.youtube.com/watch?v=cbhyzxM6deM&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=84"
         }
       },
       {
@@ -374,7 +374,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/coronasafe/care_fe/issues/5493",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/RedesignDoctorNotes",
-          "contributorExperience": "https://drive.google.com/open?id=1KhXvGr-AxtocFOu_zwujHroP7iyL55Ko"
+          "contributorExperience": "https://www.youtube.com/watch?v=KXiu7Tz-D5o&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=86"
         }
       },
       {
@@ -580,7 +580,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/orgs/Sunbird-Ed/discussions/487",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSHA/Digital%20Learners%20Passbook",
-          "contributorExperience": "https://drive.google.com/open?id=116vKzwHwl8PbYP6IVT2h4jUJKKb-JIwu"
+          "contributorExperience": "https://www.youtube.com/watch?v=BT5wPc-ZNH8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=83"
         }
       },
       {
@@ -981,7 +981,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8664",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Ed/Support%20for%20Optional%20Material%20in%20Course",
-          "contributorExperience": "https://drive.google.com/open?id=1o6xIOuX5Mch54fQV7HMnBfeluvFpqwdT"
+          "contributorExperience": "https://www.youtube.com/watch?v=tl1gHm6-HGQ&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=79"
         }
       },
       {
@@ -999,7 +999,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8691",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Review%20Enhancement",
-          "contributorExperience": "https://drive.google.com/open?id=1FvzoKZreWfe7jfV6AjQfohMmEWW7E6tn"
+          "contributorExperience": "https://www.youtube.com/watch?v=uiM-GEHgA9A&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=80"
         }
       },
       {
@@ -1062,7 +1062,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-inQuiry/editor/issues/42",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/Editor%20to%20support%20new%20type%20of%20questions",
-          "contributorExperience": "https://drive.google.com/open?id=1hHOZexWLlfec_txIQT--XN5jWvZnstSd"
+          "contributorExperience": "https://www.youtube.com/watch?v=90aM-3mNhoE&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=81"
         }
       }
     ]
@@ -1218,7 +1218,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-RC/community/issues/679",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20RC/Starter%20Pack%20Location%20Master",
-          "contributorExperience": "https://drive.google.com/open?id=1VwLuLuBddaomryEzSAUsL7GDmhuGay6k"
+          "contributorExperience": "https://www.youtube.com/watch?v=MuDgNnSoXf0&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=78"
         }
       },
       {
