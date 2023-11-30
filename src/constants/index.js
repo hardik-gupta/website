@@ -16,7 +16,7 @@ export const productList = [
         links: {
           github: "https://github.com/kiranma72/loinc-india/issues/1",
           documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Loinc-India/",
-          contributorExperience: "https://drive.google.com/open?id=1UPkfoRQKZAgHj-TO7UyG_acRmqDSBJc9"
+          contributorExperience: "https://www.youtube.com/watch?v=pHGfw8pJZuQ&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=55"
         }
       },
       {
@@ -26,7 +26,7 @@ export const productList = [
         links: {
           github: "https://github.com/atulai-sg/abdm-sdk/issues/1",
           documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Discovery%20and%20Linking%20Workflows",
-          contributorExperience: "https://drive.google.com/file/d/15DUBwsPcAxponcd8o8yO44nw2aPFscCQ/view?usp=drive_link"
+          contributorExperience: "https://www.youtube.com/watch?v=Gb2kliAK2TQ&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=64"
         }
       },
       {
@@ -36,7 +36,7 @@ export const productList = [
         links: {
           github: "https://github.com/atulai-sg/abdm-sdk/issues/2",
           documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/CONSENT_MANAGEMENT",
-          contributorExperience: ""
+          contributorExperience: "https://www.youtube.com/watch?v=9r-IZDIWIJQ&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=41"
         }
       },
       {
@@ -46,7 +46,7 @@ export const productList = [
         links: {
           github: "https://github.com/atulai-sg/abdm-sdk/issues/3",
           documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Data%20Transfer%20Workflow",
-          contributorExperience: "https://drive.google.com/open?id=1BJ69Bvv_WX-sdZEo1OZOyIM_lOjPXuJE"
+          contributorExperience: "https://www.youtube.com/watch?v=FAWEIeLlt5w&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=24"
         }
       },
       {
@@ -56,7 +56,7 @@ export const productList = [
         links: {
           github: "https://github.com/atulai-sg/abdm-sdk/issues/4",
           documentation: "https://c4gt-milestones.vercel.app/docs/2023/ABDM/Subscription-management/",
-          contributorExperience: ""
+          contributorExperience: "https://www.youtube.com/watch?v=nirsl9_e-fA&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=62"
         }
       }
     ]
@@ -83,7 +83,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/ai-tools/issues/80",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Deployment%20Optimization",
-          "contributorExperience": "https://drive.google.com/open?id=1yZasK2pYCItsq9Q4W4V_ugDCEERbbb2M"
+          "contributorExperience": "https://www.youtube.com/watch?v=pWzp0KPkEho&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=43"
         }
       },
       {
@@ -92,7 +92,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/ai-tools/issues/42",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Neural%20Coref",
-          "contributorExperience": "https://drive.google.com/open?id=1XgTbENTPqsJXpUXw2h5B97_VzMfaqKBz"
+          "contributorExperience": "https://www.youtube.com/watch?v=UzT9JH_w0EY&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=65"
         }
       },
       {
@@ -101,7 +101,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/ai-tools/issues/81",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/AI%20Tools/Dictionary%20Augmented%20Transformers",
-          "contributorExperience": "https://drive.google.com/open?id=1XRbq9YdXQTzkVSsFdufmzXiWrRUjNKS9"
+          "contributorExperience": "https://www.youtube.com/watch?v=cxUB2219UUk&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=26"
         }
       },
       {
@@ -131,7 +131,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/avniproject/avni-product/issues/1334",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Avni/Canned%20Analytics",
-          "contributorExperience": "https://drive.google.com/open?id=1Nw-jLSxEBj84TduFpwhJrriPOlZ3MEcv"
+          "contributorExperience": "https://www.youtube.com/watch?v=FnDh_p5Lmd4&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=30"
         }
       }
     ]
@@ -160,7 +160,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Bahmni/openmrs-module-bahmniapps/issues/572",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Ability%20to%20book%20an%20appointment%20via%20WhatsApp",
-          "contributorExperience": "https://drive.google.com/open?id=1hSjlIYYwueY8jU1dNB8Y7_UEe4dcX43J"
+          "contributorExperience": "https://www.youtube.com/watch?v=onG9rtPFWZ8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=57"
         }
       },
       {
@@ -169,7 +169,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Bahmni/connect2Bahmni/issues/3",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Order%20Features/",
-          "contributorExperience": "https://drive.google.com/file/d/1hvZ8t4qlCono2xWTcTeqo_5VM6nQfHHh/view?usp=drive_link"
+          "contributorExperience": "https://www.youtube.com/watch?v=mHGoEXuG11o&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=23"
         }
       },
       {
@@ -178,7 +178,7 @@ export const productList = [
         "links": {
           "github": "https://bahmni.atlassian.net/browse/BAH-3006",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Bahmni/Standalone%20Document%20Upload%20Module",
-          "contributorExperience": "https://drive.google.com/open?id=1tNrWJUrkOv6Wlpo7vG0FbikygWSDb2zR"
+          "contributorExperience": "https://www.youtube.com/watch?v=sxpaRBIiZA8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=69"
         }
       },
       {
@@ -219,7 +219,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/mobility/issues/55",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Beckn%20Mobility%20Interface",
-          "contributorExperience": "https://drive.google.com/open?id=1Bk7rYQHdXGhv36odRBV_0VM1gMonk8c0"
+          "contributorExperience": "https://www.youtube.com/watch?v=TCDSopl-hGM&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=60"
         }
       },
       {
@@ -237,7 +237,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/BPP-Boilerplate-SDK/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/BPP%20Backend%20SDK%20&%20Boilerplate%20UI",
-          "contributorExperience": "https://drive.google.com/open?id=1bd4y-ZeRhdAoVR8CEfChH1bw_l0Fbgbg"
+          "contributorExperience": "https://www.youtube.com/watch?v=hRWlq3l3i5Y&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=13"
         }
       },
       {
@@ -255,7 +255,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/synapse/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Synapse",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=c_72WiTO1vY&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=47"
         }
       },
       {
@@ -264,7 +264,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/policy-admin-api/issues/19",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/BeckN%20Policy%20Admin%20Api",
-          "contributorExperience": "https://drive.google.com/open?id=1Q2nf1Dz8N4XpcZgKbz7wJLzUMulOKK2g"
+          "contributorExperience": "https://www.youtube.com/watch?v=Xtm4YjI5cyg&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=12"
         }
       },
       {
@@ -273,7 +273,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/reputation-infra/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Beckn/Beckn-enabled-Reputation-Infrasructure",
-          "contributorExperience": "https://drive.google.com/open?id=19ru4MZbKwRJuGT4-WuVP2PfO966FhKfK"
+          "contributorExperience": "https://www.youtube.com/watch?v=Ft53U0vPkJY&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=25"
         }
       },
       {
@@ -282,7 +282,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/beckn-qr-code-generator/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/QR%20Code%20Generation%20and%20Interpretation",
-          "contributorExperience": "https://drive.google.com/open?id=13d9WnahCYOfYf4aeCR92_Xmgjns0r4Rk"
+          "contributorExperience": "https://www.youtube.com/watch?v=hOonqFrQDO8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=28"
         }
       },
       {
@@ -300,7 +300,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/certification-suite/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/Beckn%20Certification%20Suite/",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=Wq25XzV9G8M&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=61"
         }
       },
       {
@@ -309,7 +309,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/beckn/BAP-Boilerplate-SDK/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/BeckN/BAP%20Backend%20SDK%20&%20Boilerplate%20UI",
-          "contributorExperience": "https://drive.google.com/open?id=12kpyLod6CluUJjBWGGg8st6-EOCmEkbM"
+          "contributorExperience": "https://www.youtube.com/watch?v=WyI3jafkonU&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=3"
         }
       },
       {
@@ -328,7 +328,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/ELEVATE-Project/mentoring-bap-service/issues/2",
           "documentation": "",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=78Nw4uE1a14&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=49"
         }
       }
     ]
@@ -356,7 +356,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/coronasafe/care_fe/issues/5491",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/Cypress%20Test%20for%20All%20Major%20Functionalities%20of%20CARE",
-          "contributorExperience": "https://drive.google.com/open?id=1kykJwY4K7Ctqv9YxmYmsRNV21ie0Ymwu"
+          "contributorExperience": "https://www.youtube.com/watch?v=4PCa7PLh1Kg&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=6"
         }
       },
       {
@@ -383,7 +383,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/coronasafe/care_fe/issues/5494",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/CARE/Live%20Camera%20Feed%20Enhancement",
-          "contributorExperience": "https://drive.google.com/open?id=1UNm14fHUVNG1EveJYkDgOR5NIhQooniu"
+          "contributorExperience": "https://www.youtube.com/watch?v=S-Bq7ImG7vg&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=50"
         }
       },
       {
@@ -442,7 +442,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-cQube/cQubeChat/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/cQube/cQubeChat",
-          "contributorExperience": "https://drive.google.com/open?id=1OS2x3H3qRtFXLWS_HKxWU3paBrP5WRFb"
+          "contributorExperience": "https://www.youtube.com/watch?v=YUbjgoL_68E&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=19"
         }
       },
       {
@@ -451,7 +451,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/ChakshuGautam/cQube-POCs/issues/90",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/cQube/Ingestion%20Speedup%20and%20Refactoring/",
-          "contributorExperience": "https://drive.google.com/open?id=1nfhUCFNsMn3_5MJfOeCB3hsXfuPxd32f"
+          "contributorExperience": "https://www.youtube.com/watch?v=kDhI8hR9Gf4&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=23"
         }
       },
       {
@@ -460,7 +460,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-cQube/InputFileValidator/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/cQube/Input%20File%20Validator",
-          "contributorExperience": "https://drive.google.com/open?id=1bfg_MKvyaQhFggfUBCushRfpmOh6s4jk"
+          "contributorExperience": "https://www.youtube.com/watch?v=SR4fcjZ7Y8w&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=16"
         }
       }
     ]
@@ -481,7 +481,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/DevDataPlatform/platform_infra/issues/10",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DDP/Set%20up%20a%20monitoring%20system",
-          "contributorExperience": "https://drive.google.com/open?id=12jMwNfm_ial33b1q5YdNvK6WpDiLjy74"
+          "contributorExperience": "https://www.youtube.com/watch?v=xHtxCw4O0oc&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=71"
         }
       },
       {
@@ -490,7 +490,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/DevDataPlatform/airbyte/issues/36",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DDP/Airbyte%20connector%20for%20Avni",
-          "contributorExperience": "https://drive.google.com/open?id=1sSAOKha0wqdqKbdwO6hlR2D6fAlML9Em"
+          "contributorExperience": "https://www.youtube.com/watch?v=U1rZf7SH0Xo&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=72"
         }
       }
     ]
@@ -511,7 +511,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/samagra-devops/issues/6",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DevOps%20Pipeline/Build%20v2%20of%20devops%20pipeline/",
-          "contributorExperience": "https://drive.google.com/open?id=1U36EOaF5ZcHQupFs0WXzM8s29cKup16j"
+          "contributorExperience": "https://www.youtube.com/watch?v=AOMYxv9kHbM&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=36"
         }
       }
     ]
@@ -532,7 +532,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/egovernments/Digit-Core/issues/77",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIGIT/JWT%20based%20Authentication%20and%20Authorization",
-          "contributorExperience": "https://drive.google.com/open?id=1-hROyPlWbgk-T9tJeWImOC-aIIKZnI9W"
+          "contributorExperience": "https://www.youtube.com/watch?v=706Go4FwR3M&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=75"
         }
       },
       {
@@ -541,7 +541,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/egovernments/Digit-Core/issues/79",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Digit/Vehicle%20Tracker",
-          "contributorExperience": "https://drive.google.com/open?id=1Y1E0szhZrt8fNC4-zibROI5rWFqtjtN3"
+          "contributorExperience": "https://www.youtube.com/watch?v=ISRQJ7lgpMk&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=21"
         }
       },
       {
@@ -559,7 +559,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/egovernments/Digit-Core/issues/76",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIGIT/Redesign%20and%20rewrite%20of%20MDMS",
-          "contributorExperience": "https://drive.google.com/open?id=1UISLQRKODPTbaigOMKFUYKDttAIK1RtM"
+          "contributorExperience": "https://www.youtube.com/watch?v=XAE0APELAdw&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=31"
         }
       }
     ]
@@ -598,7 +598,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/project-anuvaad/anuvaad/issues/547",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSHA/Story/",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=_dXL-zyTObM&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=44"
         }
       },
       {
@@ -607,7 +607,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/orgs/Sunbird-Ed/discussions/489",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSHA/Autogenerate%20content%20in%20local%20language/",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=_7SaaclCh50&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=40"
         }
       },
       {
@@ -616,7 +616,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/orgs/Sunbird-Ed/discussions/490",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/DIKSH/Discovering%20Tutors%20and%20Mentor%20using%20DSEP%20protocol",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=nhUz_6mx6QE&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=56"
         }
       }
     ]
@@ -637,7 +637,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/Doc-Generator/issues/121",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Doc-Generator/Upgrade%20Doc-Gen%20to%20use%20Templater",
-          "contributorExperience": "https://drive.google.com/open?id=1g8_fMa5Ws7TKQoc2LkdJtl3QEGSELmf-"
+          "contributorExperience": "https://www.youtube.com/watch?v=foqFx9gWP2I&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=67"
         }
       },
       {
@@ -646,7 +646,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/Doc-Generator/issues/122",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Doc%20Generator/Plugins",
-          "contributorExperience": "https://drive.google.com/open?id=1Yd1kNNmTrKadHzbpNJItB-EbCMkU0wm_"
+          "contributorExperience": "https://www.youtube.com/watch?v=Q-v6AQ8_gBo&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=73"
         }
       },
       {
@@ -655,7 +655,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/Doc-Generator/issues/123",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Doc%20Generator/Creating%20an%20UI",
-          "contributorExperience": "https://drive.google.com/open?id=1eojghtwulbHEyzMZo5mRjlzeJIHcyigX"
+          "contributorExperience": "https://www.youtube.com/watch?v=P1GbN8NXDSc&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=4"
         }
       }
     ]
@@ -676,7 +676,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/digitalgreenorg/farmstack-c4gt/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Farmstack/Dashboard%20Builder",
-          "contributorExperience": "https://drive.google.com/open?id=1P7MvIuzccyG4wRLh7Le24RUFSO0H7F2d"
+          "contributorExperience": "https://www.youtube.com/watch?v=4b-12n9HNA4&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=2"
         }
       },
       {
@@ -712,7 +712,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/glific/mobile/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Glific/Glific%20Mobile/",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=MuB_AIgpsfc&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=38"
         }
       },
       {
@@ -730,7 +730,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/glific/glific/issues/2794",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Glific/Integrate%20with%20a%20subscription%20based%20billing%20system/",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=J1k7e6IrLIE&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=66"
         }
       }
     ]
@@ -761,7 +761,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Swasth-Digital-Health-Foundation/integration-sdks/issues/52",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Health%20Claims%20Exchange/Build%20Javascript%20SDK%20for%20HCX%20Participant%20System%20to%20help%20in%20integrating%20with%20HCX",
-          "contributorExperience": "https://drive.google.com/open?id=1APDFJg68vUWlnqHH01tzb3bYf0K_GeRv"
+          "contributorExperience": "https://www.youtube.com/watch?v=5bzIEl_Y7dQ&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=9"
         }
       }
     ]
@@ -782,7 +782,7 @@ export const productList = [
         "links": {
           "github": "https://openforge.gov.in/plugins/tracker/?aid=77952",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Karmayogi/Competency%20Passbook%20for%20Officials",
-          "contributorExperience": "https://drive.google.com/open?id=1frSOYPd2WNgR_TmVG04MWXp9lOzls2yo"
+          "contributorExperience": "https://www.youtube.com/watch?v=4daerGjIgLk&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=42"
         }
       },
       {
@@ -791,7 +791,7 @@ export const productList = [
         "links": {
           "github": "https://openforge.gov.in/plugins/tracker/?aid=77968",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Karmayogi/Integrate%20the%20Content%20translation%20UI%20into%20iGOT%20Karamayogi",
-          "contributorExperience": "https://drive.google.com/open?id=1yQm2fr71dAcrKkXZlJe0vD5MsOB6yOul"
+          "contributorExperience": "https://www.youtube.com/watch?v=08UgpYIlXO4&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=68"
         }
       },
       {
@@ -800,7 +800,7 @@ export const productList = [
         "links": {
           "github": "https://openforge.gov.in/plugins/tracker/?aid=77956",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Karmayogi/LLMs%20for%20Question%20Answering%201",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=Z15vhmAzO_E&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=35"
         }
       },
       {
@@ -809,7 +809,7 @@ export const productList = [
         "links": {
           "github": "https://openforge.gov.in/plugins/tracker/?aid=77965",
           "documentation": "",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=--Mvdc5eh18&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=54"
         }
       },
       {
@@ -818,7 +818,7 @@ export const productList = [
         "links": {
           "github": "https://openforge.gov.in/plugins/tracker/?aid=77997",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/KarmaYogi/DiscoveringMentorsandTrainingInstitutes",
-          "contributorExperience": "https://drive.google.com/open?id=1bsvnZXz9oYvt7FddkWx5VizXyP1CWx7R"
+          "contributorExperience": "https://www.youtube.com/watch?v=uHQNgYycXVc&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=20"
         }
       }
     ]
@@ -841,7 +841,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/odk-collect-extension/issues/39",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/ODK%20Extension%20Collection/Publish%20extensions%20as%20a%20library%20on%20maven%20central",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=zdLvuMk3Ybk&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=53"
         }
       },
       {
@@ -850,7 +850,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/odk-collect-extension/issues/5",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/ODK%20Extension%20Collection/Get%20form%20response%20as%20JSON%20and%20Send%20response%20to%20Custom%20Server/",
-          "contributorExperience": "https://drive.google.com/open?id=1ehzL6yTG7yt93iIe0OIFoA1l67DSc1EM"
+          "contributorExperience": "https://www.youtube.com/watch?v=B87aop3XHP8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=77"
         }
       }
     ]
@@ -892,7 +892,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-inQuiry/player/issues/36",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/QuML/Enhanced%20Quml%20Player%20for%20Enhanced%20Question%20types",
-          "contributorExperience": "https://drive.google.com/open?id=13hIIWeM9Hn4RktuLmMr16MyjDOe0gIOH"
+          "contributorExperience": "https://www.youtube.com/watch?v=3ChPGhxw6EU&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=29"
         }
       }
     ]
@@ -934,7 +934,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/project-sunbird/sunbird-devops/issues/3813",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20DevOps/Code%20and%20Container%20Security",
-          "contributorExperience": "https://drive.google.com/open?id=1r9kDr5QHC2Jt3dxjEBdjW9aKE8B511an"
+          "contributorExperience": "https://www.youtube.com/watch?v=NaEqZwEIDaE&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=74"
         }
       }
     ]
@@ -963,7 +963,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8666",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/Implement%20Independent%20SSO%20Flow%20on%20NPM%20Package/",
-          "contributorExperience": "https://drive.google.com/open?id=1poKmBfyBALtNW8Ajrip4rWu_fL2BBaNN"
+          "contributorExperience": "https://www.youtube.com/watch?v=3FyERsy2OSk&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=14"
         }
       },
       {
@@ -972,7 +972,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8656",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/content%20detail%20page%20as%20widget",
-          "contributorExperience": "https://drive.google.com/file/d/1RzzP7CL_DU4YzymFT00np1Y9YHLdCah7/view?usp=drive_link"
+          "contributorExperience": "https://www.youtube.com/watch?v=3doyduHIKL4&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=11"
         }
       },
       {
@@ -1008,7 +1008,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Ed/SunbirdEd-portal/issues/8692",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20ED/Bulk%20content%20creation",
-          "contributorExperience": "https://drive.google.com/open?id=1IGLDquKmrNelaWp7387ifhSNOBXptOQQ"
+          "contributorExperience": "https://www.youtube.com/watch?v=mV0deK6tig8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=59"
         }
       }
     ]
@@ -1035,7 +1035,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-inQuiry/player/issues/34",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/Embedding%20QuML%20player",
-          "contributorExperience": "https://drive.google.com/open?id=1zQXg2u61wJoD0UcPwyvdbu69QCvPYUaY"
+          "contributorExperience": "https://www.youtube.com/watch?v=o5uEHzzJqBE&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=8"
         }
       },
       {
@@ -1044,7 +1044,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-inQuiry/editor/issues/40",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/audio-upload-feature",
-          "contributorExperience": "https://drive.google.com/open?id=1Qpp66zWQnN_jlQZRlyFqd-Csiq7M9xFA"
+          "contributorExperience": "https://www.youtube.com/watch?v=r1r9CqqoTYg&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=27"
         }
       },
       {
@@ -1053,7 +1053,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-inQuiry/editor/issues/41",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20inQuiry/Auto%20generates%20questions%20in%20QuML",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=6LR7DMyIzAs&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=48"
         }
       },
       {
@@ -1092,7 +1092,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Knowlg/knowledge-platform/issues/938",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Knowlg/One%20click%20installation%20in%20aws",
-          "contributorExperience": "https://drive.google.com/open?id=1PO_Jmwimd0souHleATII3aRmLodk0bbi"
+          "contributorExperience": "https://www.youtube.com/watch?v=cTUPfVPlcPc&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=10"
         }
       },
       {
@@ -1101,7 +1101,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Knowlg/knowledge-platform/issues/940",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Knowlg/sunbird-framework-management-ui-tool",
-          "contributorExperience": "https://drive.google.com/open?id=16bYdmWhcPdpGFanHQfu3Y0pFIuMj0XUV"
+          "contributorExperience": "https://www.youtube.com/watch?v=MueLR5yuvIk&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=39"
         }
       }
     ]
@@ -1122,7 +1122,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Lern/sunbird-course-service/issues/564",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Lern/Mocking%20Integration%20Points",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=bWNwN86MaY8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=51"
         }
       },
       {
@@ -1131,7 +1131,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Lern/sunbird-lms-service/issues/1178",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Lern/Keycloak%20Upgradation",
-          "contributorExperience": "https://drive.google.com/open?id=17G-OgSMfkVutQQ7SaMeVz1wdF91SOAt3"
+          "contributorExperience": "https://www.youtube.com/watch?v=5ro5EsToYlA&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=63"
         }
       },
       {
@@ -1140,7 +1140,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Lern/sunbird-lms-service/issues/1177",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Lern/Integrate%20with%20non-Keycloak%20authentication%20system",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=FcxizIaMozE&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=37"
         }
       }
     ]
@@ -1188,7 +1188,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Obsrv/obsrv-core/issues/6",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Obsrv/Enhance%20Sunbird%20Ed's%20Data%20Pipeline%20to%20Operate%20on%20Sunbird%20Obsrv",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=S4xmT-23jhI&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=46"
         }
       }
     ]
@@ -1209,7 +1209,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-RC/community/issues/666",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20RC/Admin%20Portal%20to%20Build%20Registry%20and%20Credentialing%20Platform",
-          "contributorExperience": "https://drive.google.com/open?id=1rKPT4HBB28HFhlMDBo46bQidKagDuJFI"
+          "contributorExperience": "https://www.youtube.com/watch?v=ZrfsSNaZFA0&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=45"
         }
       },
       {
@@ -1227,7 +1227,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/orgs/Sunbird-RC/discussions/680",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20RC/Credential%20Sharing%20Consent%20and%20Share%20Credentials",
-          "contributorExperience": "https://drive.google.com/open?id=10EZr1QVfsN7FWH7ARuFlSxTr0ZRQ5GGw"
+          "contributorExperience": "https://www.youtube.com/watch?v=EvesUHzzw3s&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=17"
         }
       }
     ]
@@ -1248,7 +1248,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Sunbird-Saral/Project-Saral/issues/377",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20Saral/Saral-Layout%20and%20ROI%20generation",
-          "contributorExperience": "https://drive.google.com/open?id=1LDwspmBWYdtavx1VJDdPoN8x4_4irSdP"
+          "contributorExperience": "https://www.youtube.com/watch?v=k6XKAlGBDA0&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=18"
         }
       }
     ]
@@ -1269,7 +1269,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/samagra-comms/inbound/issues/42",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20UCI/Telemetry%20Dashboard",
-          "contributorExperience": "https://drive.google.com/open?id=1BkkW0ufoO-UskXJfYqqVwd4XqXTSoOsT"
+          "contributorExperience": "https://www.youtube.com/watch?v=5cT4UE0Pw2M&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=15"
         }
       },
       {
@@ -1287,7 +1287,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/samagra-comms/uci-web-channel/issues/107",
           "documentation": "",
-          "contributorExperience": "https://drive.google.com/open?id=1e3L3qYPstSV5TT8sGQTsJXtv-Y_GkyQq"
+          "contributorExperience": "https://www.youtube.com/watch?v=S6CS6wODSvU&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=7"
         }
       },
       {
@@ -1296,7 +1296,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/samagra-comms/uci-web-channel/issues/104",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Sunbird%20UCI/Refactoring%20Components",
-          "contributorExperience": "https://drive.google.com/open?id=103p39VFy3sOZBBePaA2ufpT_vjid--mA"
+          "contributorExperience": "https://www.youtube.com/watch?v=VVDk1EEzxwA&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi"
         }
       }
     ]
@@ -1318,7 +1318,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/ELEVATE-Project/template-validation-portal/issues/30",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Template%20creation%20portal/Template%20creation%20portal/",
-          "contributorExperience": ""
+          "contributorExperience": "https://www.youtube.com/watch?v=YXDJdUxKHmY&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=58"
         }
       }
     ]
@@ -1339,7 +1339,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/Text2SQL/issues/28",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Text2SQL/Performance,%20Cost%20Optimization,%20Benchmarking",
-          "contributorExperience": "https://drive.google.com/open?id=1JsUlOLG7qTWjbb8w4irJXQnrQouvsJxK"
+          "contributorExperience": "https://www.youtube.com/watch?v=DirVMYZkMh8&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=52"
         }
       }
     ]
@@ -1382,7 +1382,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/nachiketa07/C4GT2023-project-setup/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/TrustIn/Multilingual%20TrustIn/",
-          "contributorExperience": "https://drive.google.com/open?id=1OxIufMDHLayEwC3Cy8_ao8Ot0aHA3jCM"
+          "contributorExperience": "https://www.youtube.com/watch?v=UvLXafEsQBo&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=70"
         }
       }
     ]
@@ -1403,7 +1403,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/ELEVATE-Project/project-frontend/issues/1",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Unnati/Unnati%20PWA",
-          "contributorExperience": "https://drive.google.com/open?id=1D7TOU19tsY7KXMXHSFVz5sGh0_3a_HVI"
+          "contributorExperience": "https://www.youtube.com/watch?v=Q03qTwztghc&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=34"
         }
       }
     ]
@@ -1424,7 +1424,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/WarpSQL/issues/23",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/WarpSQL/Plugins-Disaster-Recovery-Benchmarking",
-          "contributorExperience": "https://drive.google.com/open?id=1-FiMWU8SwltfMRWRa3mkb9x-avgefjfD"
+          "contributorExperience": "https://www.youtube.com/watch?v=a0zrzaVvvus&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=33"
         }
       }
     ]
@@ -1445,7 +1445,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/workflow/issues/48",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Workflow/Workflow/",
-          "contributorExperience": "https://drive.google.com/open?id=1CLcesdR3_tsDUv8uJkZKfj1Kwu4BS0HR"
+          "contributorExperience": "https://www.youtube.com/watch?v=asVBxLBsxkw&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=32"
         }
       }
     ]
@@ -1466,7 +1466,7 @@ export const productList = [
         "links": {
           "github": "https://github.com/Samagra-Development/yaus/issues/52",
           "documentation": "https://c4gt-milestones.vercel.app/docs/2023/Yaus/Frontend%20And%20Deep%20Linking/",
-          "contributorExperience": "https://drive.google.com/open?id=1EKDUxUWjplYnRV9qdNfeoh3d9VDCPMUT"
+          "contributorExperience": "https://www.youtube.com/watch?v=Zr15K_IYv0c&list=PLwhLtm8Nz0oarBMgIYJQ6y0fG0R-t3aEi&index=76"
         }
       }
     ]
