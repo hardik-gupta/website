@@ -36,7 +36,7 @@ const C4GT23 = () => {
     <div className={`c4gt23-container bg-white`}>
       {/* <Header content={headerProps} /> */}
 
-      <div className="bg-primary-color w-full flex flex-col items-center mt-5">
+      <div className="bg-primary-color w-full flex flex-col items-center">
         <div className="flex flex-col items-center text-white w-full pt-12">
           <h1 className="font-bold text-3xl text-center leading-tight lg:text-4xl">
             Code For GovTech Community Projects
