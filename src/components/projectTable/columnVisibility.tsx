@@ -22,8 +22,9 @@ export function DataTableViewOptions<TData>({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="flex items-center h-9 rounded-md p-2 hover:bg-gray-100">
-          <HiOutlineViewColumns className="mr-2 h-6 w-6" />
+        <button className="flex gap-1 items-center h-9 rounded-md p-2 hover:bg-gray-100">
+          <HiOutlineViewColumns className="h-6 w-6" />
+            View
           <HiChevronDown className="h-4 w-4" />
         </button>
       </DropdownMenuTrigger>
