@@ -37,7 +37,7 @@ export const columns: ColumnDef<ProjectDetails>[] = [
       const githubUrl = row.original.url;
       return (
         <div className="text-start w-[220px]">
-          <a className="no-underline text-blue-600" href={githubUrl}>{project}</a>
+          <a className="no-underline text-blue-600" href={githubUrl} target="_blank">{project}</a>
         </div>
       );
     },

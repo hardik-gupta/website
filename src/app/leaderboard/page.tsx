@@ -183,7 +183,7 @@ const LeaderBoard = () => {
                 <tr className="bg-white border text-[16px]">
                   <td className="px-6 py-4 text-black">{index + 1}</td>
                   <td className="px-6 py-4 text-[#395f9c] underline">
-                    <a href={data?.github_url}>
+                    <a href={data?.github_url} target="_blank">
                       {data?.github_url?.slice("19")}
                     </a>
                   </td>
