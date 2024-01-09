@@ -51,7 +51,8 @@ export const getLeaderboard = async () => {
 
 export const getCommunityTable = async () => {
     try {
-        const response = await fetchTable.from('ccbp_tickets').select();
+        const response = await fetchTable.from('ccbp_tickets').select().neq('complexity', 'Beginner');
+        console.log(response);
         return response;
     } catch (error) {
         return error;

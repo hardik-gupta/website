@@ -20,6 +20,7 @@ export interface ProjectDetails {
   index: number;
   issue_id: number;
   mentors: string[] | null;
+  organization?: string;
 }
 
 export const columns: ColumnDef<ProjectDetails>[] = [
@@ -92,15 +93,15 @@ export const columns: ColumnDef<ProjectDetails>[] = [
   {
     accessorKey: "reqd_skills",
     id: 'techSkills',
-    header: () => <div className="flex items-center justify-center uppercase w-[400px]">tech skills</div>,
+    header: () => <div className="flex items-center justify-center uppercase max-w-[250px]">tech skills</div>,
     cell: ({ row }) => {
       const techSkills: string[] | null = row.original.reqd_skills;
       return (
-        <div className="flex flex-wrap items-center justify-center w-[400px] h-full">
+        <div className="flex flex-wrap items-center justify-center max-w-[250px] h-full">
           {techSkills && techSkills.map((tech) => (
             <div
               key={tech}
-              className="rounded-full bg-gray-200 min-w-max px-2 py-1 m-1"
+              className="rounded-full bg-pink-200 min-w-max px-2 py-1 m-1"
             >
               {tech}
             </div>
@@ -143,14 +144,30 @@ export const columns: ColumnDef<ProjectDetails>[] = [
 
   },
 
+  // {
+  //   accessorKey: 'product',
+  //   header: () => <div className="flex items-center justify-center uppercase min-w-min">product</div>,
+  //   cell:({row})=>{
+  //     const product = row.original.product;
+  //     return(
+  //       <div className="flex items-center justify-center min-w-min">
+  //         <div className="text-sm max-w-min">{product ? product: <div className="bg-gray-200 rounded-full px-2 py-1">N/A</div>}</div>
+  //       </div>
+  //     )
+  //   },
+  //   filterFn: (row, id, value) => {
+  //     return value.includes(row.getValue(id));
+  //   }
+  // },
+
   {
-    accessorKey: 'product',
-    header: () => <div className="flex items-center justify-center uppercase min-w-min">product</div>,
+    accessorKey: 'organization',
+    header: () => <div className="flex items-center justify-center uppercase min-w-min">Organization</div>,
     cell:({row})=>{
-      const product = row.original.product;
+      const organization = row.original.organization;
       return(
         <div className="flex items-center justify-center min-w-min">
-          <div className="text-sm max-w-min">{product}</div>
+          <div className="text-sm max-w-min">{organization ? organization: <div className="bg-gray-200 rounded-full px-2 py-1">N/A</div>}</div>
         </div>
       )
     },
@@ -174,7 +191,7 @@ export const columns: ColumnDef<ProjectDetails>[] = [
       return (
         <div className="flex flex-wrap items-center justify-center w-[200px]">
           {projectCategory && projectCategory.map((type) => (
-            <div key={type} className="flex items-center justify-center rounded-full bg-gray-200 px-2 py-1 m-1 min-w-min">
+            <div key={type} className="flex items-center justify-center rounded-full bg-blue-100 px-2 py-1 m-1 min-w-min">
               {type}
             </div>
           ))}

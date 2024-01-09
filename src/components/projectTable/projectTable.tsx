@@ -66,6 +66,7 @@ export const ProjectTable = <TData, TValue>({
 
   const tableTechSkills = [...new Set(filterOptions.flatMap(tableItem => tableItem.reqd_skills).filter(item => item != null))];
   const tableProducts = [...new Set(filterOptions.flatMap(tableItem => tableItem.product).filter(item => item != null))];
+  const tableOrganization = [...new Set(filterOptions.flatMap(tableItem => tableItem.organization).filter(item => item != ""))];
   let tableProjectTypes = [...new Set(filterOptions.flatMap(tableItem => tableItem.project_category).filter(type => type != null))];
   tableProjectTypes = [...tableProjectTypes, ...new Set(filterOptions.flatMap(tableItem => tableItem.project_sub_category).filter(subType => subType != null))];
 
@@ -77,6 +78,7 @@ export const ProjectTable = <TData, TValue>({
           <AppliedFilters table={table} columnFilters={columnFilters} setColumnFilters={setColumnFilters} />
         </div>
 
+       
         <div className="filter-options lg:w-2/3 flex flex-wrap items-center justify-start lg:justify-end">
           {table.getColumn("complexity") && (
             <ColumnFilter
@@ -106,13 +108,20 @@ export const ProjectTable = <TData, TValue>({
               options={tableProducts}
             />
           )}
-          {table.getColumn("type") && (
+          {table.getColumn("organization") && (
+            <ColumnFilter
+              column={table.getColumn("organization")}
+              title="Organization"
+              options={tableOrganization}
+            />
+          )}
+          {/* {table.getColumn("type") && (
             <ColumnFilter
               column={table.getColumn("type")}
               title="Project Type"
               options={tableProjectTypes}
             />
-          )}
+          )} */}
           {table.getColumn("status") && (
             <ColumnFilter
               column={table.getColumn("status")}
@@ -123,6 +132,8 @@ export const ProjectTable = <TData, TValue>({
         </div>
 
       </div>
+
+      
 
       <div className="table-options flex flex-col lg:flex-row items-center justify-between p-2 lg:p-3 w-full">
         
@@ -141,7 +152,9 @@ export const ProjectTable = <TData, TValue>({
         </div>
         
       </div>
-
+      <div className="w-full items-center justify-start text-black text-right pr-4 border-b border-[#f4f4f] pb-2">
+         {data?.length} Total tickets
+        </div>
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
