@@ -70,6 +70,7 @@ export const ProjectTable = <TData, TValue>({
   let tableProjectTypes = [...new Set(filterOptions.flatMap(tableItem => tableItem.project_category).filter(type => type != null))];
   tableProjectTypes = [...tableProjectTypes, ...new Set(filterOptions.flatMap(tableItem => tableItem.project_sub_category).filter(subType => subType != null))];
 
+  console.log(table)
   return (
     <div className="flex flex-col text-black">
       <div className="table-filters w-full p-2 flex flex-col-reverse lg:flex-row">
@@ -101,13 +102,13 @@ export const ProjectTable = <TData, TValue>({
               options={[10, 20, 30]}
             />
           )}
-          {table.getColumn("product") && (
+          {/* {table.getColumn("product") && (
             <ColumnFilter
               column={table.getColumn("product")}
               title="Product"
               options={tableProducts}
             />
-          )}
+          )} */}
           {table.getColumn("organization") && (
             <ColumnFilter
               column={table.getColumn("organization")}
@@ -147,13 +148,14 @@ export const ProjectTable = <TData, TValue>({
           <DataTableViewOptions table={table} />
         </div>
 
+
         <div className="pagination flex items-center">
           <DataTablePagination table={table} />
         </div>
         
       </div>
       <div className="w-full items-center justify-start text-black text-right pr-4 border-b border-[#f4f4f] pb-2">
-         {data?.length} Total tickets
+         {JSON.stringify(table.getFilteredRowModel().flatRows.length)} Total tickets
         </div>
       <Table>
         <TableHeader>
