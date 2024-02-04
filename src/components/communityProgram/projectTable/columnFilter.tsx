@@ -13,7 +13,7 @@ import React from "react";
 interface ColumnFilterProps<TData, TValue> {
   column?: Column<TData, TValue>;
   title?: string;
-  options: string[];
+  options: string[] | number[];
 }
 
 export function ColumnFilter<TData, TValue>({
@@ -21,9 +21,9 @@ export function ColumnFilter<TData, TValue>({
   title,
   options,
 }: ColumnFilterProps<TData, TValue>) {
-  const selectedValues = new Set(column?.getFilterValue() as string[]);
+  const selectedValues = new Set<string | number>(column?.getFilterValue() as (string | number)[]);
 
-  const filterTable = (selectedValues: Set<String>, selectedOption: string) => {
+  const filterTable = (selectedValues: Set<string | number>, selectedOption: string | number) => {
     const isSelected = selectedValues.has(selectedOption);
 
     if (isSelected) {
@@ -43,12 +43,12 @@ export function ColumnFilter<TData, TValue>({
           <BsChevronDown className="ml-1" />
         </button>
       </PopoverTrigger>
-      <PopoverContent className="w-auto bg-white p-2">
-        {options.map((option) => {
+      <PopoverContent className="w-auto bg-white p-2 max-h-[200px] overflow-y-scroll">
+        {options.map((option: string | number) => {
           return (
             <button
               key={option}
-              className={`hover:cursor-pointer mb-1 rounded-md capitalize flex items-center w-full space-x-2 p-1 ${
+              className={`flex items-center hover:cursor-pointer mb-1 rounded-md capitalize w-full space-x-2 p-1 ${
                 selectedValues.has(option)
                   ? "bg-blue-500 text-white"
                   : "bg-white text-gray-800"

@@ -1,4 +1,5 @@
-import { Column, ColumnFiltersState, Table } from "@tanstack/react-table";
+import { ColumnFiltersState, Table } from "@tanstack/react-table";
+import { MdOutlineCancel } from "react-icons/md";
 
 interface AppliedFiltersProps<TData> {
   table: Table<TData>;
@@ -15,10 +16,11 @@ export function AppliedFilters<TData>({
     <div className="flex items-center flex-wrap">
       {columnFilters.length ? (
         <button
-          className="w-auto mr-1 mb-1 px-2 py-1 text-sm rounded-full bg-red-500 text-white capitalize"
+          className="flex items-center gap-1 w-auto mr-1 mb-1 px-2 py-1 text-sm rounded-full bg-red-500 text-white capitalize"
           onClick={() => setColumnFilters([])}
         >
-          clear filters
+          clear
+          <MdOutlineCancel size={17}/>
         </button>
       ) : (
         <></>
@@ -34,7 +36,7 @@ export function AppliedFilters<TData>({
               return (
                 <button
                   key={value}
-                  className="w-auto mr-1 mb-1 px-2 py-1 text-sm rounded-full bg-blue-500 text-white capitalize"
+                  className="flex items-center gap-1 w-auto mr-1 mb-1 px-2 py-1 text-sm rounded-full bg-blue-500 text-white capitalize"
                   onClick={() => {
                     if (isSelected) {
                       selectedValues.delete(value);
@@ -50,6 +52,7 @@ export function AppliedFilters<TData>({
                   }}
                 >
                   {value}
+                  <MdOutlineCancel size={17}/>
                 </button>
               );
             })}

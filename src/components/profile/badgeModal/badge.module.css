@@ -1,0 +1,6 @@
+.toggle {
+    border: none;
+    display: flex;
+    background: transparent;
+    align-items: center;
+}

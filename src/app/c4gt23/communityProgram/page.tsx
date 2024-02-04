@@ -1,14 +1,16 @@
-import React from "react";
-import { Header } from "@/component/components/";
+"use client"
+import React,{useState, useEffect} from "react";
+import { Header } from "@/component/components";
 import { codeLaptop } from "@/component/assets/images";
 import { Metadata } from "next";
 
-import {ProjectDetails, columns} from "@/component/components/communityProgram/projectTable/columns"
 import { ProjectTable } from "@/component/components/communityProgram/projectTable/projectTable";
+import { ProjectDetails, columns } from "@/component/components/communityProgram/projectTable/columns";
+import { getCommunityTable } from "@/component/api";
 
-export const metadata: Metadata = {
-  title: "Community Program Projects | Code for GovTech",
-};
+// export const metadata: Metadata = {
+//   title: "Community Program Projects | Code for GovTech",
+// };
 
 const headerProps = {
   title: "Community Program Projects",
@@ -20,88 +22,29 @@ const headerProps = {
 };
 
 const C4GT23 = () => {
+  const [tableData, setTableData] = useState<ProjectDetails[]>([]);
 
-  const tableData: ProjectDetails[] = [
-    {
-      id: 1,
-      project:{
-        name: "Update workflow to make package public while pushing to github package and also automatically connect it to repository",
-        githubLink:'https://github.com/Samagra-Development/ai-tools/issues/41',
-      },
-      complexity: "medium",
-      techSkills: ["Github Actions"],
-      points:'20',
-      product: "CORD Network",
-      type: ["DevOps"],
-      status: 'closed',
-    },
-    {
-      id: 2,
-      project:{
-        name: "Update workflow to make package public while pushing to github package and also automatically connect it to repository",
-        githubLink:'https://github.com/Samagra-Development/ai-tools/issues/41',
-      },
-      complexity: "low",
-      techSkills: ["Github Actions", "NextJS", "ReactJS"],
-      points:'10',
-      product: "CORD Network",
-      type: ["Github Actions"],
-      status: 'open',
-    },
-    {
-      id: 3,
-      project:{
-        name: "Update workflow to make package public while pushing to github package and also automatically connect it to repository",
-        githubLink:'https://github.com/Samagra-Development/ai-tools/issues/41',
-      },
-      complexity: "high",
-      techSkills: ["Github Actions", "NextJS", "ReactJS"],
-      points:'30',
-      product: "CORD Network",
-      type: ["Github Actions"],
-      status: 'closed',
-    },
-    {
-      id: 4,
-      project:{
-        name: "Update workflow to make package public while pushing to github package and also automatically connect it to repository",
-        githubLink:'https://github.com/Samagra-Development/ai-tools/issues/41',
-      },
-      complexity: "low",
-      techSkills: ["Java", "Selenium", "TestNG", "ExtentReport", "Log4j", "Maven", "POM", "Eclipse IDE", "SimpleJavaMail"],
-      points:'10',
-      product: "Sunbird UCI",
-      type: ["Github Actions", "NextJS"],
-      status: 'closed',
-    },
-    {
-      id: 5,
-      project:{
-        name: "some project name",
-        githubLink:'https://github.com/Samagra-Development/ai-tools/issues/41',
-      },
-      complexity: "high",
-      techSkills: ["Github Actions", "NextJS", "ReactJS"],
-      points: '30',
-      product: "CORD Network",
-      type: [],
-      status: 'closed',
-    },
-  ]
+  useEffect(() => {
+    const getTableData = async () => {
+      const response = await getCommunityTable();
+      setTableData(response?.data)
+    }
+    getTableData();
+  }, [])
 
   return (
-    <div className={`c4gt23-container  bg-white`}>
-      <Header content={headerProps} />
+    <div className={`c4gt23-container bg-white`}>
+      {/* <Header content={headerProps} /> */}
 
-      <div className="table-container bg-primary-color w-full flex flex-col items-center mt-5">
-        <div className="table-heading flex flex-col items-center text-white w-full pt-12">
+      <div className="bg-primary-color w-full flex flex-col items-center">
+        <div className="flex flex-col items-center text-white w-full pt-12">
           <h1 className="font-bold text-3xl text-center leading-tight lg:text-4xl">
             Code For GovTech Community Projects
           </h1>
         </div>
         <div className="w-full flex flex-col items-center py-6 md:px-14">
           <div className="bg-white w-full rounded-md h-full py-6">
-              <ProjectTable columns={columns} data={tableData}/>
+              <ProjectTable columns={columns} data={tableData} filterOptions={tableData}/>
           </div>
         </div>
       </div>

@@ -183,25 +183,30 @@ const LeaderBoard = () => {
                 <tr className="bg-white border text-[16px]">
                   <td className="px-6 py-4 text-black">{index + 1}</td>
                   <td className="px-6 py-4 text-[#395f9c] underline">
-                    <a href={data?.github_url}>
+                    <a href={data?.github_url} target="_blank">
                       {data?.github_url?.slice("19")}
                     </a>
                   </td>
                   <td className="px-6 py-4 text-black text-center">{data?.points}</td>
                   <td className="px-6 py-4 text-black text-center min-w-[150px]">
                     {data?.points >= 100 && (
-                      <div className="rounded-full bg-gray-200 py-2">
+                      <div className="rounded-full bg-green-200 py-2">
                         Level 3
                       </div>
                     )}
                     {data?.points < 100 && data?.points >= 50 && (
-                      <div className="rounded-full bg-green-200 py-2">
+                      <div className="rounded-full bg-orange-200 py-2">
                         Level 2
                       </div>
                     )}
                     {data?.points < 50 && data?.points >= 10 && (
                       <div className="rounded-full bg-yellow-200 py-2">
                         Level 1
+                      </div>
+                    )}
+                    {data?.points < 10 && data?.points >= 1 && (
+                      <div className="rounded-full bg-pink-200 py-2">
+                        Beginner
                       </div>
                     )}
                   </td>
