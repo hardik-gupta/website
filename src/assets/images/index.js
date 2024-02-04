@@ -46,15 +46,15 @@ import projectReport22 from "./project-report-2022.webp"
 import highlights23 from "./highlights-2023.webp";
 
 // badges
-import apprentice from "./badges/Apprentice.png"
-import conversor from "./badges/Converser.png"
-import discordGitHub from "./badges/Discord+Github.png"
-import enthusiast from "./badges/Enthusiast.png"
-import ninja from "./badges/Ninja.jpg"
-import risingStar from "./badges/RisingStar.png"
-import rockstar from "./badges/Rockstar.png"
-import warrior from "./badges/Warrior.jpeg"
-import wizard from "./badges/Wizard.jpeg"
+// import apprentice from "./badges/Apprentice.png"
+// import conversor from "./badges/Converser.png"
+// import discordGitHub from "./badges/Discord+Github.png"
+// import enthusiast from "./badges/Enthusiast.png"
+// import ninja from "./badges/Ninja.jpg"
+// import risingStar from "./badges/RisingStar.png"
+// import rockstar from "./badges/Rockstar.png"
+// import warrior from "./badges/Warrior.jpeg"
+// import wizard from "./badges/Wizard.jpeg"
 
 export {
     githubIcon,
@@ -80,15 +80,15 @@ export {
     highlights22,
     projectReport22,
     highlights23,
-    apprentice,
-    conversor,
-    discordGitHub,
-    enthusiast,
-    ninja,
-    risingStar,
-    rockstar,
-    warrior,
-    wizard
+    // apprentice,
+    // conversor,
+    // discordGitHub,
+    // enthusiast,
+    // ninja,
+    // risingStar,
+    // rockstar,
+    // warrior,
+    // wizard
 }
 
 export const projectPartners = [fideLogo, govLogo, ministryLogo, sanketikaLogo, tarentoLogo, nhaLogo, tech4Dev, tekdiDev, ekStepLogo, shikshaLogo, thoughtWorksLogo, digitalGreerLogo, trushInLogo, avantiLogo, dhiwayLogo, reapBenifitLogo, sahajLogo, samanvayLogo, tibilLogo];

@@ -20,11 +20,14 @@ export * from './c4gt23/mentoringProgram/productCard/productCard';
 export * from './c4gt23/mentoringProgram/searchBar/search';
 
 // Community Program Components
-export * from './communityProgram/leaderboard/achievement-card';
-export * from './communityProgram/leaderboard/badge-modal';
+// export * from './communityProgram/leaderboard/achievement-card';
 
 //Form page 
 export * from './applyPage/form';
+
+//Profile Page
+export * from './profile/achievementCard';
+export * from './profile/badgeModal';
 
 // Constant Components
 export * from '../constants/header/header';

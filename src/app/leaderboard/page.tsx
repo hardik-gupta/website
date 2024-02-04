@@ -1,7 +1,25 @@
 "use client";
 import { getLeaderboard } from "@/component/api";
 import Tooltip from "@/component/constants/tooltip";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+
+const BadgeCard = ({ level, name, points }: { level: number, name: string, points: number }) => {
+  return (
+    <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
+      <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
+        Level {level}
+      </div>
+      <div className="py-2 text-black border-b">
+        <img
+          src={`/assets/badges/${name.replace(/\s/g, "")}.webp`}
+          className="lg:w-[150px] xs:w-[80px] md:w-[80px] sm:w-[80px] rounded-full mx-auto"
+        />
+        <div className="font-bold">{name}</div>
+      </div>
+      <div className="px-6 py-2 text-black">{points} points</div>
+    </div>
+  )
+}
 
 const LeaderBoard = () => {
   const [leaderboardData, setleaderboardData] = useState([]);
@@ -16,7 +34,12 @@ const LeaderBoard = () => {
     <>
       {/* <h1 className="text-center font-bold">Contributor Badges</h1> */}
       <div className="lg:flex lg:w-[80vw] lg:justify-between mx-auto my-4">
-        <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
+        <BadgeCard level={1} name="Enthusiast" points={10} />
+        <BadgeCard level={2} name="Rising Star" points={50}/>
+        <BadgeCard level={3} name="Wizard" points={100}/>
+        <BadgeCard level={4} name="Ninja" points={175}/>
+        <BadgeCard level={5} name="Warrior" points={275}/>
+        {/* <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
           <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
             Level 1
           </div>
@@ -29,6 +52,7 @@ const LeaderBoard = () => {
           </div>
           <div className="px-6 py-2 text-black">10 points</div>
         </div>
+
         <div className="border min-w-[170px] text-center sm:mb-8 xs:mb-8 md:my-2 xs:max-mx-10">
           <div className="px-6 py-2 border-b bg-primary-color text-white font-bold uppercase">
             Level 2
@@ -80,7 +104,7 @@ const LeaderBoard = () => {
             <div className="font-bold">Warrior</div>
           </div>
           <div className="px-6 py-2 text-black">275 points</div>
-        </div>
+        </div> */}
       </div>
       {/* <div className="my-5 relative overflow-x-auto">
         <table className="lg:w-auto xs:w-[90vw] text-sm text-left mx-auto">
@@ -215,7 +239,7 @@ const LeaderBoard = () => {
                       {data?.enthusiast_badge && (
                         <Tooltip message={"Enthusiast Badge"} className="badge">
                           <img
-                            src="/assets/badges/Enthusiast.png"
+                            src="/assets/badges/Enthusiast.webp"
                             className="w-[60px] rounded-full"
                           />
                         </Tooltip>
@@ -226,7 +250,7 @@ const LeaderBoard = () => {
                           className="badge"
                         >
                           <img
-                            src="/assets/badges/RisingStar.png"
+                            src="/assets/badges/RisingStar.webp"
                             className="w-[60px] rounded-full"
                           />
                         </Tooltip>
