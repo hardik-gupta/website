@@ -20,7 +20,6 @@ export * from './c4gt23/mentoringProgram/productCard/productCard';
 export * from './c4gt23/mentoringProgram/searchBar/search';
 
 // Community Program Components
-// export * from './communityProgram/leaderboard/achievement-card';
 
 //Form page 
 export * from './applyPage/form';

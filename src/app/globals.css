@@ -32,43 +32,43 @@ h2 {
 }
 
 @font-face {
-  font-family: Mulish-bold;
-  src: url("../assets/fonts/Mulish-Bold.ttf");
+  font-family: "Mulish-Bold";
+  src: url("/assets/fonts/Mulish-Bold.ttf");
   font-display: swap;
 }
 
 @font-face {
-  font-family: Mulish-demi;
-  src: url("../assets/fonts/Mulish-Bold.ttf");
+  font-family: "Mulish-Demi";
+  src: url("/assets/fonts/Mulish-Demi.ttf");
   font-display: swap;
 }
 
 @font-face {
-  font-family: Mulish-medium;
-  src: url("../assets/fonts/Mulish-Medium.ttf");
+  font-family: "Mulish-Medium";
+  src: url("/assets/fonts/Mulish-Medium.ttf");
   font-display: swap;
 }
 
 @font-face {
-  font-family: Mulish-regular;
-  src: url("../assets/fonts/Mulish-Regular.ttf");
+  font-family: "Mulish-Regular";
+  src: url("/assets/fonts/Mulish-Regular.ttf");
   font-display: swap;
-}
-
-.font-bold {
-  font-family: Mulish-Bold !important;
-}
-
-.font-regular {
-  font-family: Mulish-Regular !important;
 }
 
 .font-demi {
-  font-family: Mulish-Demi !important;
+  font-family: "Mulish-Demi" !important;
+}
+
+.font-bold {
+  font-family: "Mulish-Bold" !important;
 }
 
 .font-medium {
-  font-family: Mulish-Medium !important;
+  font-family: "Mulish-Medium" !important;
+}
+
+.font-regular {
+  font-family: "Mulish-Regular" !important;
 }
 
 .bg-primary-color {
@@ -88,7 +88,7 @@ h2 {
 }
 
 body {
-  font-family: Mulish-regular !important;
+  font-family: "Mulish-Regular" !important;
 }
 
 .logo-container {
